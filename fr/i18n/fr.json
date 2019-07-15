@@ -2,6 +2,7 @@
     "loading": "Chargement...",
     "map-refresh": "Rafraîchir",
     "map-fixmap": "Ré-afficher la Carte",
+    "pull-to-refresh": "Tirer pour rafraîchir",
 
     "weekdays-all": "Tout",
     "weekdays-select": "Jour de la semaine",
@@ -25,13 +26,13 @@
         "keep-muted": "Laisser silencieux"
     },
 
-    "post-trip-map-display-tour-incident": "Zoomez puis indiquez le lieu de l'incident et cliquez sur la ligne bleue pour qualifier l'incident <font size='+3'>&#x263B;</font> ou <font size='+3'>&#x2639;</font>",
+    "post-trip-map-display-tour-incident": "Zoomez puis indiquez le lieu de l'incident et cliquez sur la ligne bleue pour qualifier l'incident ☻ ou ☹",
     "tour-next": "Suivant",
     "tour-previous": "Précédent",
     "tour-finish": "Fin",
 
     "trip-confirm": {
-        "recenttrip": "Déplacement de: {{startTime}} &rarr;  à: {{endTime}}",
+        "recenttrip": "Déplacement de: {{startTime}} → à: {{endTime}}",
         "continue": "Continuer",
         "done": "OK",
         "services-please-fill-in": "Renseignez le {{text}} non listé.",
@@ -124,7 +125,9 @@
         "calorie-data-change-decrease": " de diminution en 1 semaine",
         "carbon-data-change-increase": " d'augmentation en 1 semaine",
         "carbon-data-change-decrease": " de diminution en 1 semaine",
-        "pick-a-date": "Choisissez la date"
+        "pick-a-date": "Choisissez la date",
+        "trips": "voyages",
+        "custom": "Dates personnalisées"
     },
 
     "diary": {
@@ -201,7 +204,7 @@
     "details": {
         "speed": "Vitesse",
         "time": "Durée",
-        "tour-detail-content": "Pour signaler un incident, Zoomez puis indiquez le lieu de l'incident et cliquez sur la ligne bleue pour qualifier l'incident <font size='+3'>&#x263B;</font> ou <font size='+3'>&#x2639;</font>",
+        "tour-detail-content": "Pour signaler un incident, Zoomez puis indiquez le lieu de l'incident et cliquez sur la ligne bleue pour qualifier l'incident ☻ ou ☹",
         "tour-sectionList-content": "Trajets, heures et modes",
         "tour-sectionPct-content": "% du temps passé dans chaque mode"
     },
@@ -222,10 +225,19 @@
 
     "post-trip-manual-incident-time": "Jour/Heure de l'incident",
 
-    "recent": {
-        "email-account-not-configured": "Le compte Email n'est pas configuré.",
+    "email-service":{
+        "email-account-not-configured": "Le compte email n'est pas configuré",
         "email-account-mail-app": "L'appli e-mail doit être configuré sinon cela ne fonctionnera pas.",
-        "going-to-email": "Transfert par mail de la Base de Données depuis {{parentDir}}/userCacheDB"
+        "going-to-email": "Transfert par mail de la Base de Données {{parentDir}}",
+        "email-log":{
+            "subject-logs": "emission logs",
+            "body-please-fill-in-what-is-wrong": "Merci d'indiquer ce qui ne fonctionne pas"
+        },
+        "no-email-address-configured": "Aucune adresse e-mail configurée.",
+        "email-data":{
+            "subject-data-dump-from-to": "Données du {{start}} au {{end}}",
+            "body-data-consists-of-list-of-entries": "Les données sont une liste d'entrées.\n Vous pouvez trouver le format d'une entrée au lien suivant : https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nLes données peuvent être chargées localement en suivant les instructions indiquées ici https://github.com/e-mission/e-mission-server#loading-test-data \n et peuvent être manipulées en suivant l'exemple disponible à ce lien : https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
+        }
     },
     
     "consent": {
