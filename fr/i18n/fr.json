@@ -209,7 +209,7 @@
         "tour-sectionPct-content": "% du temps passé dans chaque mode"
     },
 
-    "list-explainDraft-alert": "Le déplacement n'a encore été analysé. Si cela dure + de 24H, signalez-le à votre administrateur système !",
+    "list-explainDraft-alert": "Le déplacement n'a pas encore été analysé. Si cela dure + de 24H, signalez-le à votre administrateur système !",
     "list-datepicker-today": "Aujourd'hui",
     "list-datepicker-close": "Fermer",
     "list-datepicker-set": "Définir",
