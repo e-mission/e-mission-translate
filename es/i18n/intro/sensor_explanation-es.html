@@ -1,30 +1,30 @@
 <ion-content>
 <div class="consent-title">
-<center><h2>Permissions </h2></center>
+<center><h2>Permisos </h2></center>
 </div>
 <div class="consent-text">
-We will now ask you for permissions to access the following sensors.
+Ahora le pediremos permisos para acceder a los siguientes sensores.
 
-<h3> Location </h3>
-We need this permission in order to track your location and match it against
-our crowdsourced database of symptomatic individuals. Since you are running
-{{platform}} {{osver}}, when prompted, {{locationPermExplanation}}.
+<h3> Ubicación </h3>
+Necesitamos este permiso para rastrear su ubicación y compararla con
+nuestra base de datos colaborativa de individuos sintomáticos. Ya que está ejecutando
+{{platform}} {{osver}}, cuando se le solicite, {{locationPermExplanation}}.
 
 <div ng-if="platform.toLowerCase() == 'ios'">
-<h3> Notifications </h3>
-We need this permission in order to prompt you for your travel mode and purpose.
-Please allow.
+<h3> Notificaciones </h3>
+Necesitamos este permiso para indicarle su modo de viaje y su propósito.
+Por favor, permítalo.
 
-<h3> Motion and Fitness </h3>
-We need this permission in order to separate the parts of multi-modal travel
-such as transit. Please allow.
+<h3> Movimiento y condición física </h3>
+Necesitamos este permiso para separar las partes del viaje multimodal
+tales como el tránsito. Por favor, permítalo.
 </div>
 
 <div ng-if="backgroundRestricted">
-<h3> Allow background restrictions </h3>
-Your phone restricts app operation in the background. This prevents the app
-from tracking your location or pushing it to the server. Please enable
-background operation for this app with the following instructions:
+<h3> Permitir restricciones en segundo plano </h3>
+Su teléfono restringe el funcionamiento de la aplicación en segundo plano. Esto evita que la aplicación
+rastree su ubicación o la suba al servidor. Por favor, habilite
+la operación en segundo plano de esta aplicación con las siguientes instrucciones:
 {{allowBackgroundRestrictions}}.
 </div>
 
