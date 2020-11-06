@@ -27,10 +27,15 @@
     <string name="error_creating_geofence">Erreur %1$d lors de la création de geofence</string>
     <string name="failed_moving_new_state">Echec pour passer à %1$s</string>
     <string name="location_permission_off_enable">Recueil de position désactivé, cliquez pour l\'autoriser</string>
+    <string name="background_loc_permission_off_enable">Recueil de position fondo désactivé, cliquez pour l\'autoriser</string>
+    <string name="activity_permission_off_enable">Recueil de movimiento désactivé, cliquez pour l\'autoriser</string>
     <string name="error_location_settings">Erreur %1$d dans les paramètres de tracking</string>
     <string name="unknown_error_location_settings">Erreur inconnue de lecture de position, vérifiez vos paramètres svp</string>
+    <string name="notify_curr_state">En estado %1$s</string>
+    <!-- TripDiaryStateMachineForegroundService -->
+    <string name="foreground_killed_email_log">Primer plano servicio asesinar, Perfil -> Registro de correo electrónico con depurar</string>
     <!-- ConfigManager -->
     <string name="error_reading_stored_config">Erreur de lecture de la config de tracking, remettez au défaut</string>
     <!-- DataCollectionPlugin -->
-    <string name="unable_resolve_issue">Impossible de résoudre le problème</string>
+    <string name="unable_resolve_issue">Impossible de résoudre le problème, Perfil -> Registro de correo electrónico con depurar</string>
 </resources>
