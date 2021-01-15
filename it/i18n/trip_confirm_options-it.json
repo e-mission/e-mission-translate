@@ -1,5 +1,5 @@
 {
-    "modeOptions" : [
+    "MODE" : [
          {"text":"A piedi", "value":"walk"},
          {"text":"Bici","value":"bike"},
          {"text":"In macchina da solo","value":"drove_alone"},
@@ -9,7 +9,7 @@
          {"text":"Treno","value":"train"},
          {"text":"Navetta","value":"free_shuttle"},
          {"text":"Altro","value":"other_mode"}],
-      "purposeOptions" : [
+      "PURPOSE" : [
          {"text":"Casa", "value":"home"},
          {"text":"Lavoro","value":"work"},
          {"text":"Scuola","value":"school"},
@@ -22,4 +22,3 @@
          {"text":"Divertimento","value":"entertainment"},
          {"text":"Altro","value":"other_purpose"}]
   }
-  
