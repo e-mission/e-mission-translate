@@ -144,12 +144,19 @@
         "began": "Comenzó {{startTime}}",
         "report-incident": "Reportar Incidente",
         "draft": "BORRADOR",
-        "distance-in-time": "{{distance}} km en {{time}}",
+        "distance-in-time": "{{distance}} mi en {{time}}",
+        "date-distance-in-time": "{{date}}: {{distance}} mi en {{time}}",
         "distance": "Distancia",
         "time": "Hora",
         "mode": "Modo",
         "replaces": "Reemplaza a",
         "purpose": "Propósito",
+        "unlabeled": "Sin etiqueta🔍",
+        "invalid-ebike": "No válida🔍",
+        "show-all": "Mostrar todo",
+        "no-trips-found": "No se encontraron viajes",
+        "for-current-filter": "para el filtro actual. Mostrar todo para eliminar filtros.",
+        "scroll-to-load-more": "Desplácese para cargar más.",
         "choose-mode": "Modo 📝 ",
         "choose-replaced-mode": "Reemplaza a 📝",
         "choose-purpose": "Propósito 📝",
@@ -205,6 +212,10 @@
     },
 
     "main-diary" : "Diario",
+    
+    "main-inf-scroll" : {
+        "tab": "Etiqueta"
+    },    
 
     "main-heatmap":{
         "title": "Mapa de calor",
