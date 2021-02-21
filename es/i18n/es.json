@@ -184,7 +184,7 @@
         "gold-tier": "Nivel de oro",
         "silver-tier": "Nivel de plata",
         "bronze-tier": "Nivel de bronce",
-        "overallScoreMsg": "Puntaje General: {{overallScore | number }} = {{incentive | currency}}",
+        "overallScoreMsg": "Puntaje General: {{overallScore | number }}",
         "confirmationMsg": "{{confirmedPct | number }}% etiquetado",
         "validLabelsMsg": "{{validReplacePct | number }}% etiquetas de 'modo de reemplazo' de eBike válidas",
         "suggestion": "Sugerencia",
