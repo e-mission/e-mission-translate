@@ -61,6 +61,7 @@
         "check-ui-updates": "Buscar actualizaciones de la IU",
         "download-json-dump": "Descargar volcado de json",
         "email-log": "Registro de correo electrónico",
+        "upload-log": "Subir Registros",
         "user-data": "Datos del usuario",
         "erase-data": "Borrar datos",
         "dev-zone": "Zona de desarrollador",
@@ -275,7 +276,18 @@
             "body-data-consists-of-list-of-entries": "Los datos consisten en una lista de entradas.\nLos formatos de entrada se encuentran en https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nLos datos se pueden cargar localmente siguiendo las instrucciones en https://github.com/e-mission/e-mission-server#loading-test-data \n y se pueden manipular usando el ejemplo en https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
         }
     },
-
+    
+    "upload-service":{
+        "upload-database": "Subir base de datos {{db}}",
+        "upload-from-dir": "desde {{parentDir}}",
+        "upload-to-server": "a la computadora {{serverURL}}",
+        "going-to-email": "Yendo a la base de datos de correo electrónico desde {{parentDir}}",
+        "please-fill-in-what-is-wrong": "por favor ingrese lo que está mal",
+        "upload-success": "Subir completo",
+        "upload-progress": "Enviando {{filesizemb | number}} MB de {{serverURL}}",
+        "upload-details": "Enviado {{filesizemb | number}} MB de {{serverURL}}"
+    },
+    
     "intro": {
         "permissions": {
             "locationPermExplanation-android-lt-6": "aceptó el permiso durante la instalación. No necesita hacer nada ahora.",
