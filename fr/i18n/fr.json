@@ -58,6 +58,8 @@
         "check-ui-updates": "Vérifier les mises à jour",
         "download-json-dump": "Télécharger les données json",
         "email-log": "Envoyer les logs",
+        "upload-log": "Copier les logs",
+        "view-privacy": "Voir la politique de confidentialité",
         "user-data": "Mes données",
         "erase-data": "Effacer mes données",
         "dev-zone": "Dev zone",
