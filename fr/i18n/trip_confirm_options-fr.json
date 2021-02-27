@@ -1,5 +1,5 @@
 {
-    "modeOptions" : [
+    "MODE" : [
          {"text":"Marche", "value":"walk"},
          {"text":"Vélo","value":"bike"},
          {"text":"Voiture solo","value":"drove_alone"},
@@ -11,7 +11,7 @@
          {"text":"Tram","value":"tramway"},
          {"text":"Navette","value":"free_shuttle"},
          {"text":"Autre","value":"other_mode"}],
-      "purposeOptions" : [
+      "PURPOSE" : [
          {"text":"Domicile", "value":"home"},
          {"text":"Travail","value":"work"},
          {"text":"École","value":"school"},
