@@ -219,6 +219,14 @@
         "tab": "Etiqueta"
     },    
 
+    "main-checkinout" : {
+        "tab": "Poseer",
+        "checkout": "Poseer",
+        "checkin": "Devolver",
+        "using-bike": "Usando eBike {{currBikeNo}}",
+        "no-bike": "No usar eBike"
+    },
+
     "main-heatmap":{
         "title": "Mapa de calor",
         "counts" : "Recuentos",
