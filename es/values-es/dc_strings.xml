@@ -15,8 +15,6 @@
     <string name="handling_geofence_exit">Sortie de geofence </string>
     <!-- LocationChangeIntentService -->
     <string name="recording_location">Recueil de position </string>
-    <!-- TripDiaryStateMachineForegroundService -->
-    <string name="trip_tracking_started">Tracking démarré en tâche de fond </string>
     <!-- TripDiaryStateMachineReceiver -->
     <string name="new_data_collection_terms">Nouvelles conditions d\'utilisation - recueil arrêté, consentez-vous aux nouvelles conditions?</string>
     <string name="battery_level">Interagissez! Niveau de batterie: %1$d</string>
