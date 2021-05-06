@@ -223,8 +223,10 @@
         "tab": "Poseer",
         "checkout": "Poseer",
         "checkin": "Devolver",
-        "using-bike": "Usando eBike {{currBikeNo}}",
-        "no-bike": "No usar eBike"
+        "using-bike": "Usando eBike {{currBikeLabel}}",
+        "checked-out-list": "Lista de no disponibles",
+        "no-bike": "No usar eBike",
+        "no-entries": "Entradas no encontradas "
     },
 
     "main-heatmap":{
