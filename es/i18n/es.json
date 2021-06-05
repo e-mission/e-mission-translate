@@ -302,10 +302,11 @@
     "intro": {
         "permissions": {
             "locationPermExplanation-android-lt-6": "aceptó el permiso durante la instalación. No necesita hacer nada ahora.",
-            "locationPermExplanation-android-gte-6": "por favor seleccione 'permitir'",
-            "locationPermExplanation-android-gte-10": "por favor seleccione 'Permitir todo el tiempo'",
+            "locationPermExplanation-android-6-9": "por favor seleccione 'permitir'",
+            "locationPermExplanation-android-10": "por favor seleccione 'Permitir todo el tiempo'",
+            "locationPermExplanation-android-gte-11": "por favor seleccione 'Permitir todo el tiempo' para permisos de ubicación en la página de la aplicación",
             "locationPermExplanation-ios-lt-13": "por favor seleccione \"Permitir siempre\". Esto nos permite comprender su viaje incluso cuando no está utilizando la aplicación activamente.",
-            "locationPermExplanation-ios-gte-13": "seleccione 'cuando esté en uso' ahora. Después de unos días, se le preguntará si desea otorgar permiso a la aplicación para funcionar en el segundo plano. Por favor, indique \"Permitir siempre\" en ese momento. Esto nos permite comprender su viaje incluso cuando no está utilizando la aplicación activamente."
+            "locationPermExplanation-ios-gte-13": "seleccione 'siempre' y 'preciso' en la página de configuración de la aplicación y vuelva aquí para continuar."
         }
     },
     "allow_background": {
