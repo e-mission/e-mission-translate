@@ -15,7 +15,6 @@
   "REPLACED_MODE" : [
        {"text":"Sin viaje", "value":"no_travel"},
        {"text":"Caminando", "value":"walk"},
-       {"text":"e-bike piloto","value":"pilot_ebike"},
        {"text":"Bicicleta normal","value":"bike"},
        {"text":"Bicicleta compartida","value":"bikeshare"},
        {"text":"Motoneta compartida","value":"scootershare"},
@@ -33,7 +32,8 @@
        {"text":"Transbordo", "value":"transit_transfer"},
        {"text":"Compras","value":"shopping"},
        {"text":"Comida","value":"meal"},
-       {"text":"Recoger/Entregar","value":"pick_drop"},
+       {"text":"Recoger/Entregar 👤","value":"pick_drop_person"},
+       {"text":"Recoger/Entregar 📦","value":"pick_drop_item"},
        {"text":"Personal/Médico","value":"personal_med"},
        {"text":"Recreación/Ejercicio","value":"exercise"},
        {"text":"Entretenimiento/Social","value":"entertainment"},
