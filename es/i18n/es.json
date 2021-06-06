@@ -187,7 +187,7 @@
         "bronze-tier": "Nivel de bronce",
         "overallScoreMsg": "Puntaje General: {{overallScore | number }}",
         "confirmationMsg": "{{confirmedPct | number }}% etiquetado",
-        "validLabelsMsg": "{{validReplacePct | number }}% etiquetas de 'modo de reemplazo' de eBike válidas",
+        "validLabelsMsg": "{{validReplacePct | number }}% etiquetas de 'reemplazo' de eBike válidas",
         "suggestion": "Sugerencia",
         "suggestion-savings": "Puedes ahorrar {{suggestionData.savings}} en un mes",
         "recent-trips": "Viajes recientes",
