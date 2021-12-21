@@ -178,6 +178,8 @@
 
     "main-metrics":{
         "dashboard": "Tablero",
+        "summary": "Resumen",
+        "chart": "Gráfico",
         "mybear": "Mi osito",
         "leaderboard": "Clasificación de líderes",
         "carbon-usage": "Uso de carbono últimos 7 días",
