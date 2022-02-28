@@ -54,6 +54,7 @@
         "profile": "Perfil",
         "username": "Nombre de usuario {{usernamedata}}",
         "tracking": "Rastreo",
+        "app-status": "Estado de la app",
         "medium-accuracy": "Precisión media",
         "dark-theme": "Tema oscuro",
         "force-sync": "Forzar sincronización",
@@ -79,6 +80,7 @@
         "collection": "Colección",
         "sync": "Sincronizar",
         "transition-notify": "Notificación de transición"
+        "button-accept": "Accepto"
     },
 
     "general-settings":{
@@ -109,7 +111,7 @@
         "filter": "Filtro",
         "from": "De:",
         "to": "A:",
-        "last-week": "Semana pasada",
+        "last-week": "semana pasada",
         "frequency": "Frecuencia:",
         "pandafreqoptions-daily": "DIARIO",
         "pandafreqoptions-weekly": "SEMANAL",
@@ -125,16 +127,18 @@
         "chart-no-data": "Datos no disponibles",
         "trips-yaxis-number": "Número",
         "calorie-data-change": " cambiar",
-        "carbon-data-change": " cambiar",
-        "carbon-data-calculating": "Calculando...",
-        "carbon-data-unknown": "Desconocido",
         "calorie-data-unknown": "Desconocido...",
+        "greater-than": " mas grande que ",
+        "greater": " mayor ",
+        "or": "o",
+        "less-than": " menos que ",
+        "less": " menos ",
+        "week-before": "vs. semana antes",
         "calorie-data-change-increase": " aumento durante una semana",
         "calorie-data-change-decrease": " disminución durante una semana",
-        "carbon-data-change-increase": " aumento durante una semana",
-        "carbon-data-change-decrease": " disminución durante una semana",
         "pick-a-date": "Elija una fecha",
         "trips": "viajes",
+        "hours": "horas",
         "custom": "Personalizado"
     },
 
@@ -146,19 +150,22 @@
         "began": "Comenzó {{startTime}}",
         "report-incident": "Reportar Incidente",
         "draft": "BORRADOR",
-        "distance-in-time": "{{distance}} mi en {{time}}",
-        "date-distance-in-time": "{{date}}: {{distance}} mi en {{time}}",
+        "distance-in-time": "{{distance}} {{distsuffix}} en {{time}}",
+        "date-distance-in-time": "{{date}}: {{distance}} {{distsuffix}} en {{time}}",
         "distance": "Distancia",
         "time": "Hora",
         "mode": "Modo",
         "replaces": "Reemplaza a",
         "purpose": "Propósito",
-        "unlabeled": "Sin etiqueta🔍",
-        "invalid-ebike": "No válida🔍",
-        "show-all": "Mostrar todo",
+        "unlabeled": "Sin etiqueta",
+        "invalid-ebike": "No válida",
+        "to-label": "Etiquetar",
+        "show-all": "Todos",
         "no-trips-found": "No se encontraron viajes",
         "for-current-filter": "para el filtro actual. Mostrar todo para eliminar filtros.",
         "scroll-to-load-more": "Desplácese para cargar más.",
+        "filter-display-status": "Visualización de {{displayTripsLength}} / {{allTripsLength}} viajes",
+        "filter-display-range": "{{currentEnd | date}} a {{currentStart | date:'medium' }}",
         "choose-mode": "Modo 📝 ",
         "choose-replaced-mode": "Reemplaza a 📝",
         "choose-purpose": "Propósito 📝",
@@ -167,6 +174,21 @@
         "select-purpose-scroll": "Propósito (👇 para más)",
         "list-pick-a-date": "Elija una fecha",
         "no-trips-today": "No hay viajes registrados en este día"
+    },
+
+    "new_label_tour": {
+        "0": "Esta es la nueva interfaz de usuario de Label. Etiqueta los viajes aquí en lugar de en la página del Diario. Los viajes tardan más en aparecer aquí, pero cuando lo hagan serán más precisos y podrás usar nuestras nuevas funciones para etiquetarlos más rápido. ",
+        "1": "Esta es la pestaña Para etiquetar. En esta pestaña, solo aparecerán los viajes que necesita etiquetar; cuando los etiquete, desaparecerán automáticamente después de unos segundos. ",
+        "2": "Algunos de tus viajes no aparecen en To Label porque un algoritmo los etiquetó por ti. Si tiene curiosidad, puede verlos en las otras pestañas, pero solo necesita etiquetar los viajes en la pestaña Para etiquetar. ",
+        "3": "Los viajes ahora aparecen con el viaje más nuevo en la parte inferior.",
+        "4": "Para cargar viajes más antiguos, desplácese hacia arriba y presione el botón de carga.",
+        "5": "Las etiquetas ahora son rojas si no podemos predecirlas, amarillas si podemos predecirlas y verdes si las ingresó o confirmó usted mismo. ",
+        "6": "Si ve etiquetas amarillas en la pestaña A etiqueta, significa que debe confirmarlas o corregirlas.",
+        "7": "Si todas las etiquetas amarillas de un viaje son correctas, puede hacer clic en el botón de marca de verificación, que las volverá verdes (el botón de marca de verificación no afecta las etiquetas rojas o verdes.",
+        "8": "Si ciertas etiquetas amarillas son incorrectas, puede corregirlas como lo haría normalmente.",
+        "9": "Cuando no haya más viajes en To Label, habrá terminado de etiquetar para el día.",
+        "10": "¡Cuanto más etiquetes tus viajes, mejor será el algoritmo para predecir tus viajes, por lo que mantenerte actualizado con tu etiquetado te ahorrará trabajo a largo plazo!",
+        "11": "Haga clic en el botón '?' Cada vez que desee volver a ver este recorrido. "
     },
 
     "user-gender": "Género",
@@ -178,7 +200,7 @@
 
     "main-metrics":{
         "dashboard": "Tablero",
-        "summary": "Resumen",
+        "summary": "Mi Resumen",
         "chart": "Gráfico",
         "mybear": "Mi osito",
         "leaderboard": "Clasificación de líderes",
@@ -196,30 +218,35 @@
         "no-available-recent-trips": "No hay viajes recientes disponibles",
         "weekly-stats": "Estadísticas semanales",
         "change-data": "Cambiar datos:",
-        "distance": "Distancia",
-        "trips": "Viajes",
-        "duration": "Duración",
+        "distance": "Mi Distancia",
+        "trips": "Mi Viajes",
+        "duration": "Mi duración",
         "fav-mode": "Modo favorito",
-        "speed": "Velocidad",
-        "footprint": "Huella",
-        "optimal": "Óptimo:",
-        "average": "Promedio:",
-        "worst": "Peor:",
+        "speed": "My Velocidad",
+        "footprint": "Mi Huella",
+        "how-it-compares": "como se compara",
+        "optimal": "Óptimo (elección de modo perfecto para mis viajes):",
+        "average": "Promedio por grupo:",
+        "avoided": "CO₂ evitado (vs. todo 'taxi')",
+        "label-to-squish": "Etiquete los viajes para colapsar el rango en un solo número",
+        "equals-phone-charges": "Salvado {charges, plural, =0{al menos 0 cargos de teléfonos} one {al menos 1 cargos de teléfonos} other {al menos # cargos de teléfonos}} vs. todo 'taxi'",
         "lastweek": "Semana pasada:",
-        "calories": "Calorías",
+        "us-2030-goal": "US 2030 Estimación de objetivos:",
+        "us-2050-goal": "US 2050 Estimación de objetivos:",
+        "calories": "Mi Calorías",
         "calibrate": "Calibrar",
         "no-summary-data": "Sin datos de resumen",
-        "median-speed": "Velocidad media",
-        "equals-cookies": "Igual a {cookies, plural, =0{0 galletas de chispas de chocolate caseras} one {1 galleta de chispas de chocolate casera} other {# galletas de chispas de chocolate caseras}}",
-        "equals-icecream": "Igual a {icecream, plural, =0{0 medias tazas de helado de vainilla} one {1 media taza de helado de vainilla} other {# medias tazas de helado de vainilla}}",
-        "equals-bananas": "Igual a {bananas, plural, =0{0 plátanos} one {1 plátano} other {# plátanos}}"
+        "mean-speed": "Mi Velocidad media",
+        "equals-cookies": "Igual a {cookies, plural, =0{al menos 0 galletas de chispas de chocolate caseras} one {al menos 1 galleta de chispas de chocolate casera} other {al menos # galletas de chispas de chocolate caseras}}",
+        "equals-icecream": "Igual a {icecream, plural, =0{al menos 0 medias tazas de helado de vainilla} one {al menos 1 media taza de helado de vainilla} other {al menos # medias tazas de helado de vainilla}}",
+        "equals-bananas": "Igual a {bananas, plural, =0{al menos 0 plátanos} one {al menos 1 plátano} other {al menos # plátanos}}"
     },
 
     "main-diary" : "Diario",
-    
+
     "main-inf-scroll" : {
         "tab": "Etiqueta"
-    },    
+    },
 
     "main-checkinout" : {
         "tab": "Poseer",
@@ -300,15 +327,69 @@
         "upload-progress": "Enviando {{filesizemb | number}} MB de {{serverURL}}",
         "upload-details": "Enviado {{filesizemb | number}} MB de {{serverURL}}"
     },
-    
+
     "intro": {
+        "appstatus": {
+            "overall-description": "Esta app funciona en segundo plano para crear automáticamente un diario de viaje para usted. ¡Asegúrese de que todas las configuraciones a continuación sean verdes para que la app pueda funcionar correctamente! ",
+            "overall-loc-name": "Ubicación",
+            "overall-loc-description": "Usamos el permiso de ubicación en segundo plano 'siempre' para rastrear su ubicación en segundo plano, incluso cuando no está interactuando con la app. La lectura de ubicaciones en segundo plano elimina la necesidad de iniciar y detener viajes, lo que hace que la app sea más fácil de usar y evita que se agote la batería y olvide detener el viaje.",
+            "locsettings": {
+                "name": "Configuración de ubicación",
+                "description": {
+                    "android-lt-9": "Los servicios de ubicación deben estar habilitados y configurados en Alta precisión. Esto nos permite registrar con precisión la trayectoria del viaje.",
+                    "android-gte-9": "Los servicios de ubicación deben estar habilitados. Esto nos permite acceder a los datos de ubicación y generar el registro de viaje.",
+                    "ios": "Los servicios de ubicación deben estar habilitados. Esto nos permite acceder a los datos de ubicación y generar el registro de viaje."
+                }
+            },
+            "locperms": {
+                "name": "Permisos de ubicación",
+                "description": {
+                    "android-lt-6": "Habilitado durante la instalación de la app.",
+                    "android-6-9": "Seleccione 'permitir'",
+                    "android-10": "Seleccione 'Permitir todo el tiempo'",
+                    "android-gte-11": "En la página de configuración de la app, elija el permiso 'Ubicación' y configúrelo en 'Permitir todo el tiempo'",
+                    "ios-lt-13": "Seleccione 'Permitir siempre'",
+                    "ios-gte-13": "En la página de configuración de la app, seleccione 'Siempre' y 'Preciso' y regrese aquí para continuar"
+                }
+            },
+            "overall-fitness-name-android": "Actividad física",
+            "overall-fitness-name-ios": "Movimiento y condición física",
+            "overall-fitness-description": "Los sensores de fitness distinguen entre caminar, andar en bicicleta y modos motorizados. Utilizamos estos datos para separar las partes de los viajes multimodales, como el tránsito. También lo usamos para cotejar viajes potencialmente falsos: si el sensor de ubicación salta al otro lado de la ciudad pero el sensor de estado físico está estacionario, podemos suponer que el viaje no fue válido.",
+            "fitnessperms": {
+                "name": "Permiso de aptitud",
+                "description": {
+                    "android": "Por favor permite.",
+                    "ios": "Por favor permite."
+                }
+            },
+            "overall-notification-name": "Notificaciones",
+            "overall-notification-description": "Necesitamos usar notificaciones para informarle si la configuración es incorrecta. También usamos notificaciones automáticas invisibles cada hora para activar la app y permitirle cargar datos y verificar el estado de la app. También usamos notificaciones para recordarle que debe etiquetar sus viajes.",
+            "notificationperms": {
+                "app-enabled-name": "Notificaciones de app",
+                "not-paused-name": "No pausada",
+                "description": {
+                    "android-enable": "En la página de configuración de la app, asegúrese de que todas las notificaciones y canales estén habilitados.",
+                    "android-unpause": "En la página de configuración de la app, asegúrese de que todas las notificaciones estén habilitadas. Si esto no soluciona el problema, solicite ayuda a su administrador",
+                    "ios-enable": "Permita, en la ventana emergente o en la página de configuración de la app si es necesario"
+                }
+            },
+            "overall-background-restrictions-name": "Restricciones de fondo",
+            "overall-background-restrictions-description": "La app se ejecuta en segundo plano la mayor parte del tiempo para facilitarle la vida. Solo necesita abrirlo periódicamente para etiquetar los viajes. Android a veces restringe el funcionamiento de las aplicaciones en segundo plano. Esto nos impide generar un diario de viaje preciso. Elimine las restricciones de fondo en esta app.",
+            "unusedapprestrict": {
+                "name": "Aplicaciones no utilizadas deshabilitadas",
+                "description": {
+                    "android-disable": "En la página de configuración de la app, vaya a 'Permisos' y asegúrese de que los permisos de la app no se restablezcan automáticamente.",
+                    "ios": "Por favor permite."
+                }
+            }
+        },
         "permissions": {
             "locationPermExplanation-android-lt-6": "aceptó el permiso durante la instalación. No necesita hacer nada ahora.",
             "locationPermExplanation-android-6-9": "por favor seleccione 'permitir'",
             "locationPermExplanation-android-10": "por favor seleccione 'Permitir todo el tiempo'",
-            "locationPermExplanation-android-gte-11": "por favor seleccione 'Permitir todo el tiempo' para permisos de ubicación en la página de la aplicación",
-            "locationPermExplanation-ios-lt-13": "por favor seleccione \"Permitir siempre\". Esto nos permite comprender su viaje incluso cuando no está utilizando la aplicación activamente.",
-            "locationPermExplanation-ios-gte-13": "seleccione 'siempre' y 'preciso' en la página de configuración de la aplicación y vuelva aquí para continuar."
+            "locationPermExplanation-android-gte-11": "por favor seleccione 'Permitir todo el tiempo' para permisos de ubicación en la página de la app",
+            "locationPermExplanation-ios-lt-13": "por favor seleccione \"Permitir siempre\". Esto nos permite comprender su viaje incluso cuando no está utilizando la app activamente.",
+            "locationPermExplanation-ios-gte-13": "seleccione 'siempre' y 'preciso' en la página de configuración de la app y vuelva aquí para continuar."
         }
     },
     "allow_background": {
