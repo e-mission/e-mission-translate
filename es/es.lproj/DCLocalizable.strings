@@ -13,3 +13,13 @@
 "location-permission-problem" = "La aplicación no tiene el permiso "siempre": el seguimiento de viajes en segundo plano no funcionará.";
 "fix-permission-action-button" = "Arreglar el permiso";
 "precise-location-problem" = "La aplicación no tiene permiso para leer la ubicación "precisa"; el seguimiento del viaje en segundo plano no funcionará. Por favor, arregla. ";
+"notifications_blocked" = "Notificaciones bloqueadas, habilítalas";
+"notifications_blocked_app_open" = "Notificaciones bloqueadas, corríjalas en la configuración de la aplicación y luego actualice";
+"location_not_enabled" = "Ubicación desactivada, actívala";
+"location_permission_off" = "Permisos de ubicación insuficientes, corríjalos";
+"location_permission_off_app_open" = "Permisos de ubicación insuficientes, corríjalos en la configuración de la aplicación";
+"location_permission_off_enable" = "Permisos de ubicación insuficientes, habilite";
+"activity_permission_off" = "Permiso de actividad física y movimiento desactivado, habilítelo";
+"activity_permission_off_app_open" = "Permiso de movimiento y estado físico desactivado, corríjalo en la configuración de la aplicación";
+"fix_app_status_title" = "Configuración incorrecta de la aplicación";
+"fix_app_status_text" = "Haga clic para ver y corregir el estado de la aplicación";
