@@ -17,7 +17,7 @@
     <!-- TripDiaryStateMachineService and Ongoing-->
     <string name="success_moving_new_state">Éxito al mudarse a %1$s</string>
     <string name="failed_moving_new_state">No se pudo mover a %1$s</string>
-    <string name="location_permission_off_enable">Permisos de ubicación insuficientes, corríjalos</string>
+    <string name="location_permission_off">Permisos de ubicación insuficientes</string>
     <string name="location_permission_off_app_open">Permisos de ubicación insuficientes, corríjalos en la configuración de la aplicación</string>
     <string name="location_permission_off_enable">Permiso de ubicación desactivado, haga clic para habilitar</string>
     <string name="background_loc_permission_off_enable">Permiso de ubicación de fondo desactivado, haga clic para habilitar</string>
