@@ -52,6 +52,7 @@
 
     "control":{
         "profile": "Perfil",
+        "edit-demographics": "Editar datos demográficos",
         "username": "Nombre de usuario {{usernamedata}}",
         "tracking": "Rastreo",
         "app-status": "Estado de la app",
@@ -157,6 +158,7 @@
         "mode": "Modo",
         "replaces": "Reemplaza a",
         "purpose": "Propósito",
+        "survey": "Detalles",
         "unlabeled": "Sin etiqueta",
         "invalid-ebike": "No válida",
         "to-label": "Etiquetar",
@@ -169,6 +171,7 @@
         "choose-mode": "Modo 📝 ",
         "choose-replaced-mode": "Reemplaza a 📝",
         "choose-purpose": "Propósito 📝",
+        "choose-survey": "Agregar detalles del viaje 📝 ",
         "select-mode-scroll": "Modo (👇 para más)",
         "select-replaced-mode-scroll": "Reemplaza a (👇 para más)",
         "select-purpose-scroll": "Propósito (👇 para más)",
@@ -306,7 +309,7 @@
             "body-data-consists-of-list-of-entries": "Los datos consisten en una lista de entradas.\nLos formatos de entrada se encuentran en https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nLos datos se pueden cargar localmente siguiendo las instrucciones en https://github.com/e-mission/e-mission-server#loading-test-data \n y se pueden manipular usando el ejemplo en https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
         }
     },
-    
+
     "upload-service":{
         "upload-database": "Subir base de datos {{db}}",
         "upload-from-dir": "desde {{parentDir}}",
@@ -405,6 +408,11 @@
         "prev-survey-found": "Encontré la respuesta de la encuesta anterior",
         "use-prior-response": "Usar respuesta anterior",
         "edit-response": "Editar respuesta",
-        "move-on": "Siga adelante"
+        "move-on": "Siga adelante",
+        "survey": "Encuesta",
+        "save": "Guardar",
+        "next": "Siguiente",
+        "powered-by": "Desarrollada por",
+        "dismiss": "Despedir"
     }
 }
