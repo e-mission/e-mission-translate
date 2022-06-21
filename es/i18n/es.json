@@ -81,7 +81,8 @@
         "collection": "Colección",
         "sync": "Sincronizar",
         "transition-notify": "Notificación de transición",
-        "button-accept": "Accepto"
+        "button-accept": "Accepto",
+        "view-qrc": "Mi OPcode"
     },
 
     "general-settings":{
@@ -101,7 +102,11 @@
         "consented-ok": "OK",
         "share-message": "Ayúdame a hacer que el transporte sea más ecológico y saludable \nDescargar la aplicación de emisiones:",
         "share-subject": "Emission - Proyecto de investigación de la UC Berkeley",
-        "share-url": "https://bic2cal.eecs.berkeley.edu/#download"
+        "share-url": "https://bic2cal.eecs.berkeley.edu/#download",
+        "qrcode": "Mi OPcode",
+        "qrcode-share-title": "¡Puede guardar su OPcode para iniciar sesión fácilmente en el futuro!",
+        "qrcode-share-message": "¡Guarde este OPcode o envíelo a un nuevo dispositivo para escanear e iniciar sesión! \n[OpenPath] Mi OPcode: ",
+        "qrcode-share-subject": "Mi OPcode - OpenPATH"
     },
 
     "metrics":{
