@@ -419,5 +419,20 @@
         "next": "Siguiente",
         "powered-by": "Desarrollada por",
         "dismiss": "Despedir"
+    },
+    "join": {
+        "welcome-to-nrel-openpath": "Bienvenido a NREL OpenPATH",
+        "proceed-further": "Para continuar, debe usar el enlace 🔗 o el código QR del sitio web para el estudio o programa al que se une. El sitio web debería habérselo proporcionado el administrador del programa o el investigador principal que le pidió que instalara esta aplicación.",
+        "proceed-phone": "En tu teléfono 📱, vuelve al navegador 🌐, desplázate hacia abajo y haz clic en el enlace startino 2",
+        "or": "or",
+        "proceed-laptop": "En tu computadora 💻, desplázate hacia abajo y escanea ⬇️ el código QR",
+        "scan-now": "Escanear ahora",
+        "about-app-para-1": "La Plataforma Abierta para la Heurística de Viaje Ágil (NREL OpenPATH) del Laboratorio Nacional de Energía Renovable permite a las personas rastrear sus modos de viaje (automóvil, autobús, bicicleta, caminar, etc.) y medir su uso de energía asociado y su huella de carbono.",
+        "about-app-para-2": "La aplicación permite a las comunidades comprender sus opciones y patrones de modo de viaje, experimentar con opciones para hacerlos más sostenibles y evaluar los resultados. Dichos resultados pueden informar una política y planificación de transporte efectivas y usarse para construir ciudades más sostenibles y accesibles.",
+        "about-app-para-3": "Lo hace mediante la creación de un diario automático de todos sus viajes, en todos los modos de transporte. Lee múltiples sensores, incluida la ubicación, en segundo plano, y activa y desactiva automáticamente el rastreo por GPS para un consumo mínimo de energía. La elección de la información del patrón de viaje y el estilo de visualización de la huella de carbono son específicos del estudio.",
+        "all-green-status": "Asegúrese de que todas las comprobaciones de estado estén en verde.",
+        "dont-force-kill": "No fuerces el cierre de la aplicación",
+        "background-restrictions": "En los teléfonos Samsung y Huawei, asegúrese de que las restricciones de fondo estén desactivadas",
+        "close": "Cerrado"
     }
 }
