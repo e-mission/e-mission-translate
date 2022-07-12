@@ -418,6 +418,8 @@
         "save": "Guardar",
         "next": "Siguiente",
         "powered-by": "Desarrollada por",
-        "dismiss": "Despedir"
+        "dismiss": "Despedir",
+        "return-to-beginning": "Volver al principio",
+        "go-to-end": "Ir al final"
     }
 }
