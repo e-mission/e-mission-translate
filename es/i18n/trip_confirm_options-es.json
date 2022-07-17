@@ -1,10 +1,10 @@
 {
   "MODE" : [
-       {"text":"Caminando", "value":"walk", "met_equivalent": "WALKING", "co2PerMeter": 0},
-       {"text":"Bicicleta normal","value":"bike", "met_equivalent": "BICYCLING", "co2PerMeter": 0},
-       {"text":"e-bike piloto","value":"e-bike", "met": {
+       {"text":"Caminando", "value":"walk",  "met_equivalent": "WALKING", "co2PerMeter": 0},
+       {"text":"e-bike piloto","value":"pilot_ebike", "met": {
             "ALL": {"range": [0, -1], "mets": 4.9}
        }, "co2PerMeter": 0.00728},
+       {"text":"Bicicleta normal","value":"bike", "met_equivalent": "BICYCLING", "co2PerMeter": 0},
        {"text":"Bicicleta compartida","value":"bikeshare", "met_equivalent": "BICYCLING", "co2PerMeter": 0},
        {"text":"Motoneta compartida","value":"scootershare", "met_equivalent": "IN_VEHICLE", "co2PerMeter": 0.00894},
        {"text":"Condujo solo","value":"drove_alone", "met_equivalent": "IN_VEHICLE", "co2PerMeter": 0.22031},
@@ -14,6 +14,7 @@
        {"text":"Tren","value":"train", "met_equivalent": "IN_VEHICLE", "co2PerMeter": 0.12256},
        {"text":"Colectivo gratuito","value":"free_shuttle", "met_equivalent": "IN_VEHICLE", "co2PerMeter": 0.20727},
        {"text":"Avión","value":"air", "met_equivalent": "IN_VEHICLE", "co2PerMeter": 0.09975},
+       {"text":"No es un viaje","value":"not_a_trip", "met_equivalent": "UNKNOWN", "co2PerMeter": 0},
        {"text":"Otros","value":"other", "met_equivalent": "UNKNOWN", "co2PerMeter": 0}],
   "REPLACED_MODE" : [
        {"text":"Sin viaje", "value":"no_travel"},
