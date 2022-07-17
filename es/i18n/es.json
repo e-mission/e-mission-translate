@@ -52,6 +52,7 @@
 
     "control":{
         "profile": "Perfil",
+        "edit-demographics": "Editar datos demográficos",
         "username": "Nombre de usuario {{usernamedata}}",
         "tracking": "Rastreo",
         "app-status": "Estado de la app",
@@ -79,8 +80,9 @@
         "check-map": "Verificar mapa",
         "collection": "Colección",
         "sync": "Sincronizar",
-        "transition-notify": "Notificación de transición"
-        "button-accept": "Accepto"
+        "transition-notify": "Notificación de transición",
+        "button-accept": "Accepto",
+        "view-qrc": "Mi OPcode"
     },
 
     "general-settings":{
@@ -100,7 +102,11 @@
         "consented-ok": "OK",
         "share-message": "Ayúdame a hacer que el transporte sea más ecológico y saludable \nDescargar la aplicación de emisiones:",
         "share-subject": "Emission - Proyecto de investigación de la UC Berkeley",
-        "share-url": "https://bic2cal.eecs.berkeley.edu/#download"
+        "share-url": "https://bic2cal.eecs.berkeley.edu/#download",
+        "qrcode": "Mi OPcode",
+        "qrcode-share-title": "¡Puede guardar su OPcode para iniciar sesión fácilmente en el futuro!",
+        "qrcode-share-message": "¡Guarde este OPcode o envíelo a un nuevo dispositivo para escanear e iniciar sesión! \n[OpenPath] Mi OPcode: ",
+        "qrcode-share-subject": "Mi OPcode - OpenPATH"
     },
 
     "metrics":{
@@ -157,6 +163,7 @@
         "mode": "Modo",
         "replaces": "Reemplaza a",
         "purpose": "Propósito",
+        "survey": "Detalles",
         "unlabeled": "Sin etiqueta",
         "invalid-ebike": "No válida",
         "to-label": "Etiquetar",
@@ -169,6 +176,7 @@
         "choose-mode": "Modo 📝 ",
         "choose-replaced-mode": "Reemplaza a 📝",
         "choose-purpose": "Propósito 📝",
+        "choose-survey": "Agregar detalles del viaje 📝 ",
         "select-mode-scroll": "Modo (👇 para más)",
         "select-replaced-mode-scroll": "Reemplaza a (👇 para más)",
         "select-purpose-scroll": "Propósito (👇 para más)",
@@ -228,7 +236,7 @@
         "optimal": "Óptimo (elección de modo perfecto para mis viajes):",
         "average": "Promedio por grupo:",
         "avoided": "CO₂ evitado (vs. todo 'taxi')",
-        "label-to-squish": "Etiquete los viajes para colapsar el rango en un solo número",
+        "label-to-squish": "Etiquete los viajes para colapsar el rango",
         "equals-phone-charges": "Salvado {charges, plural, =0{al menos 0 cargos de teléfonos} one {al menos 1 cargos de teléfonos} other {al menos # cargos de teléfonos}} vs. todo 'taxi'",
         "lastweek": "Semana pasada:",
         "us-2030-goal": "US 2030 Estimación de objetivos:",
@@ -237,8 +245,8 @@
         "calibrate": "Calibrar",
         "no-summary-data": "Sin datos de resumen",
         "mean-speed": "Mi Velocidad media",
-        "equals-cookies": "Igual a {cookies, plural, =0{al menos 0 galletas de chispas de chocolate caseras} one {al menos 1 galleta de chispas de chocolate casera} other {al menos # galletas de chispas de chocolate caseras}}",
-        "equals-icecream": "Igual a {icecream, plural, =0{al menos 0 medias tazas de helado de vainilla} one {al menos 1 media taza de helado de vainilla} other {al menos # medias tazas de helado de vainilla}}",
+        "equals-cookies": "Igual a {cookies, plural, =0{al menos 0 galletas de chocolate} one {al menos 1 galleta de chocolate} other {al menos # galletas de chocolate}}",
+        "equals-icecream": "Igual a {icecream, plural, =0{al menos 0 medias tazas de helado} one {al menos 1 media taza de helado} other {al menos # medias tazas de helado}}",
         "equals-bananas": "Igual a {bananas, plural, =0{al menos 0 plátanos} one {al menos 1 plátano} other {al menos # plátanos}}"
     },
 
@@ -316,7 +324,6 @@
             "body-data-consists-of-list-of-entries": "Los datos consisten en una lista de entradas.\nLos formatos de entrada se encuentran en https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nLos datos se pueden cargar localmente siguiendo las instrucciones en https://github.com/e-mission/e-mission-server#loading-test-data \n y se pueden manipular usando el ejemplo en https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
         }
     },
-    
     "upload-service":{
         "upload-database": "Subir base de datos {{db}}",
         "upload-from-dir": "desde {{parentDir}}",
@@ -410,5 +417,19 @@
     "sensor_explanation":{
         "button-accept": "OK",
         "button-decline": "Alto"
+    },
+    "survey": {
+        "prev-survey-found": "Encontré la respuesta de la encuesta anterior",
+        "use-prior-response": "Usar respuesta anterior",
+        "edit-response": "Editar respuesta",
+        "move-on": "Siga adelante",
+        "survey": "Encuesta",
+        "save": "Guardar",
+        "back": "Atrás",
+        "next": "Siguiente",
+        "powered-by": "Desarrollada por",
+        "dismiss": "Despedir",
+        "return-to-beginning": "Volver al principio",
+        "go-to-end": "Ir al final"
     }
 }

@@ -1,13 +1,17 @@
 <ion-content>
 <div class="intro-title">
-<center><h3>Iniciar sesión mediante passphrase</h3></center></div>
+<center><h3>Iniciar sesión mediante OPcode</h3></center></div>
 
 <div class="intro-text">
 Cada participante debe haber recibido una llave de token para registrarse en el programa. Por favor
 comuníquese con la administración del programa para obtener un token si aún no lo tiene.
 <div class="intro-space"></div>
-<button class="button button-block button-balanced" ng-click="login()">Iniciar sesión mediante token</button>
-</div>
+<button class="button button-block button-balanced" ng-click="typeExisting()">Iniciar sesión mediante OPcode</button>
 
+    <center> <b> - OR - </b> </center>
 
+    <div class="intro-space"></div>
+    <button class="button button-block button-royal" ng-click="scanExisting()">Escanear existente OPcode</button>
+</div> <!-- intro-text -->
+</div> <!-- overall div -->
 </ion-content>
