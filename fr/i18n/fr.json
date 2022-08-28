@@ -51,6 +51,7 @@
     "control": {
         "profile": "Profil",
         "tracking": "Tracking activé",
+        "enable-opgeofence": "Début de voyage expérimental",
         "medium-accuracy": "Précision moyenne",
         "dark-theme": "Thème sombre",
         "force-sync": "Forcer la synchro",
