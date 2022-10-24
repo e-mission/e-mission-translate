@@ -22,12 +22,12 @@
        {"text":"Transbordo", "value":"transit_transfer"},
        {"text":"Compras","value":"shopping"},
        {"text":"Comida","value":"meal"},
-       {"text":"Recoger/Entregar 👤","value":"pick_drop_person"},
-       {"text":"Recoger/Entregar 📦","value":"pick_drop_item"},
-       {"text":"Personal/Médico","value":"personal_med"},
+       {"text":"Recoger/ Entregar Individuo","value":"pick_drop_person"},
+       {"text":"Recoger/ Entregar Objeto","value":"pick_drop_item"},
+       {"text":"Personal/ Médico","value":"personal_med"},
        {"text":"Acceder a Recreación","value":"access_recreation"},
-       {"text":"Recreación/Ejercicio","value":"exercise"},
-       {"text":"Entretenimiento/Social","value":"entertainment"},
+       {"text":"Recreación/ Ejercicio","value":"exercise"},
+       {"text":"Entretenimiento/ Social","value":"entertainment"},
        {"text":"Religioso", "value":"religious"},
        {"text":"Otros","value":"other"}]
 }
