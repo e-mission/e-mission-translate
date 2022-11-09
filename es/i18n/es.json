@@ -83,7 +83,8 @@
         "sync": "Sincronizar",
         "transition-notify": "Notificación de transición",
         "button-accept": "Accepto",
-        "view-qrc": "Mi OPcode"
+        "view-qrc": "Mi OPcode",
+        "app-version": "Version de Aplicacion"
     },
 
     "general-settings":{

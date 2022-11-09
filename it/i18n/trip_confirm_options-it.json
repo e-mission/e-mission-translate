@@ -16,9 +16,9 @@
          {"text":"Cambio mezzo", "value":"transit_transfer"},
          {"text":"Shopping","value":"shopping"},
          {"text":"Pasto","value":"meal"},
-         {"text":"Carico/scarico","value":"pick_drop"},
+         {"text":"Carico/ scarico","value":"pick_drop"},
          {"text":"Personale","value":"personal_med"},
-         {"text":"Svago/Sport","value":"exercise"},
+         {"text":"Svago/ Sport","value":"exercise"},
          {"text":"Divertimento","value":"entertainment"},
          {"text":"Altro","value":"other_purpose"}]
   }

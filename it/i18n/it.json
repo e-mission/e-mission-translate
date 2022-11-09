@@ -73,7 +73,8 @@
         "check-map": "Controlla la mappa",
         "collection": "Raccolta",
         "sync": "Sincronizza",
-        "transition-notify": "Notifica una transizione"
+        "transition-notify": "Notifica una transizione",
+        "app-version": "Versione dell'App"
     },
 
     "general-settings": {

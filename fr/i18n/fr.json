@@ -75,7 +75,8 @@
         "check-map": "Vérifier la carte",
         "collection": "Recueil",
         "sync": "Synchro",
-        "transition-notify": "Notifier une transition"
+        "transition-notify": "Notifier une transition",
+        "app-version": "Version de l'Application"
     },
 
     "general-settings": {
