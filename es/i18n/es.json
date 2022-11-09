@@ -55,6 +55,7 @@
         "edit-demographics": "Editar datos demográficos",
         "username": "Nombre de usuario {{usernamedata}}",
         "tracking": "Rastreo",
+        "enable-opgeofence": "Inicio del viaje experimental",
         "app-status": "Estado de la app",
         "medium-accuracy": "Precisión media",
         "dark-theme": "Tema oscuro",
