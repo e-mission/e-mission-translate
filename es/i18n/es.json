@@ -347,7 +347,8 @@
                     "android-lt-6": "Habilitado durante la instalación de la app.",
                     "android-6-9": "Seleccione 'permitir'",
                     "android-10": "Seleccione 'Permitir todo el tiempo'",
-                    "android-gte-11": "En la página de configuración de la app, elija el permiso 'Ubicación' y configúrelo en 'Permitir todo el tiempo'",
+                    "android-11": "En la página de configuración de la app, elija el permiso 'Ubicación' y configúrelo en 'Permitir todo el tiempo'",
+                    "android-gte-12": "En la página de configuración de la app, elija el permiso 'Ubicación' y configúrelo en 'Permitir todo el tiempo' y 'Precisa'",
                     "ios-lt-13": "Seleccione 'Permitir siempre'",
                     "ios-gte-13": "En la página de configuración de la app, seleccione 'Siempre' y 'Preciso' y regrese aquí para continuar"
                 }
@@ -378,8 +379,16 @@
             "unusedapprestrict": {
                 "name": "Aplicaciones no utilizadas deshabilitadas",
                 "description": {
-                    "android-disable": "En la página de configuración de la app, vaya a 'Permisos' y asegúrese de que los permisos de la app no se restablezcan automáticamente.",
+                    "android-disable-lt-12": "En la página de configuración de la app, vaya a 'Permisos' y asegúrese de que los permisos de la app no se restablezcan automáticamente.",
+                    "android-disable-gte-12": "En la página de configuración de la app, apagar 'Quitar permisos y liberar espacio'",
                     "ios": "Por favor permite."
+                }
+            },
+            "ignorebatteryopt": {
+                "name": "Ignorar optimización de batería",
+                "description": {
+                    "android-disable": "En la página de optimización, vaya a todas las apps, busque esta app y desactive las optimizacións.",
+                    "ios": "Please allow."
                 }
             }
         },
