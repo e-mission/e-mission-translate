@@ -166,6 +166,7 @@
         "replaces": "Reemplaza a",
         "purpose": "Propósito",
         "survey": "Detalles",
+        "untracked-time-range": "No rastreado: {{start}} - {{end}}",
         "unlabeled": "Sin etiqueta",
         "invalid-ebike": "No válida",
         "to-label": "Etiquetar",
@@ -432,6 +433,8 @@
         "powered-by": "Desarrollada por",
         "dismiss": "Despedir",
         "return-to-beginning": "Volver al principio",
-        "go-to-end": "Ir al final"
+        "go-to-end": "Ir al final",
+        "enketo-form-errors": "El formulario contiene errores. Por favor, vea los campos marcados en rojo.",
+        "enketo-timestamps-invalid": "Los tiempos que ingresó no son válidos. Asegúrese de que la hora de inicio sea anterior a la hora de finalización."
     }
 }
