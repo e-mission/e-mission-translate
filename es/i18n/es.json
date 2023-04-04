@@ -417,7 +417,9 @@
         "download-apply": "Aplicar"
     },
     "login":{
-        "save-your-opcode":"Asegúrese de guardar su OPcode!",
+        "make-sure-save-your-opcode":"¡Asegúrate de guardar tu OPCode!",
+        "cannot-retrieve":"¡NREL no puede recuperarlo más tarde!",
+        "save":"Guardar",
         "continue": "Seguir",
         "enter-existing-token": "Ingrese el token existente que tiene",
         "button-accept": "OK",
