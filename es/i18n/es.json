@@ -430,7 +430,7 @@
         "button-decline": "Alto"
     },
     "survey": {
-        "loading-prior-survey": "Cargando respuestas de encuestas anteriores..."
+        "loading-prior-survey": "Cargando respuestas de encuestas anteriores...",
         "prev-survey-found": "Encontré la respuesta de la encuesta anterior",
         "use-prior-response": "Usar respuesta anterior",
         "edit-response": "Editar respuesta",
