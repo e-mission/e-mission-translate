@@ -21,5 +21,5 @@
 "location_permission_off_enable" = "Permisos de ubicación insuficientes, habilite";
 "activity_permission_off" = "Permiso de actividad física y movimiento desactivado, habilítelo";
 "activity_permission_off_app_open" = "Permiso de movimiento y estado físico desactivado, corríjalo en la configuración de la aplicación";
-"fix_app_status_title" = "Configuración incorrecta de la aplicación";
+"fix_app_status_title" = "Por favor actualice los permisos";
 "fix_app_status_text" = "Haga clic para ver y corregir el estado de la aplicación";
