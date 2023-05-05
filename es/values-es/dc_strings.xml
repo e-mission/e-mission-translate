@@ -27,7 +27,7 @@
     <string name="notifications_blocked">Notificaciones bloqueadas, habilítalas</string>
     <string name="notifications_paused">Notificaciones en pausa. Esto solo lo puede solucionar el desarrollador de la aplicación. Informe a su administrador.</string>
     <string name="unused_apps_restricted">Permita que esta aplicación lea los datos del sensor incluso si la inicia con poca frecuencia.</string>
-    <string name="fix_app_status_title">Configuración incorrecta de la aplicación</string>
+    <string name="fix_app_status_title">Por favor actualice los permisos</string>
     <string name="fix_app_status_text">Haga clic para ver y corregir el estado de la aplicación</string>
     <string name="error_location_settings">Error en la configuración de ubicación, haga clic para resolver</string>
     <string name="unknown_error_location_settings">Error desconocido al leer la ubicación, verifique su configuración</string>
