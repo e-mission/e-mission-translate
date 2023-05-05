@@ -56,7 +56,7 @@
         "username": "Nombre de usuario {{usernamedata}}",
         "tracking": "Rastreo",
         "app-status": "Estado de la app",
-        "incorrect-app-status": "Configuración incorrecta de la aplicación",
+        "incorrect-app-status": "Por favor actualice los permisos",
         "fix-app-status": "Haga clic para ver y corregir el estado de la aplicación",
         "fix": "Arreglar",
         "medium-accuracy": "Precisión media",
