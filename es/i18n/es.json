@@ -466,5 +466,17 @@
         "dont-force-kill": "No fuerces el cierre de la aplicación",
         "background-restrictions": "En los teléfonos Samsung y Huawei, asegúrese de que las restricciones de fondo estén desactivadas",
         "close": "Cerrado"
+    },
+    "config": {
+        "unable-read-saved-config": "No se puede leer la configuración guardada",
+        "unable-to-store-config": "No se puede almacenar la configuración descargada",
+        "not-enough-parts-old-style": "OPcode {{token}} no tiene al menos dos caracteres '_'",
+        "no-nrelop-start": "OPcode {{token}} no comienza con 'nrelop'",
+        "not-enough-parts": "OPcode {{token}} no tiene al menos tres caracteres '_'",
+        "invalid-subgroup": "OPcode no válido {{token}}, subgrupo {{subgroup}} no encontrado en la lista {{config_subgroups}}",
+        "invalid-subgroup-no-default": "OPcode {{token}} no válido, sin subgrupos, se esperaba un subgrupo 'default'",
+        "unable-download-config": "No se puede descargar la configuración del estudio",
+        "invalid-opcode-format": "Formato de código OP no válido",
+        "error-loading-config-app-start": "Error al cargar la configuración al iniciar la aplicación"
     }
 }
