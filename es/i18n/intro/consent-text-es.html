@@ -56,34 +56,35 @@ href="https://github.com/e-mission/em-public-dashboard.git">https://github.com/e
 </p>
 
 <h3>Cómo asociamos la información contigo</h3>
-<div ng-if="ui_config.intro.program_or_study=='program'">
-Los administradores del programa le proporcionarán un token que utilizará para iniciar sesión
-en el sistema. Si olvida o pierde su token, puede solicitarlo por
-proporcionando su nombre y/o dirección de correo electrónico al administrador del programa. Por favor
-no se comunique con el personal de NREL con solicitudes de recuperación de tokens ya que no tenemos
-acceso a la conexión entre su nombre/correo electrónico y su token. los datos que
-NREL recopila automáticamente (datos del sensor del teléfono, datos semidemográficos, etc.)
-solo se asociará con su token.
+<div ng-if="!ui_config.opcode.autogen">
+Los administradores del programa le proporcionarán un 'opcode' que utilizará
+para iniciar sesión en el sistema. Esta larga cadena aleatoria se utilizará
+para todas las comunicaciones posteriores con el servidor. Si olvida o pierde
+su opcode, puede solicitarlo proporcionando su nombre y/o dirección de correo
+electrónico al administrador del programa. No se comunique con el personal de
+NREL con solicitudes de recuperación de opcode, ya que no tenemos acceso a la
+conexión entre su nombre/correo electrónico y su código de operación. Los datos
+que NREL recopila automáticamente (datos del sensor del teléfono, datos
+semidemográficos, etc.) solo se asociarán con su 'opcode'
 </div>
-<div ng-if="ui_config.intro.program_or_study=='study'">
-La aplicación generará un token generado aleatoriamente durante la incorporación y
-se utiliza para todas las comunicaciones posteriores con el servidor. Solo tu conoces la ficha
-que está asociado con usted. No existe la opción "Olvidé mi contraseña" y NREL
-el personal no puede recuperar su token, incluso si proporciona su nombre o correo electrónico
-Dirección. Esto significa que, a menos que guarde su token en un lugar seguro,
-no tendrá acceso a sus datos anteriores si cambia de teléfono o desinstala y
-reinstalar la aplicación.
+<div ng-if="ui_config.opcode.autogen">
+Está iniciando sesión con un 'opcode' generado aleatoriamente por la
+plataforma. Esta larga cadena aleatoria se utilizará para todas las
+comunicaciones posteriores con el servidor. Solo usted conoce el opcode que
+está asociado con usted. No existe la opción "Olvidé mi contraseña", y el
+personal de NREL no puede recuperar su opcode, incluso si proporciona su nombre
+o dirección de correo electrónico. Esto significa que, a menos que almacene su
+opcode en un lugar seguro, no tendrá acceso a sus datos anteriores si cambia de
+teléfono o desinstala y reinstala la aplicación.
 </div>
 
 <h3>Quién puede ver la información</h3>
 <p>
 Las métricas agregadas derivadas de los patrones de viaje estarán disponibles en un tablero público para proporcionar transparencia sobre el impacto del programa. Estas métricas se centrarán en resúmenes de información, como recuentos, distancias y duraciones, y no mostrarán ubicaciones u horas de viaje individuales.
 </p><p>
-Los patrones de viaje detallados en tiempo real solo estarán disponibles para:
+Las tarifas de etiquetado individual y la información del nivel de viaje solo estarán disponibles para:
 <ul>
-    <li> 🧑 Administradores del {{ui_config.intro.deployment_partner_name}} para
-    monitorear el {{ui_config.intro.program_or_study}}, enviar encuestas
-    personalizadas o proporcionar recomendaciones a los participantes, y
+    <li> 🧑 Administradores del {{ui_config.intro.deployment_partner_name}} para {{template_text.raw_data_use}}, y
     <li> 💻 Desarrolladores de OpenPATH para la depuración
 </ul>
 </p><p>
@@ -97,7 +98,7 @@ sitio web</a> y en <a href="http://www.sciencedirect.com/science/article/pii/S23
 
 <h3>Tus derechos</h3>
 <p>
-<div ng-if="ui_config.intro.program_or_study=='program'">
+<div ng-if="ui_config.intro.app_required">
 Debe realizar un seguimiento de sus patrones de viaje utilizando la aplicación como condición de
 participación en el Programa. Si desea retirarse del Programa, debe
 debe comunicarse con el administrador del programa,
@@ -108,7 +109,7 @@ desinstalar la aplicación. Si desinstala la aplicación sin la aprobación del
 administrador del programa, es posible que no tenga acceso a los beneficios proporcionados por el
 programa.
 </div>
-<div ng-if="ui_config.intro.program_or_study=='study'">
+<div ng-if="!ui_config.intro.app_required">
 La participación en el Estudio es completamente voluntaria. tienes derecho a
 negarse a participar o retirarse en cualquier momento del estudio sin
 proporcionar notificación a NREL o al punto de contacto. Si no desea
