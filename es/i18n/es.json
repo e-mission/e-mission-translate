@@ -87,7 +87,9 @@
         "button-accept": "Accepto",
         "view-qrc": "Mi OPcode",
         "app-version": "Version de Aplicacion",
-        "reminders-time-of-day": "Hora del día de los recordatorios ({{time}})"
+        "reminders-time-of-day": "Hora del día de los recordatorios ({{time}})",
+        "upcoming-notifications": "Recordatorios Próximos",
+        "dummy-notification" : "Recordatorio Simulado en 5 Segundos"
     },
 
     "general-settings":{
