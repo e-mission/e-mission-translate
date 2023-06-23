@@ -101,7 +101,6 @@
         "nuke-everything" : "Todo",
         "clear-data": "Limpiar datos",
         "are-you-sure": "¿Estás seguro?",
-        "log-out" : "salir del sistema",
         "log-out-warning": "Se cerrará la sesión y sus credenciales no se guardarán. Los datos no sincronizados pueden perderse.",
         "cancel": "Cancelar",
         "confirm": "Confirmar",
