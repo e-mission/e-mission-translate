@@ -65,7 +65,7 @@
         "end-trip-sync": "ສິ້ນສຸດການເດີນທາງ + ການປະມວນຜົນຂໍ້ມູນໃນລະບົບ",
         "check-consent": "ກວດສອບການຍິນຍອມ",
         "invalidate-cached-docs": "ເອກະສານທີ່ເກັບໄວ້ໃນຖານບໍ່ຖືກຕ້ອງ",
-        "nuke-all": "Nuke all buffers ແລະ cache",
+        "nuke-all": "",
         "test-notification": "ທົດສອບການແຈ້ງເຕືອນທ້ອງຖິ່ນ",
         "set-ui-channel": "ຕັ້ງ UI ຊ່ອງ",
         "check-log": "ກວດ​ສອບ​ບັນ​ທຶກ",
@@ -76,7 +76,7 @@
         "transition-notify": "ແຈ້ງການປ່ຽນແປງ",
         "button-accept": "ຂ້ອຍຍອມຮັບ",
         "view-qrc": "OPcode ຂອງຂ້ອຍ",
-        "app-version": "ແອັບ-ຍີ່ຫໍ້"
+        "app-version": "App Version"
     },
     "general-settings": {
         "choose-date": "ເລືອກວັນທີເພື່ອດາວໂຫຼດຂໍ້ມູນ",
