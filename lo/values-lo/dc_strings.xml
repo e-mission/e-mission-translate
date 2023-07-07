@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GeofenceActions -->
+    <string name="unable_detect_current_location">ບໍ່​ສາ​ມາດ​ກວດ​ພົບ​ສະ​ຖານ​ທີ່​ໃນ​ປັດ​ຈຸ​ບັນ​ໄດ້, ​ລອງ​ໃຫມ່​ໃນ​ການ​ກວດສອບຂໍ້ມູນຄັ້ງ​ຕໍ່​ໄປ​</string>
+    <!-- ActivityRecognitionChangeIntentService.java (debug mode only) -->
+    <string name="detected_new_activity">ຂໍ້ມູນກິດຈະກໍາໃໝ່ທີ່ຖືກກວດພົບ %1$s</string>
+    <string name="activity_transport">ການຂົນສົ່ງ</string>
+    <string name="activity_cycling">ການຂີ່ລົດຖີບ</string>
+    <string name="activity_walking">ການຍ່າງ</string>
+    <string name="activity_still">ຢູ່ຊື່ (ບໍ່ມີການເຄື່ອນໄຫວ)</string>
+    <string name="activity_unknown">ບໍ່ຮູ້</string>
+    <string name="activity_tilting">ອຽງ</string>
+    <!-- TripDiaryStateMachineReceiver -->
+    <string name="new_data_collection_terms">ຂໍ້ກໍານົດການເກັບກໍາຂໍ້ມູນ - ເກັບກໍາຂໍ້ມູນຊົ່ວຄາວຈົນກ່ວາຈະໄດ້ຮັບການຍິມຍອມຈາກຜູ້ໃຫ້ຂໍ້ມູນ</string>
+    <!-- debug mode only -->
+    <string name="battery_level">ໂຕ້ຕອບກັບຂ້ອຍ! ລະດັບໝໍ້ົໄຟ (ແບດເຕີລີ້) %1$s</string>
+    <!-- TripDiaryStateMachineService and Ongoing-->
+    <string name="success_moving_new_state">ສໍາເລັດກາຍຍ້າຍໄປ %1$s</string>
+    <string name="failed_moving_new_state">ລົ້ມເຫລວການຍ້າຍໄປ %1$</string>
+    <string name="location_permission_off">ການອະນຸຍາດພື້ນທີ່ບໍ່ພຽງພໍ, ກະລຸນາ ແປງຄືນ</string>
+    <string name="location_permission_off_app_open">ການອະນຸຍາດພື້ນທີ່ບໍ່ພຽງພໍ, ກະລຸນາກວດຄືນ ຈາກລະບົບຕັ້ງຄ່າ, ກະລຸນາກວດຄືນ ຈາກລະບົບການຕັ້ງຄ່າ</string>
+    <string name="location_permission_off_enable">ການອະນຸຍາດພື້ນທີ່, ກົດ ເພື່ອເປີດນໍາໃຊ້</string>
+    <string name="background_loc_permission_off_enable">ປິດການອະນຸຍາດການເຂົ້າເຖີງພື້ນທີ່, ກົດ ເພື່ອເປີດນໍາໃຊ້</string>
+    <string name="activity_permission_off">ປິດການອະນຸຍາດ, ກະລຸນາດັດແກ້ຄືນ</string>
+    <string name="activity_permission_off_app_open">ປິດການອະນຸຍາດ, ກະລຸນາດັດແກ້ໃນລະບົບການຕັ້ງຄ່າ</string>
+    <string name="activity_permission_off_enable">ປິດການອະນຸຍາ, ກົດ ເພື່ອການນໍາໃຊ້</string>
+    <string name="notifications_blocked">ບລັອກ ການແຈ້ງເຕືອນ, ການລຸນາ ນໍາໃຊ້</string>
+    <string name="notifications_paused">ຍຸດ ການແຈ້ງເຕືອນຊົ່ວຄາວ. ນີ້ສະເພາະຜູ້ພັດທະນາແອບເທົ່ານັ້ນສໍາລັບແກ້ໄຂ. ຂໍໃຫ້ທ່ານແຈ້ງໄປຫາຜູ້ທີ່ບໍລິຫານລະບົບ</string>
+    <string name="unused_apps_restricted">ກະ​ລຸ​ນາ​ອະ​ນຸ​ຍາດ​ໃຫ້ແອບນີ້ ​ອ່ານ​ຂໍ້​ມູນ ​ເຖິງ​ແມ່ນ​ວ່າ​ທ່ານ​ຈະ​ເປີດ​ມັນ​ເລື້ອຍໆ​.</string>
+    <string name="fix_app_status_title">ການຕັ້ງຄັ້ງບໍ່ຖືກຕ້ອງ</string>
+    <string name="fix_app_status_text">ກົດເພື່ອເບີ່ງ ແລະ ດັດແກ້ລະບົບແອບ</string>
+    <string name="error_location_settings">ຂໍ້ຜິດພາດໃນການຕັ້ງຄ່າສະຖານທີ່, ຄລິກເພື່ອແກ້ໄຂ</string>
+    <string name="unknown_error_location_settings">ຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ຈັກໃນຂະນະທີ່ອ່ານຂໍ້ມູນສະຖານທີ່, ກະລຸນາກວດເບິ່ງການຕັ້ງຄ່າຂອງທ່ານ</string>
+    <string name="notify_curr_state">ໃນລັກສະນະ %1$s</string>
+    <!-- TripDiaryStateMachineForegroundService -->
+    <string name="foreground_killed_email_log">ເລີ້ມຕົ້ນຄືນໃໝ່ໃນການກວດພົບ</string>
+    <!-- ConfigManager -->
+    <string name="error_reading_stored_config">ການອ່ານຂໍ້ມູນມີຄວາມຜິດພາດ, ຕັ້ງຄ່າຄືນໃໝ່</string>
+    <!-- DataCollectionPlugin -->
+    <string name="user_rejected_setting">ເບີ່ງຄື ທ່ານໄດ້ຍົກເລີກ ສະເໜີການປ່ຽນແປງ. ກະລຸນາກົດຍອມຮັບ</string>
+    <string name="unable_resolve_issue">ບໍ່ສາມາດກູ້ຄືນຂໍ້ມູນທີ່ຜິດພາດໄດ້, ລາຍງານໃນໂປຣໄຟລ໌ -> Upload Log</string>
+    <!-- State notification displays-->
+    <string name="local.state.waiting_for_trip_start">ພ້ອມສໍາລັບການເດີນທາງຄັ້ງຕໍ່ໄປຂອງທ່ານ</string>
+    <string name="local.state.ongoing_trip">ທ່ານກໍາລັງເດີນທາງ, ໄປຕໍ່</string>
+    <string name="local.state.start">ບໍ່ສາມາດເລີ້ມລະບົບ, ເບີ່ງຈາກການເດັ່ງຂື້ນຄັ້ງຕໍ່ໄປ</string>
+    <string name="local.state.tracking_stopped">ຢຸດໃນການຕິດຕາມ; ຈົດຈໍາ ທີ່ຈະເປີດໃຊ້ງານໃໝ່</string>
+</resources>
