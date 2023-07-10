@@ -76,7 +76,10 @@
         "transition-notify": "ແຈ້ງການປ່ຽນແປງ",
         "button-accept": "ຂ້ອຍຍອມຮັບ",
         "view-qrc": "OPcode ຂອງຂ້ອຍ",
-        "app-version": "ແອັບ-ຍີ່ຫໍ້"
+        "app-version": "ແອັບ-ຍີ່ຫໍ້",
+        "reminders-time-of-day": "ເວລາຂອງມື້ສໍາລັບການແຈ້ງເຕືອນ ({{time}})",
+        "upcoming-notifications": "ການແຈ້ງເຕືອນທີ່ຈະມາເຖິງ",
+        "dummy-notification" : "ການແຈ້ງເຕືອນ Dummy ໃນ 5 ວິນາທີ"
     },
     "general-settings": {
         "choose-date": "ເລືອກວັນທີເພື່ອດາວໂຫຼດຂໍ້ມູນ",
