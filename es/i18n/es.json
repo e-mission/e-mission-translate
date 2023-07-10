@@ -192,6 +192,10 @@
         "select-replaced-mode-scroll": "Reemplaza a (👇 para más)",
         "select-purpose-scroll": "Propósito (👇 para más)",
         "list-pick-a-date": "Elija una fecha",
+        "today": "Hoy",
+        "no-more-travel": "No más viajes para mostrar",
+        "show-more-travel": "Mostrar más viajes",
+        "show-older-travel": "Mostrar viajes anteriores",
         "no-trips-today": "No hay viajes registrados en este día"
     },
 
