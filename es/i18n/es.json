@@ -256,9 +256,12 @@
         "calibrate": "Calibrar",
         "no-summary-data": "Sin datos de resumen",
         "mean-speed": "Mi Velocidad media",
-        "equals-cookies": "Igual a {cookies, plural, =0{al menos 0 galletas de chocolate} one {al menos 1 galleta de chocolate} other {al menos # galletas de chocolate}}",
-        "equals-icecream": "Igual a {icecream, plural, =0{al menos 0 medias tazas de helado} one {al menos 1 media taza de helado} other {al menos # medias tazas de helado}}",
-        "equals-bananas": "Igual a {bananas, plural, =0{al menos 0 plátanos} one {al menos 1 plátano} other {al menos # plátanos}}"
+        "equals-cookies_one": "Igual a al menos {{count}} galleta de chocolate",
+        "equals-cookies_other": "Igual a al menos {{count}} galletas de chocolate",
+        "equals-icecream_one": "Igual a al menos {{count}} media taza de helado",
+        "equals-icecream_other": "Igual a al menos {{count}} media tazas de helado",
+        "equals-bananas_one": "Igual a al menos {{count}}  plátano",
+        "equals-bananas_other": "Igual a al menos {{count}} plátanos"
     },
 
     "main-diary" : "Diario",
