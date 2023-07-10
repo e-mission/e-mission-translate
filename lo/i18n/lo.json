@@ -437,5 +437,21 @@
         "dont-force-kill": "ບໍ່ຢ່າບັງຄັບ-ປິດ-ແອັບພລິເຄຊັນ",
         "background-restrictions": "On Samsung and Huwaei phones, make sure that background restrictions are turned off",
         "close": "ປິດ"
-    }
+    },
+    "react-native-paper-dates": {
+        "save": "ບັນທຶກ",
+         "selectSingle": "ເລືອກວັນທີ",
+         "selectMultiple": "ເລືອກວັນທີ",
+         "selectRange": "ເລືອກໄລຍະເວລາ",
+         "notAccordingToDateFormat": "(inputFormat) => ຮູບແບບວັນທີຈະຕ້ອງເປັນ ${inputFormat}",
+         "mustBeHigherThan": "(date) => ຈະຕ້ອງຕໍ່ມາ ${date}",
+         "mustBeLowerThan": "(date) => ຕ້ອງກ່ອນໜ້ານັ້ນ ${date}",
+         "mustBeBetween": "(startDate, endDate) => ຕ້ອງຢູ່ລະຫວ່າງ ${startDate} - ${endDate}",
+         "dateIsDisabled": "ມື້ແມ່ນບໍ່ອະນຸຍາດໃຫ້",
+         "previous": "ທີ່ຜ່ານມາ",
+         "next": "ຕໍ່ໄປ",
+         "typeInDate": "ພິມວັນທີ",
+         "pickDateFromCalendar": "ເລືອກວັນທີຈາກປະຕິທິນ",
+         "close": "ປິດ"
+     } 
 }
