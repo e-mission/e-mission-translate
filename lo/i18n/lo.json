@@ -240,9 +240,12 @@
         "calibrate": "ປັບ",
         "no-summary-data": "ບໍ່ມີຂໍ້ມູນສະຫຼຸບ",
         "mean-speed": "ຄວາມໄວສະເລ່ຍຂອງຂ້ອຍ",
-        "equals-cookies": "ເທົ່າກັບ {cookies, plural, =0{ຢ່າງໜ້ອຍ 0 ຄຸກກີຊັອກໂກແລັດຊິບທີ່ເຮັດເອງໄດ້} ອັນໜຶ່ງ {ຢ່າງໜ້ອຍ 1 ຄຸກກີຊິບຊັອກໂກແລັດທີ່ເຮັດເອງ} ອື່ນໆ {ຢ່າງໜ້ອຍ # ຄຸກກີຊັອກໂກແລັດຊິບທີ່ເຮັດເອງໄດ້}}",
-        "equals-icecream": "ເທົ່າກັບ {icecream, plural, =0{ຢ່າງໜ້ອຍ 0 half cups vanilla ice cream} one {ຢ່າງໜ້ອຍ 1 half cups vanilla ice cream} other {ຢ່າງຫນ້ອຍ # half cups vanilla ice cream}}",
-        "equals-bananas": "ເທົ່າກັບ{ກ້ວຍ, ພະຫັດ, =0{ຢ່າງໜ້ອຍ 0 ກ້ວຍ} ໜຶ່ງອັນ {ຢ່າງໜ້ອຍ 1 ກ້ວຍ} ອື່ນໆ {ຢ່າງໜ້ອຍ # ກ້ວຍ}}"
+        "equals-cookies_one": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}} ຄຸກກີຊັອກໂກແລັດຊິບທີ່ເຮັດເອງໄດ້",
+        "equals-cookies_other": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}} ຄຸກກີຊັອກໂກແລັດຊິບທີ່ເຮັດເອງໄດ້",
+        "equals-icecream_one": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}} ສີຄີມ vanilla ເຄິ່ງຈອກ",
+        "equals-icecream_other": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}} ສີຄີມ vanilla ເຄິ່ງຈອກ",
+        "equals-bananas_one": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}}  ກ້ວຍ",
+        "equals-bananas_other": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}} ກ້ວຍ"
     },
     "main-diary" : "ໄດອາຣີ",
     "main-inf-scroll": {
