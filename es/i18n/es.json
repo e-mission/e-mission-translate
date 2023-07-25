@@ -196,6 +196,8 @@
         "no-more-travel": "No más viajes para mostrar",
         "show-more-travel": "Mostrar más viajes",
         "show-older-travel": "Mostrar viajes anteriores",
+        "no-travel": "No viajes para mostrar",
+        "no-travel-hint": "Para ver más, cambia los filtros de arriba o registra algunos viajes!",
         "no-trips-today": "No hay viajes registrados en este día"
     },
 
