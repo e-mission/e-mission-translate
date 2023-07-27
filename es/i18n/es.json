@@ -348,6 +348,8 @@
 
     "intro": {
         "appstatus": {
+            "fix": "arreglar",
+            "refresh": "Actualizar",
             "overall-description": "Esta app funciona en segundo plano para crear automáticamente un diario de viaje para usted. ¡Asegúrese de que todas las configuraciones a continuación sean verdes para que la app pueda funcionar correctamente! ",
             "overall-loc-name": "Ubicación",
             "overall-loc-description": "Usamos el permiso de ubicación en segundo plano 'siempre' para rastrear su ubicación en segundo plano, incluso cuando no está interactuando con la app. La lectura de ubicaciones en segundo plano elimina la necesidad de iniciar y detener viajes, lo que hace que la app sea más fácil de usar y evita que se agote la batería y olvide detener el viaje.",
@@ -423,6 +425,7 @@
         "samsung": "Desactivar el 'Modo de ahorro de energía medio'"
     },
     "consent":{
+        "permissions" : "Permisos",
         "button-accept": "Acepto",
         "button-decline": "Rechazo"
     },
@@ -479,7 +482,8 @@
         "all-green-status": "Asegúrese de que todas las comprobaciones de estado estén en verde.",
         "dont-force-kill": "No fuerces el cierre de la aplicación",
         "background-restrictions": "En los teléfonos Samsung y Huawei, asegúrese de que las restricciones de fondo estén desactivadas",
-        "close": "Cerrado"
+        "close": "Cerrado",
+        "tips-title": "Consejo(s) para un correcto funcionamiento"
     },
     "config": {
         "unable-read-saved-config": "No se puede leer la configuración guardada",
