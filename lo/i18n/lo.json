@@ -459,6 +459,16 @@
         "close": "ປິດ",
         "tips-title": "ຄໍາແນະນໍາສໍາລັບການປະຕິບັດງານທີ່ຖືກຕ້ອງ"
     },
+    "config": {
+        "unable-read-saved-config": "ບໍ່ສາມາດອ່ານການຕັ້ງຄ່າທີ່ບັນທຶກໄວ້ໄດ້",
+        "unable-to-store-config": "ບໍ່ສາມາດຈັດເກັບ config ທີ່ downladed ໄດ້",
+        "not-enough-parts-old-style": "OPcode {{token}} ບໍ່ມີຢ່າງໜ້ອຍສອງຕົວອັກສອນ '_'",
+        "no-nrelop-start": "OPcode {{token}} ບໍ່ໄດ້ເລີ່ມຕົ້ນດ້ວຍ 'nrelop'",
+        "not-enough-parts": "OPcode {{token}} ບໍ່ມີຢ່າງໜ້ອຍສາມຕົວອັກສອນ '_'",
+        "invalid-subgroup": "OPcode ບໍ່ຖືກຕ້ອງ {{token}}, ກຸ່ມຍ່ອຍ {{subgroup}} ບໍ່ພົບໃນລາຍຊື່ {{config_subgroups}}",
+        "unable-download-config": "ບໍ່ສາມາດດາວໂຫລດການຕັ້ງຄ່າການສຶກສາໄດ້",
+        "invalid-opcode-format": "ຮູບແບບ OPcode ບໍ່ຖືກຕ້ອງ"
+    },
     "react-native-paper-dates": {
         "save": "ບັນທຶກ",
          "selectSingle": "ເລືອກວັນທີ",
