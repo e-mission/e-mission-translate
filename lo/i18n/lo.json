@@ -3,8 +3,8 @@
     "map-refresh": "ໂຫຼດຫນ້າຈໍຄືນ",
     "map-fixmap": "ແກ້ໄຂແຜນທີ່",
     "pull-to-refresh": "ດຶງເພື່ອໂຫລດຫນ້າຈໍຄືນ",
-    "Weekdays-all": "ເລືອກທັງຫມົດ",
-    "Weekdays-select": "ເລືອກມື້ຂອງອາທິດ",
+    "weekdays-all": "ເລືອກທັງຫມົດ",
+    "weekdays-select": "ເລືອກມື້ຂອງອາທິດ",
     "post-trip-prompt": {
         "notification-option-mute": "ປິດສຽງ",
         "notification-option-snooze": "ເລື່ອນອອກໄປ",
@@ -89,7 +89,10 @@
         "nuke-native-cache-only": "ຖານຄວາມຈຳເດີມເທົ່ານັ້ນ",
         "nuke-everything": "ທຸກຢ່າງ",
         "clear-data": "ລຶບຂໍ້ມູນ",
+        "are-you-sure": "ເຈົ້າ​ແນ່​ໃຈ​ບໍ່?",
+        "log-out-warning": "ເຈົ້າຈະຖືກອອກຈາກລະບົບ ແລະຂໍ້ມູນປະຈຳຕົວຂອງເຈົ້າຈະບໍ່ຖືກບັນທຶກໄວ້. ຂໍ້ມູນທີ່ບໍ່ໄດ້ຊິ້ງອາດຈະສູນເສຍໄປ.",
         "cancel": "ຍົກເລີກ",
+        "confirm": "ພິສູດເຫັນຈິງ",
         "user-data-erased": "ຂໍ້ມູນຜູ້ໃຊ້ຖືກລຶບ.",
         "consent-not-found": "ການຍິນຍອມສຳລັບການເກັບກຳຂໍ້ມູນບໍ່ພົບ, ຍິນຍອມດຽວນີ້ບໍ?",
         "no-consent-message": "ຕົກລົງ! ທ່ານຈະບໍ່ໄດ້ຮັບສະຖິຕິຂໍ້ມູນ ສ່ວນບຸກຄົນຈົນກວ່າທ່ານເຫັນດີຈະເປີດເຜີຍດວ້ຍຕົວທ່ານເອງ!",
@@ -146,18 +149,19 @@
         "current-trip": "ການເດີນທາງປະຈຸບັນ",
         "current-yesterday": "ມື້ວານນີ້",
         "current-weekago": "ອາທິດກ່ອນ",
-        "History": "ປະຫວັດສາດ",
+        "history": "ປະຫວັດສາດ",
         "began": "ເລີ່ມຕົ້ນ {{startTime}}",
         "report-incident": "ລາຍງານເຫດການ",
-        "Drart": "ຮ່າງ",
+        "draft": "ຮ່າງ",
         "distance-in-time": "{{distance}} {{distsuffix}} ໃນ {{time}}",
         "date-distance-in-time": "{{date}}: {{distance}} {{distsuffix}} ໃນ {{time}}",
-        "Distance": "ໄລຍະທາງ",
+        "distance": "ໄລຍະທາງ",
         "time": "ເວລາ",
         "mode": "ໂໝດ",
         "replaces": "ແທນທີ່",
-        "Purpose": "ຈຸດປະສົງ",
+        "purpose": "ຈຸດປະສົງ",
         "survey": "ການສໍາຫຼວດ",
+        "untracked-time-range": "ບໍ່ໄດ້ຕິດຕາມ: {{start}} - {{end}}",
         "unlabeled": "ບໍ່ມີປ້າຍກຳກັບທັງໝົດ",
         "invalid-ebike": "ບໍ່ຖືກຕ້ອງ",
         "to-label": "ຕິດປ້າຍກຳກັບ",
@@ -205,10 +209,10 @@
     "user-age": "ອາຍຸ",
     "main-metrics": {
         "dashboard": "ແຜງໜ້າປັດ",
-        "ສະຫຼຸບ": "ບົດສະຫຼຸບຂອງຂ້ອຍ",
+        "summary": "ບົດສະຫຼຸບຂອງຂ້ອຍ",
         "chart": "ຕາຕະລາງ",
         "mybear": "ໝີຂອງຂ້ອຍ",
-        "Leaderboard": "ກະດານຜູ້ນໍາ",
+        "leaderboard": "ກະດານຜູ້ນໍາ",
         "carbon-usage": "ການໃຊ້ຄາບອນໃນ 7 ມື້ທີ່ຜ່ານມາ",
         "trip-labelling-stats": "ສະຖິຕິການປ້າຍກຳກັບການເດີນທາງ",
         "gold-tier": "ຊັ້ນທອງ",
@@ -317,6 +321,8 @@
     },
     "intro": {
         "appstatus": {
+            "fix": "ແກ້ໄຂ",
+            "refresh": "ໂຫຼດຫນ້າຈໍຄືນ",
             "overall-description": "ແອັບນີ້ເຮັດວຽກໃນພື້ນຫຼັງເພື່ອສ້າງບັນທຶກການເດີນທາງໃຫ້ທ່ານໂດຍອັດຕະໂນມັດ. ໃຫ້ແນ່ໃຈວ່າການຕັ້ງຄ່າທັງໝົດຂ້າງລຸ່ມນີ້ແມ່ນສີຂຽວເພື່ອໃຫ້ແອັບສາມາດເຮັດວຽກໄດ້ຢ່າງຖືກຕ້ອງ!",
             "overall-loc-name": "ສະຖານທີ່",
             "overall-loc-description": "ພວກ​ເຮົາ​ນໍາ​ໃຊ້​ການ​ອະ​ນຸ​ຍາດ​ສະ​ຖານ​ທີ່​ພື້ນ​ຖານ​ເພື່ອ​ຕິດ​ຕາມ​ສະ​ຖານ​ທີ່​ຂອງ​ທ່ານ​ໃນ​ພື້ນ​ຖານ​, ເຖິງ​ແມ່ນ​ວ່າ​ໃນ​ເວ​ລາ​ທີ່ app ໄດ້​ຖືກ​ປິດ. ປ້ອງ​ກັນ​ບໍ່​ໃຫ້​ເກີດ​ຫມໍ້​ໄຟ​",
@@ -393,6 +399,7 @@
         "samsung": "ປິດການໃຊ້ງານ 'ໂໝດປະຢັດພະລັງງານປານກາງ"
     },
     "consent": {
+        "permissions" : "ການອະນຸຍາດ",
         "button-accept": "ຂ້ອຍຍອມຮັບ",
         "button-decline": "ຂ້ອຍປະຕິເສດ"
     },
@@ -405,7 +412,9 @@
         "download-apply": "ສະຫມັກ"
     },
     "login": {
-        "save-your-opcode": "ບັນທຶກລະຫັດລັບຂອງເຈົ້າ",
+        "make-sure-save-your-opcode": "ບັນທຶກລະຫັດລັບຂອງເຈົ້າ",
+        "cannot-retrieve":"NREL ບໍ່ສາມາດເອົາມັນມາໃຫ້ທ່ານໃນພາຍຫຼັງໄດ້!",
+        "save":"ບັນທຶກ",
         "continue": "ດຳເນີນການຕໍ່",
         "enter-existing-token": "ປ້ອນຂໍ້ມູນ-ອອກຈາກລະບົບ-ສະເພາະ",
         "button-accept": "ປຸ່ມ-ຍອມຮັບ",
@@ -416,10 +425,11 @@
         "button-decline": "ຢຸດ"
     },
     "survey": {
+        "loading-prior-survey": "ກຳລັງໂຫຼດຄຳຕອບແບບສຳຫຼວດກ່ອນໜ້າ...",
         "prev-survey-found": "ພົບການຕອບແບບສຳຫຼວດກ່ອນໜ້າ",
         "use-prior-response": "ໃຊ້ການຕອບໂຕ້ກ່ອນ",
         "edit-response": "ແກ້ໄຂຄໍາຕອບ",
-        " move-on": "ກ້າວຕໍ່ໄປ",
+        "move-on": "ກ້າວຕໍ່ໄປ",
         "survey": "ສໍາຫຼວດ",
         "save": "ບັນທຶກ",
         "back": "ກັບ",
@@ -427,13 +437,15 @@
         "powered-by": "ຂັບເຄື່ອນໂດຍ",
         "dismiss": "ອອກ",
         "return-to-beginning": "ກັບຄືນສູ່ຈຸດເລີ່ມຕົ້ນ",
-        "go-to-end": "ໄປຈົນຈົບ"
+        "go-to-end": "ໄປຈົນຈົບ",
+        "enketo-form-errors": "ແບບຟອມມີຂໍ້ຜິດພາດ. ກະລຸນາເບິ່ງຊ່ອງຂໍ້ມູນທີ່ຖືກໝາຍເປັນສີແດງ.",
+        "enketo-timestamps-invalid": "ເວລາທີ່ທ່ານລະບຸນັ້ນບໍ່ຖືກຕ້ອງ. ກະລຸນາກວດສອບວ່າເວລາເລີ່ມຕົ້ນແມ່ນກ່ອນເວລາສິ້ນສຸດ."
     },
     "join": {
         "welcome-to-nrel-openpath": "ຍິນດີຕ້ອນຮັບ-ສູ່-nrel-ເປີດເສັ້ນທາງ",
         "proceed-further": "ເຂົ້າສູ່ລະບົບ ທີ່ບໍ່ເປີດເຜີຍຊື່ (ລະຫັດ OP)",
         "what-is-opcode": "ໂທເກນທີ່ສ້າງຂຶ້ນແບບສຸ່ມເປັນເອກະລັກ (ລະຫັດ OP) ນີ້ແມ່ນຕົວລະບຸຂອງທ່ານໃນລະບົບ.",
-        "or": "or",
+        "or": "ຫຼື",
         "scan-button": "ສະແກນ (ລະຫັດ OP) ທີ່ມີຢູ່ແລ້ວ",
         "scan-details": "ໂທເກນທີ່ສ້າງຂຶ້ນແບບສຸ່ມເປັນເອກະລັກ (ລະຫັດ OP) ນີ້ແມ່ນຕົວລະບຸຂອງທ່ານໃນລະບົບ.",
         "paste-button": "ພິມ (ລະຫັດ OP) ທີ່ມີຢູ່ແລ້ວ",
@@ -444,7 +456,18 @@
         "all-green-status": "ສະຖານະ-ສີຂຽວ-ທັງໝົດ",
         "dont-force-kill": "ບໍ່ຢ່າບັງຄັບ-ປິດ-ແອັບພລິເຄຊັນ",
         "background-restrictions": "ໃນໂທລະສັບ Samsung ແລະ Huwaei, ໃຫ້ແນ່ໃຈວ່າການຈໍາກັດພື້ນຫລັງຖືກປິດໄວ້",
-        "close": "ປິດ"
+        "close": "ປິດ",
+        "tips-title": "ຄໍາແນະນໍາສໍາລັບການປະຕິບັດງານທີ່ຖືກຕ້ອງ"
+    },
+    "config": {
+        "unable-read-saved-config": "ບໍ່ສາມາດອ່ານການຕັ້ງຄ່າທີ່ບັນທຶກໄວ້ໄດ້",
+        "unable-to-store-config": "ບໍ່ສາມາດຈັດເກັບ config ທີ່ downladed ໄດ້",
+        "not-enough-parts-old-style": "OPcode {{token}} ບໍ່ມີຢ່າງໜ້ອຍສອງຕົວອັກສອນ '_'",
+        "no-nrelop-start": "OPcode {{token}} ບໍ່ໄດ້ເລີ່ມຕົ້ນດ້ວຍ 'nrelop'",
+        "not-enough-parts": "OPcode {{token}} ບໍ່ມີຢ່າງໜ້ອຍສາມຕົວອັກສອນ '_'",
+        "invalid-subgroup": "OPcode ບໍ່ຖືກຕ້ອງ {{token}}, ກຸ່ມຍ່ອຍ {{subgroup}} ບໍ່ພົບໃນລາຍຊື່ {{config_subgroups}}",
+        "unable-download-config": "ບໍ່ສາມາດດາວໂຫລດການຕັ້ງຄ່າການສຶກສາໄດ້",
+        "invalid-opcode-format": "ຮູບແບບ OPcode ບໍ່ຖືກຕ້ອງ"
     },
     "react-native-paper-dates": {
         "save": "ບັນທຶກ",
