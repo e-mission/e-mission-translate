@@ -71,6 +71,7 @@
         "qrcode": "OPcode ຂອງຂ້ອຍ",
         "qrcode-share-title": "ທ່ານສາມາດບັນທຶກ OPcode ຂອງທ່ານເພື່ອເຂົ້າສູ່ລະບົບໄດ້ງ່າຍໃນອະນາຄົດ!"
     },
+
     "metrics": {
         "cancel": "ຍົກເລີກ",
         "confirm": "ຢືນຢັນ",
@@ -107,6 +108,7 @@
         "hours": "ຊົ່ວ​ໂມງ",
         "custom": "ກຳນົດເອງ"
     },
+
     "diary": {
         "distance-in-time": "{{distance}} {{distsuffix}} ໃນ {{time}}",
         "distance": "ໄລຍະທາງ",
@@ -147,21 +149,6 @@
         "dashboard": "ແຜງໜ້າປັດ",
         "summary": "ບົດສະຫຼຸບຂອງຂ້ອຍ",
         "chart": "ຕາຕະລາງ",
-        "mybear": "ໝີຂອງຂ້ອຍ",
-        "leaderboard": "ກະດານຜູ້ນໍາ",
-        "carbon-usage": "ການໃຊ້ຄາບອນໃນ 7 ມື້ທີ່ຜ່ານມາ",
-        "trip-labelling-stats": "ສະຖິຕິການປ້າຍກຳກັບການເດີນທາງ",
-        "gold-tier": "ຊັ້ນທອງ",
-        "silver-tier": "ຊັ້ນເງິນ",
-        "bronze-tier": "ຊັ້ນທອງແດງ",
-        "overallScoreMsg": "ຄະແນນລວມ: {{overallScore | number }}",
-        "confirmationMsg": "{{confirmedPct | number }}% labeled",
-        "validLabelsMsg": "{{validReplacePct | number }}% eBike 'replaced mode' labels valid",
-        "suggestion": "ຄຳແນະນຳ",
-        "suggestion-savings": "ທ່ານສາມາດບັນທຶກ {{suggestionData.savings}} ໃນເດືອນ",
-        "recent-trips": "ການເດີນທາງທີ່ຜ່ານມາ",
-        "no-available-recent-trips": "ບໍ່ມີການເດີນທາງທີ່ຜ່ານມາ",
-        "weekly-stats": "ສະຖິຕິປະຈຳອາທິດ",
         "change-data": "ປ່ຽນວັນທີ:",
         "distance": "ໄລຍະທາງຂອງຂ້ອຍ",
         "trips": "ການເດີນທາງ",
