@@ -343,6 +343,7 @@
         "no-nrelop-start": "OPລະຫັດ {{token}} ບໍ່ສາມາດຂື້ນຕົ້ນດ້ວຍ 'nrelop'",
         "not-enough-parts": "OPລະຫັດ {{token}} ບໍ່ມີອັກສອນ '_' ຢ່າງໜ້ອຍສາມຕົວ",
         "invalid-subgroup": "OPລະຫັດ {{token}}, ກຸ່ມຍ່ອຍ {{subgroup}} ບໍ່ພົບໃນບັນຊີລາຍຊື່ {{config_subgroups}}",
+        "invalid-subgroup-no-default": "OPລະຫັດ ບໍ່ຖືກຕ້ອງ, ບໍ່ມີກຸ່ມຍ່ອຍ, ຄາດວ່າ 'ກຸ່ມຍ່ອຍ' ເລີ່ມຕົ້ນ",
         "unable-download-config": "ບໍ່ສາມາດດາວໂຫຼດສຶກສາການຕັ້ງຄ່າ",
         "invalid-opcode-format": "ຮູບແບບ OPລະຫັດ ບໍ່ຖືກຕ້ອງ",
         "error-loading-config-app-start": "ເກີດຂໍ້ຜິດພາດໃນການໂຫລດການກຳນົດຄ່າເມື່ອແອບເລີ່ມການປະຕິບັດງານ"
