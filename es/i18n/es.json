@@ -44,7 +44,8 @@
         "app-version": "Version de Aplicacion",
         "reminders-time-of-day": "Hora del día de los recordatorios ({{time}})",
         "upcoming-notifications": "Recordatorios Próximos",
-        "dummy-notification" : "Recordatorio Simulado en 5 Segundos"
+        "dummy-notification" : "Recordatorio Simulado en 5 Segundos",
+        "log-out": "Cerrar Sesión"
     },
 
     "general-settings":{
@@ -65,9 +66,6 @@
         "consent-found": "¡Se encontró el consentimiento!",
         "consented-to": "Se aceptó el protocolo {{protocol_id}}, {{approval_date}}",
         "consented-ok": "OK",
-        "share-message": "Ayúdame a hacer que el transporte sea más ecológico y saludable \nDescargar la aplicación de emisiones:",
-        "share-subject": "Emission - Proyecto de investigación de la UC Berkeley",
-        "share-url": "https://bic2cal.eecs.berkeley.edu/#download",
         "qrcode": "Mi OPcode",
         "qrcode-share-title": "¡Puede guardar su OPcode para iniciar sesión fácilmente en el futuro!"
     },
@@ -224,6 +222,7 @@
             "fix": "arreglar",
             "refresh": "Actualizar",
             "overall-description": "Esta app funciona en segundo plano para crear automáticamente un diario de viaje para usted. ¡Asegúrese de que todas las configuraciones a continuación sean verdes para que la app pueda funcionar correctamente! ",
+            "explanation-title": "¿Para qué se utilizan?",
             "overall-loc-name": "Ubicación",
             "overall-loc-description": "Usamos el permiso de ubicación en segundo plano 'siempre' para rastrear su ubicación en segundo plano, incluso cuando no está interactuando con la app. La lectura de ubicaciones en segundo plano elimina la necesidad de iniciar y detener viajes, lo que hace que la app sea más fácil de usar y evita que se agote la batería y olvide detener el viaje.",
             "locsettings": {
