@@ -128,6 +128,10 @@
         "select-mode-scroll": "Modo (👇 para más)",
         "select-replaced-mode-scroll": "Reemplaza a (👇 para más)",
         "select-purpose-scroll": "Propósito (👇 para más)",
+        "delete-entry-confirm": "¿Está seguro de que desea eliminar esta entrada?",
+        "detected": "Detectado:",
+        "labeled-mode": "Modo etiquetado",
+        "detected-modes": "Modos detectados",
         "today": "Hoy",
         "no-more-travel": "No más viajes para mostrar",
         "show-more-travel": "Mostrar más viajes",
@@ -371,7 +375,8 @@
             "open-source-data":"Para la mayor transparencia, la aplicación se basa en una plataforma de código abierto, OpenPATH de NREL. puede inspeccionar los datos que recopila OpenPATH en segundo plano en",
             "open-source-analysis":"la canalización de análisis en",
             "open-source-dashboard":"y las métricas del tablero en",
-            "on-nrel-site": "Para la mayor transparencia, la aplicación se basa en una plataforma de código abierto, OpenPATH de NREL. puede inspeccionar los datos que recopila OpenPATH en segundo plano, la canalización de análisis, y las métricas del tablero a través de enlaces en el sitio web de NREL OpenPATH."
+            "on-nrel-site": "Para la mayor transparencia, la aplicación se basa en una plataforma de código abierto, OpenPATH de NREL. puede inspeccionar los datos que recopila OpenPATH en segundo plano, la canalización de análisis, y las métricas del tablero a través de enlaces en el sitio web de NREL OpenPATH.",
+            "survey-missing-formpath": "Error al obtener recursos en la configuración: Survey_info.surveys tiene una encuesta sin formPath"
         },
         "opcode":{
             "header":"Cómo asociamos la información contigo",
