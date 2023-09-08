@@ -370,7 +370,8 @@
             "demographics":"También te solicitará información sociodemográfica como tu edad aproximada, género, y tipo de hogar. Los factores sociodemográficos se pueden utilizar para comprender la influencia del estilo de vida en el comportamiento de viaje, así como generalizar los resultados a una población más amplia.",
             "open-source-data":"Para la mayor transparencia, la aplicación se basa en una plataforma de código abierto, OpenPATH de NREL. puede inspeccionar los datos que recopila OpenPATH en segundo plano en",
             "open-source-analysis":"la canalización de análisis en",
-            "open-source-dashboard":"y las métricas del tablero en"
+            "open-source-dashboard":"y las métricas del tablero en",
+            "on-nrel-site": "Para la mayor transparencia, la aplicación se basa en una plataforma de código abierto, OpenPATH de NREL. puede inspeccionar los datos que recopila OpenPATH en segundo plano, la canalización de análisis, y las métricas del tablero a través de enlaces en el sitio web de NREL OpenPATH."
         },
         "opcode":{
             "header":"Cómo asociamos la información contigo",
@@ -388,7 +389,8 @@
             "and-in":" y en ",
             "this-pub":"esta publicación",
             "and":" y ",
-            "fact-sheet":"hoja informativa"
+            "fact-sheet":"hoja informativa",
+            "on-nrel-site": " a través de enlaces en el sitio web de NREL OpenPATH."
         },
         "rights":{
             "header":"Tus derechos",
