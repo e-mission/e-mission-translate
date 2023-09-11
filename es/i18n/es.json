@@ -356,6 +356,11 @@
         "invalid-opcode-format": "Formato de código OP no válido",
         "error-loading-config-app-start": "Error al cargar la configuración al iniciar la aplicación"
     },
+    "errors": {
+        "while-populating-composite": "Error al completar viajes compuestos",
+        "while-loading-another-week": "Error al cargar viajes de {{when}} semana",
+        "while-loading-specific-week": "Error al cargar viajes para la semana de {{day}}"
+      },
     "consent-text": {
         "title":"POLÍTICA DE PRIVACIDAD/TÉRMINOS DE USO DE NREL OPENPATH",
         "introduction":{

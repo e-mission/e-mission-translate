@@ -357,6 +357,11 @@
         "error-loading-config-app-start": "ເກີດຂໍ້ຜິດພາດໃນການໂຫລດການກຳນົດຄ່າເມື່ອແອບເລີ່ມການປະຕິບັດງານ",
         "survey-missing-formpath": "ຜິດພາດໃນຂະນະທີ່ດຶງຂໍ້ມູນໃນ config: survey_info.surveys ມີແບບສຳຫຼວດທີ່ບໍ່ມີ formPath"
     },
+    "errors": {
+        "while-populating-composite": "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການເພີ່ມຂໍ້ມູນການເດີນທາງແບບປະສົມ",
+        "while-loading-another-week": "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການໂຫຼດການເດີນທາງຂອງ {{when}} ອາທິດ",
+        "while-loading-specific-week": "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການໂຫຼດການເດີນທາງໃນອາທິດຂອງ {{day}}"
+      },
     "consent-text": {
         "title":"ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ/ເງື່ອນໄຂການໃຊ້ງານ NREL OPENPATH",
         "introduction":{
