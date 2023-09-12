@@ -274,7 +274,8 @@
                 "name": "Aplicaciones no utilizadas deshabilitadas",
                 "description": {
                     "android-disable-lt-12": "En la página de configuración de la app, vaya a 'Permisos' y asegúrese de que los permisos de la app no se restablezcan automáticamente.",
-                    "android-disable-gte-12": "En la página de configuración de la app, apagar 'Quitar permisos y liberar espacio'",
+                    "android-disable-12": "En la página de configuración de la app, apagar 'Quitar permisos y liberar espacio'",
+                    "android-disable-gte-13": "En la página de configuración de la app, apagar 'Pausa la actividad de la aplicación si no utilizada.'",
                     "ios": "Por favor permite."
                 }
             },
@@ -355,6 +356,11 @@
         "invalid-opcode-format": "Formato de código OP no válido",
         "error-loading-config-app-start": "Error al cargar la configuración al iniciar la aplicación"
     },
+    "errors": {
+        "while-populating-composite": "Error al completar viajes compuestos",
+        "while-loading-another-week": "Error al cargar viajes de {{when}} semana",
+        "while-loading-specific-week": "Error al cargar viajes para la semana de {{day}}"
+      },
     "consent-text": {
         "title":"POLÍTICA DE PRIVACIDAD/TÉRMINOS DE USO DE NREL OPENPATH",
         "introduction":{
