@@ -144,13 +144,6 @@
         "no-travel-hint": "ເພື່ອເບິ່ງເພີ່ມເຕີມ, ປ່ຽນຕົວກອງຂ້າງເທິງ ຫຼືໄປບັນທຶກການເດີນທາງ!"
     },
 
-    "user-gender": "ເພດ",
-    "gender-male": "ເພດຊາຍ",
-    "gender-female": "ເພດຍິງ",
-    "user-height": "ຄວາມສູງ",
-    "user-weight": "ນ້ຳໜັກ",
-    "user-age": "ອາຍຸ",
-
     "main-metrics": {
         "dashboard": "ໜ້າຕາງສະແດງຜົນລວມ",
         "summary": "ສັງລວມ",
@@ -176,18 +169,10 @@
         "us-goals-footnote": "¹ຂໍ້ແນະນຳໂດຍອີງໃສ່ເປົ້າໝາຍການເສື່ອມທາດຄາບອນຂອງສະຫະລັດ, ປັບຂະໜາດເປັນການປ່ອຍອາຍພິດທີ່ກ່ຽວຂ້ອງກັບການເດີນທາງຕໍ່ຫົວຄົນ.",
         "past-week" : "ອາທິດທີ່ຜ່ານມາ",
         "prev-week" : "ອາທິດກ່ອນ",
-        "calories": "ແຄລໍຣີ່ຂອງຂ້ອຍ",
-        "calibrate": "ກວດວັດເບີ່ງ",
         "no-summary-data": "ບໍ່ມີຂໍ້ມູນສະຫຼຸບ",
         "mean-speed": "ຄວາມໄວສະເລ່ຍຂອງຂ້ອຍ",
         "user-totals": "ທັງໝົດຂອງຂ້ອຍ",
         "group-totals": "ລວມກຸ່ມ",
-        "equals-cookies_one": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}} ຄຸກກີຊັອກໂກແລັດຊິບທີ່ເຮັດເອງໄດ້",
-        "equals-cookies_other": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}} ຄຸກກີຊັອກໂກແລັດຊິບທີ່ເຮັດເອງໄດ້",
-        "equals-icecream_one": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}} ສີຄີມ vanilla ເຄິ່ງຈອກ",
-        "equals-icecream_other": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}} ສີຄີມ vanilla ເຄິ່ງຈອກ",
-        "equals-bananas_one": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}}  ກ້ວຍ",
-        "equals-bananas_other": "ເທົ່າກັບ ຢ່າງໜ້ອຍ {{count}} ກ້ວຍ",
         "active-minutes": "ນາທີເຄື່ອນໄຫວ",
         "weekly-active-minutes": "ນາທີປະຈໍາອາທິດຂອງການເດີນທາງຢ່າງຫ້າວຫັນ",
         "daily-active-minutes": "ນາທີປະຈໍາວັນຂອງການເດີນທາງຢ່າງຫ້າວຫັນ",

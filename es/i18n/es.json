@@ -144,13 +144,6 @@
         "no-travel-hint": "Para ver más, cambia los filtros de arriba o registra algunos viajes!"
     },
 
-    "user-gender": "Género",
-    "gender-male": "Masculino",
-    "gender-female": "Femenino",
-    "user-height": "Altura",
-    "user-weight": "Peso",
-    "user-age": "Edad",
-
     "main-metrics":{
         "dashboard": "Tablero",
         "summary": "Mi Resumen",
@@ -175,18 +168,10 @@
         "us-goals-footnote": "¹Directrices basadas en los objetivos de descarbonización de EE. UU., escaladas a las emisiones per cápita relacionadas con los viajes.",
         "past-week" : "Semana Pasada",
         "prev-week" : "Semana Prev.",
-        "calories": "Mi Calorías",
-        "calibrate": "Calibrar",
         "no-summary-data": "Sin datos de resumen",
         "mean-speed": "Mi Velocidad media",
         "user-totals": "Mis Totales",
         "group-totals": "Totales del grupo",
-        "equals-cookies_one": "Igual a al menos {{count}} galleta de chocolate",
-        "equals-cookies_other": "Igual a al menos {{count}} galletas de chocolate",
-        "equals-icecream_one": "Igual a al menos {{count}} media taza de helado",
-        "equals-icecream_other": "Igual a al menos {{count}} media tazas de helado",
-        "equals-bananas_one": "Igual a al menos {{count}}  plátano",
-        "equals-bananas_other": "Igual a al menos {{count}} plátanos",
         "active-minutes": "Active Minutes",
         "weekly-active-minutes": "Minutos semanales de viaje activo",
         "daily-active-minutes": "Minutos diarios de viaje activo",
