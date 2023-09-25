@@ -36,7 +36,9 @@
         "nuke-all": "Eliminar todos los búferes y caché",
         "test-notification": "Probar notificación local",
         "check-log": "Verificar registro",
+        "log-title": "registro",
         "check-sensed-data": "Verificar los datos detectados",
+        "sensed-title": "Datos Detectados: Transiciones",
         "collection": "Colección",
         "sync": "Sincronizar",
         "button-accept": "Accepto",
@@ -359,7 +361,9 @@
     "errors": {
         "while-populating-composite": "Error al completar viajes compuestos",
         "while-loading-another-week": "Error al cargar viajes de {{when}} semana",
-        "while-loading-specific-week": "Error al cargar viajes para la semana de {{day}}"
+        "while-loading-specific-week": "Error al cargar viajes para la semana de {{day}}",
+        "while-log-messages": "Mientras recibo mensajes del registro ",
+        "while-max-index" : "Mientras obtengo el índice máximo "
       },
     "consent-text": {
         "title":"POLÍTICA DE PRIVACIDAD/TÉRMINOS DE USO DE NREL OPENPATH",

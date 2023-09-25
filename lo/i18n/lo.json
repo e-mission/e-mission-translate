@@ -36,7 +36,9 @@
         "nuke-all": "Nuke all buffers ແລະ cache",
         "test-notification": "ທົດສອບການແຈ້ງເຕືອນທ້ອງຖິ່ນ",
         "check-log": "ກວດຄືນການບັນທຶກ",
+        "log-title": "ບັນທຶກ",
         "check-sensed-data": "ກວດຄືນຂໍ້ມູນ",
+        "sensed-title":"ຂໍ້ມູນຄວາມຮູ້ສຶກ: ການຫັນປ່ຽນ",
         "collection": "ການເກັບກໍາ",
         "sync": "Sync ການປະມວນຜົນຂໍ້ມູນໃນຕົວລະບົບ",
         "button-accept": "ຂ້ອຍຍອມຮັບ",
@@ -360,7 +362,9 @@
     "errors": {
         "while-populating-composite": "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການເພີ່ມຂໍ້ມູນການເດີນທາງແບບປະສົມ",
         "while-loading-another-week": "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການໂຫຼດການເດີນທາງຂອງ {{when}} ອາທິດ",
-        "while-loading-specific-week": "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການໂຫຼດການເດີນທາງໃນອາທິດຂອງ {{day}}"
+        "while-loading-specific-week": "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການໂຫຼດການເດີນທາງໃນອາທິດຂອງ {{day}}",
+        "while-log-messages": "ໃນຂະນະທີ່ໄດ້ຮັບຂໍ້ຄວາມຈາກບັນທຶກ ",
+        "while-max-index" : "ໃນຂະນະທີ່ໄດ້ຮັບດັດຊະນີສູງສຸດ "
       },
     "consent-text": {
         "title":"ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ/ເງື່ອນໄຂການໃຊ້ງານ NREL OPENPATH",
