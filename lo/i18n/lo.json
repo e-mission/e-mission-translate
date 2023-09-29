@@ -12,7 +12,7 @@
     },
     
     "control": {
-        "profile": "ໂປຣໄຟລ໌",
+        "profile-tab": "ໂປຣໄຟລ໌",
         "edit-demographics": "ແກ້ໄຂຂໍ້ມູນປະຊາກອນ",
         "tracking": "ການຕິດຕາມ",
         "app-status": "ການຕິດຕາມ",
@@ -73,6 +73,7 @@
     },
 
     "metrics": {
+        "dashboard-tab": "ໜ້າຕາງສະແດງຜົນລວມ",
         "cancel": "ຍົກເລີກ",
         "confirm": "ຢືນຢັນ",
         "get": "ຢືນຢັນ",
@@ -112,6 +113,7 @@
     },
 
     "diary": {
+        "label-tab": "ຈຸດບົງບອກ",
         "distance-in-time": "{{distance}} {{distsuffix}} ໃນ {{time}}, ໄລຍະທາງ ຕົງເວລາ",
         "distance": "ໄລຍະທາງ",
         "time": "ເວລາ",
@@ -145,7 +147,6 @@
     },
 
     "main-metrics": {
-        "dashboard": "ໜ້າຕາງສະແດງຜົນລວມ",
         "summary": "ສັງລວມ",
         "chart": "ຕາຕະລາງ",
         "change-data": "ປ່ຽນວັນທີ:",
@@ -182,10 +183,6 @@
         "labeled": "ຕິດສະຫຼາກ",
         "unlabeled": "ບໍ່ມີປ້າຍກຳກັບ²",
         "footprint-label": "ຮອຍຕີນ (ກິໂລ CO₂)"
-    },
-
-    "main-inf-scroll": {
-        "tab": "ຈຸດບົງບອກ"
     },
 
     "details": {
