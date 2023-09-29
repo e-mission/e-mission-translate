@@ -12,7 +12,7 @@
     },
 
     "control":{
-        "profile": "Perfil",
+        "profile-tab": "Perfil",
         "edit-demographics": "Editar datos demográficos",
         "tracking": "Rastreo",
         "app-status": "Estado de la app",
@@ -73,6 +73,7 @@
     },
 
     "metrics":{
+        "dashboard-tab": "Tablero",
         "cancel": "Cancelar",
         "confirm": "Confirmar",
         "get": "Obtener",
@@ -112,6 +113,7 @@
     },
 
     "diary": {
+        "label-tab" : "Etiqueta",
         "distance-in-time": "{{distance}} {{distsuffix}} en {{time}}",
         "distance": "Distancia",
         "time": "Hora",
@@ -145,7 +147,6 @@
     },
 
     "main-metrics":{
-        "dashboard": "Tablero",
         "summary": "Mi Resumen",
         "chart": "Gráfico",
         "change-data": "Cambiar datos:",
@@ -181,10 +182,6 @@
         "labeled": "Etiquetados",
         "unlabeled": "No Etiquetados",
         "footprint-label": "Huella (kg CO₂)"
-    },
-
-    "main-inf-scroll" : {
-        "tab": "Etiqueta"
     },
 
     "details":{
@@ -227,6 +224,7 @@
     },
 
     "intro": {
+        "proceed" : "Proceder",
         "appstatus": {
             "fix": "arreglar",
             "refresh": "Actualizar",
@@ -332,22 +330,23 @@
         "enketo-timestamps-invalid": "Los tiempos que ingresó no son válidos. Asegúrese de que la hora de inicio sea anterior a la hora de finalización."
     },
     "join": {
-        "welcome-to-nrel-openpath": "Bienvenido a NREL OpenPATH",
-        "proceed-further": "Para continuar, debe ingresar un código OP válido (token).",
-        "what-is-opcode": "El OPcode es una cadena larga que comienza con 'nrelop' que ha proporcionado el administrador de su programa a través de un sitio web, correo electrónico, texto o impresión.",
-        "or": "o",
-        "scan-button": "Escanea el código QR ",
-        "scan-details": "El OPcode se escribirá en la parte superior de la imagen.",
-        "paste-button": "Pegue el OPcode",
-        "paste-details": "Sugerimos copiar y pegar en lugar de escribir, ya que el OPcode es largo y confuso.",
+        "welcome-to-app": "Bienvenido a <b>{{appName}}!</b>",
+        "app-name": "NREL OpenPATH",
+        "to-proceed-further": "Para continuar, escanee o pegue un código de acceso que le haya proporcionado el administrador del programa a través de un sitio web, correo electrónico, mensaje de texto o copia impresa.",
+        "code-hint": "El código comienza con 'nrelop' y puede estar en formato de código de barras o de texto.",
+        "scan-code": "Escanea el código",
+        "scan-hint": "Escanea el código de barras con la cámara de tu teléfono.",
+        "paste-code": "Pegue el código",
+        "paste-hint": "O pegue el código como texto",
+        "about-app-title" : "Sobre {{appName}}",
         "about-app-para-1": "La Plataforma Abierta para la Heurística de Viaje Ágil (NREL OpenPATH) del Laboratorio Nacional de Energía Renovable permite a las personas rastrear sus modos de viaje (automóvil, autobús, bicicleta, caminar, etc.) y medir su uso de energía asociado y su huella de carbono.",
         "about-app-para-2": "La aplicación permite a las comunidades comprender sus opciones y patrones de modo de viaje, experimentar con opciones para hacerlos más sostenibles y evaluar los resultados. Dichos resultados pueden informar una política y planificación de transporte efectivas y usarse para construir ciudades más sostenibles y accesibles.",
         "about-app-para-3": "Lo hace mediante la creación de un diario automático de todos sus viajes, en todos los modos de transporte. Lee múltiples sensores, incluida la ubicación, en segundo plano, y activa y desactiva automáticamente el rastreo por GPS para un consumo mínimo de energía. La elección de la información del patrón de viaje y el estilo de visualización de la huella de carbono son específicos del estudio.",
+        "tips-title": "Consejo(s) para un correcto funcionamiento",
         "all-green-status": "Asegúrese de que todas las comprobaciones de estado estén en verde.",
         "dont-force-kill": "No fuerces el cierre de la aplicación",
         "background-restrictions": "En los teléfonos Samsung y Huawei, asegúrese de que las restricciones de fondo estén desactivadas",
-        "close": "Cerrado",
-        "tips-title": "Consejo(s) para un correcto funcionamiento"
+        "close": "Cerrar"
     },
     "config": {
         "unable-read-saved-config": "No se puede leer la configuración guardada",
