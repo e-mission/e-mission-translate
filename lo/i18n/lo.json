@@ -359,6 +359,8 @@
         "survey-missing-formpath": "ຜິດພາດໃນຂະນະທີ່ດຶງຂໍ້ມູນໃນ config: survey_info.surveys ມີແບບສຳຫຼວດທີ່ບໍ່ມີ formPath"
     },
     "errors": {
+        "registration-check-token": "ການລົງທະບຽນຜູ້ໃຊ້ຜິດພາດ. ກະລຸນາກວດເບິ່ງໂທເຄັນຂອງທ່ານແລະລອງໃໝ່ອີກ.",
+        "not-registered-cant-contact": "ຜູ້ໃຊ້ບໍ່ໄດ້ລົງທະບຽນ, ດັ່ງນັ້ນເຄື່ອງແມ່ຂ່າຍບໍ່ສາມາດຕິດຕໍ່ໄດ້.",
         "while-populating-composite": "ເກີດຂໍ້ຜິດພາດໃນລະຫວ່າງການເພີ່ມຂໍ້ມູນການເດີນທາງແບບປະສົມ",
         "while-loading-another-week": "ເກີດຂໍ້ຜິດພາດໃນລະຫວ່າງການໂຫຼດການເດີນທາງຂອງ {{when}} ອາທິດ",
         "while-loading-specific-week": "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການໂຫຼດການເດີນທາງໃນອາທິດຂອງ {{day}}",
