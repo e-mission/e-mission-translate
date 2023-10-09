@@ -284,10 +284,7 @@
             },
             "ignorebatteryopt": {
                 "name": "Ignorar optimización de batería",
-                "description": {
-                    "android-disable": "En la página de optimización, vaya a todas las apps, busque esta app y desactive las optimizacións.",
-                    "ios": "Please allow."
-                }
+                "description": "Please allow."
             }
         },
         "permissions": {
@@ -361,6 +358,8 @@
         "error-loading-config-app-start": "Error al cargar la configuración al iniciar la aplicación"
     },
     "errors": {
+        "registration-check-token": "Error de registro de usuario. Por favor verifique su token e inténtelo nuevamente.",
+        "not-registered-cant-contact": "El usuario no está registrado, por lo que no se puede contactar con el servidor.",
         "while-populating-composite": "Error al completar viajes compuestos",
         "while-loading-another-week": "Error al cargar viajes de {{when}} semana",
         "while-loading-specific-week": "Error al cargar viajes para la semana de {{day}}",
