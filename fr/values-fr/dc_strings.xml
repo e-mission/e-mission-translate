@@ -27,6 +27,14 @@
     <string name="location_permission_off_enable">Recueil de position désactivé, cliquez pour l\'autoriser</string>
     <string name="error_location_settings">Erreur %1$d dans les paramètres de tracking</string>
     <string name="unknown_error_location_settings">Erreur inconnue de lecture de position, vérifiez vos paramètres svp</string>
+    <string name="location_permission_intermediary_title">Autorisations nécessaires!</string>
+    <string name="location_permission_intermediary_message">Une autorisation de localisation supplémentaire est nécessaire. Pour utiliser cette application, vous devez cliquer sur \"Autoriser tout le temps\" sur la page suivante.</string>
+    <string name="location_feedback_both_off">Veuillez vous assurer que \"Autoriser tout le temps\" et \"Localisation précise\" sont activés dans les paramètres.</string>
+    <string name="location_feedback_fine_off">Veuillez vous assurer que \"Localisation précise\" est activé dans les paramètres.</string>
+    <string name="location_feedback_background_off">Veuillez vous assurer que \"Autoriser tout le temps\" est activé dans les paramètres.</string>
+    <string name="location_feedback_denied_popup">Des autorisations de localisation sont nécessaires pour utiliser cette application.</string>
+    <string name="location_permission_settings_message">Des autorisations de localisation sont nécessaires pour utiliser cette application. Veuillez activer \"Autoriser tout le temps\" et \"Localisation précise\" pour utiliser cette application.</string>
+    <string name="location_permission_denied_fine">Un emplacement précis est nécessaire pour utiliser cette application. Veuillez cliquer sur \"Fix\" et activez-le dans les paramètres.</string>
     <!-- ConfigManager -->
     <string name="error_reading_stored_config">Erreur de lecture de la config de tracking, remettez au défaut</string>
     <!-- DataCollectionPlugin -->
