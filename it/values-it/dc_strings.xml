@@ -28,10 +28,10 @@
     <string name="error_location_settings">Errore %1$d nei parametri di tracking</string>
     <string name="unknown_error_location_settings">Errore sconosciuto nella lettura della posizione. Verificare i vostri parametri.</string>
     <string name="location_permission_intermediary_title">Autorizzazioni necessarie!</string>
-    <string name="location_permission_intermediary_message">È necessaria un'ulteriore autorizzazione alla posizione. Per utilizzare questa app devi fare clic su \"Consenti sempre\" nella pagina successiva.</string>
+    <string name="location_permission_intermediary_message">È necessaria un\'ulteriore autorizzazione alla posizione. Per utilizzare questa app devi fare clic su \"Consenti sempre\" nella pagina successiva.</string>
     <string name="location_feedback_both_off">Assicurati che \"Consenti sempre\" e \"Posizione precisa\" siano attivati nelle impostazioni.</string>
     <string name="location_feedback_fine_off">Assicurati che la \"Posizione precisa\" sia attivata nelle impostazioni.</string>
-    <string name="location_feedback_background_off">Assicurati che l'opzione \"Consenti sempre\" sia attivata nelle impostazioni.</string>
+    <string name="location_feedback_background_off">Assicurati che l\'opzione \"Consenti sempre\" sia attivata nelle impostazioni.</string>
     <string name="location_feedback_denied_popup">Per utilizzare questa app sono necessarie le autorizzazioni di posizione.</string>
     <string name="location_permission_settings_message">Per utilizzare questa app sono necessarie le autorizzazioni di posizione. Abilita \"Consenti sempre\" e \"Posizione precisa\" per utilizzare questa app.</string>
     <string name="location_permission_denied_fine">Per utilizzare questa app è necessaria una posizione precisa. Fai clic su \"Correggi\" e attivalo nelle impostazioni.</string>
