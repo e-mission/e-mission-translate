@@ -20,6 +20,14 @@
     <string name="location_permission_off">ການອະນຸຍາດ ຈຸດທີ່ຕັ້ງທີ່ບໍ່ພຽງພໍ, ກະລຸນາກວດຄືນ</string>
     <string name="location_permission_off_app_open">ການອະນຸຍາດຈຸດທີ່ຕັ້ງ ບໍ່ພຽງພໍ, ກະລຸນາກວດຄືນ ຈາກລະບົບຕັ້ງຄ່າ, ກະລຸນາກວດຄືນ ຈາກລະບົບການຕັ້ງຄ່າາ</string>
     <string name="location_permission_off_enable">ການອະນຸຍາດຈຸດທີ່ທ່ານຢູ່, ກົດ ເພື່ອເປີດນໍາໃຊ້ </string>
+    <string name="location_permission_intermediary_title">ຕ້ອງການສິດອະນຸຍາດ!</string>
+    <string name="location_permission_intermediary_message">ຕ້ອງການສິດອະນຸຍາດສະຖານທີ່ເພີ່ມເຕີມ. ໃນ​ຄໍາ​ສັ່ງ​ທີ່​ຈະ​ນໍາ​ໃຊ້ app ນີ້​, ທ່ານ​ຈໍາ​ເປັນ​ຕ້ອງ​ຄລິກ \"ອະ​ນຸ​ຍາດ​ໃຫ້​ທຸກ​ເວ​ລາ​\" ໃນ​ຫນ້າ​ຕໍ່​ໄປ​.</string>
+    <string name="location_feedback_both_off">ກະລຸນາກວດສອບໃຫ້ແນ່ໃຈວ່າ \"ອະນຸຍາດຕະຫຼອດເວລາ\" ແລະ \"ສະຖານທີ່ຊັດເຈນ\" ເປີດຢູ່ໃນການຕັ້ງຄ່າ.</string>
+    <string name="location_feedback_fine_off">ກະລຸນາກວດສອບໃຫ້ແນ່ໃຈວ່າ \"ສະຖານທີ່ຊັດເຈນ\" ເປີດຢູ່ໃນການຕັ້ງຄ່າ.</string>
+    <string name="location_feedback_background_off">ກະລຸນາກວດສອບໃຫ້ແນ່ໃຈວ່າ \"ອະນຸຍາດຕະຫຼອດເວລາ\" ເປີດຢູ່ໃນການຕັ້ງຄ່າ.</string>
+    <string name="location_feedback_denied_popup">ຕ້ອງການສິດອະນຸຍາດສະຖານທີ່ເພື່ອໃຊ້ແອັບນີ້.</string>
+    <string name="location_permission_settings_message">ຕ້ອງການສິດອະນຸຍາດສະຖານທີ່ເພື່ອໃຊ້ແອັບນີ້. ກະລຸນາເປີດໃຊ້ \"ອະນຸຍາດຕະຫຼອດເວລາ\" ແລະ \"ສະຖານທີ່ຊັດເຈນ\" ເພື່ອໃຊ້ແອັບຯນີ້.</string>
+    <string name="location_permission_denied_fine">ຕ້ອງການສະຖານທີ່ລະອຽດເພື່ອໃຊ້ແອັບນີ້. ກະລຸນາຄລິກ \"ແກ້ໄຂ\" ແລະເປີດມັນຢູ່ໃນການຕັ້ງຄ່າ.</string>
     <string name="background_loc_permission_off_enable">ການອະນຸຍາດທີ່ຕັ້ງບໍ່ພຽງພໍ, ກະລຸນາເປີດການນຳໃຊ້</string>
     <string name="activity_permission_off">ປິດການອະນຸຍາດການເຄື່ອນໄຫວ ແລະ ຕາມຄວາມເໝາະສົມ, ກະລຸນາເປີດການນຳໃຊ້ງານ</string>
     <string name="activity_permission_off_app_open">ປິດການອະນຸຍາດການເຄື່ອນໄຫວ ແລະ ຕາມຄວາມເໝາະສົມ, ກະລຸນາແກ້ໄຂໃນການຕັ້ງຄ່າການປະຕິບັດງານ</string>

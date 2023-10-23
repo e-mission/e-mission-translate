@@ -20,6 +20,14 @@
     <string name="location_permission_off">Permisos de ubicación insuficientes</string>
     <string name="location_permission_off_app_open">Permisos de ubicación insuficientes, corríjalos en la configuración de la aplicación</string>
     <string name="location_permission_off_enable">Permiso de ubicación desactivado, haga clic para habilitar</string>
+    <string name="location_permission_intermediary_title">¡Se necesitan permisos!</string>
+    <string name="location_permission_intermediary_message">Se necesita más permiso de ubicación. Para utilizar esta aplicación, debe hacer clic en \"Permitir todo el tiempo\" en la página siguiente.</string>
+    <string name="location_feedback_both_off">Asegúrese de que \"Permitir todo el tiempo\" y \"Ubicación precisa\" estén activados en la configuración.</string>
+    <string name="location_feedback_fine_off">Asegúrese de que \"Ubicación precisa\" esté activado en la configuración.</string>
+    <string name="location_feedback_background_off">Asegúrese de que \"Permitir todo el tiempo\" esté activado en la configuración.</string>
+    <string name="location_feedback_denied_popup">Se necesitan permisos de ubicación para utilizar esta aplicación.</string>
+    <string name="location_permission_settings_message">Se necesitan permisos de ubicación para utilizar esta aplicación. Habilite \"Permitir todo el tiempo\" y \"Ubicación precisa\" para usar esta aplicación.</string>
+    <string name="location_permission_denied_fine">Se necesita una buena ubicación para utilizar esta aplicación. Haga clic en \"Reparar\" y actívelo en la configuración.</string>
     <string name="background_loc_permission_off_enable">Permiso de ubicación de fondo desactivado, haga clic para habilitar</string>
     <string name="activity_permission_off">Permiso de actividad desactivado, corríjalo</string>
     <string name="activity_permission_off_app_open">Permiso de actividad desactivado, corríjalo en la configuración de la aplicación</string>
