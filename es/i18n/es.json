@@ -64,6 +64,7 @@
         "confirm": "Confirmar",
         "user-data-erased": "Datos de usuario borrados.",
         "consent-not-found": "No se encontró el consentimiento para recopilar los datos, ¿desea otorgarlo ahora?",
+        "no-consent-logout": "No se encontró el consentimiento para recopilar los datos, guarde su opcode, cierre sesión y vuelva a iniciar sesión con el mismo opcode. ¡Tenga en cuenta que no obtendrá estadísticas personalizadas hasta que lo otorgue!",
         "no-consent-message": "¡OK! ¡Tenga en cuenta que no obtendrá estadísticas personalizadas hasta que lo otorgue!",
         "consent-found": "¡Se encontró el consentimiento!",
         "consented-to": "Se aceptó el protocolo {{protocol_id}}, {{approval_date}}",
