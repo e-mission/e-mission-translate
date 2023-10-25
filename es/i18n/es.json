@@ -154,6 +154,8 @@
         "scootershare": "Motoneta compartida",
         "drove_alone": "Coche de Gas, Condujo solo",
         "shared_ride": "Coche de Gas, Condujo con otros",
+        "hybrid_drove_alone": "Coche Híbrido, Condujo solo",
+        "hybrid_shared_ride": "Coche Híbrido, Condujo con otros",
         "e_car_drove_alone": "e-coche, Condujo solo",
         "e_car_shared_ride": "e-coche, Condujo con otros",
         "moped": "Ciclomotor",
