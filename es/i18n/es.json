@@ -397,9 +397,15 @@
     "errors": {
         "registration-check-token": "Error de registro de usuario. Por favor verifique su token e inténtelo nuevamente.",
         "not-registered-cant-contact": "El usuario no está registrado, por lo que no se puede contactar con el servidor.",
+        "while-initializing-label": "While initializing Label tab: ",
+        "while-loading-pipeline-range": "Error while loading pipeline range",
         "while-populating-composite": "Error al completar viajes compuestos",
         "while-loading-another-week": "Error al cargar viajes de {{when}} semana",
         "while-loading-specific-week": "Error al cargar viajes para la semana de {{day}}",
+        "while-updating-timeline": "While updating timeline: ",
+        "while-refreshing-label": "While refreshing Label tab: ",
+        "while-repopulating-entry": "While repopulating timeline entry: ",
+        "while-loading-metrics": "While loading metrics: ",
         "while-log-messages": "Mientras recibo mensajes del registro ",
         "while-max-index" : "Mientras obtengo el índice máximo "
       },

@@ -398,9 +398,15 @@
     "errors": {
         "registration-check-token": "ການລົງທະບຽນຜູ້ໃຊ້ຜິດພາດ. ກະລຸນາກວດເບິ່ງໂທເຄັນຂອງທ່ານແລະລອງໃໝ່ອີກ.",
         "not-registered-cant-contact": "ຜູ້ໃຊ້ບໍ່ໄດ້ລົງທະບຽນ, ດັ່ງນັ້ນເຄື່ອງແມ່ຂ່າຍບໍ່ສາມາດຕິດຕໍ່ໄດ້.",
+        "while-initializing-label": "While initializing Label tab: ",
+        "while-loading-pipeline-range": "Error while loading pipeline range",
         "while-populating-composite": "ເກີດຂໍ້ຜິດພາດໃນລະຫວ່າງການເພີ່ມຂໍ້ມູນການເດີນທາງແບບປະສົມ",
         "while-loading-another-week": "ເກີດຂໍ້ຜິດພາດໃນລະຫວ່າງການໂຫຼດການເດີນທາງຂອງ {{when}} ອາທິດ",
         "while-loading-specific-week": "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການໂຫຼດການເດີນທາງໃນອາທິດຂອງ {{day}}",
+        "while-updating-timeline": "While updating timeline: ",
+        "while-refreshing-label": "While refreshing Label tab: ",
+        "while-repopulating-entry": "While repopulating timeline entry: ",
+        "while-loading-metrics": "While loading metrics: ",
         "while-log-messages": "ໃນຂະນະທີ່ໄດ້ຮັບຂໍ້ຄວາມຈາກບັນທຶກ ",
         "while-max-index" : "ໃນຂະນະທີ່ໄດ້ຮັບດັດຊະນີສູງສຸດ "
       },
