@@ -460,7 +460,7 @@
         },
         "questions":{
             "header":"Preguntas",
-            "for-questions":"Si tiene alguna pregunta sobre los objetivos y resultados de la recopilación de datos, por favor comuníquese con el punto de contacto principal para el estudio, {{program_admin_contact}}. Si tiene alguna pregunta técnica sobre el funcionamiento de la aplicación, comuníquese con K. Shankari de NREL (k.shankari@nrel.gov</a>)"
+            "for-questions":"Si tiene alguna pregunta sobre los objetivos y resultados de la recopilación de datos, por favor comuníquese con el punto de contacto principal para el estudio, {{program_admin_contact}}. Si tiene alguna pregunta técnica sobre el funcionamiento de la aplicación, comuníquese con K. Shankari de NREL (k.shankari@nrel.gov)"
         },
         "consent":{
             "header":"Consentimiento",
