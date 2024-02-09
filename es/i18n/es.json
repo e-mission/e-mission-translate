@@ -372,6 +372,7 @@
         "scan-hint": "Escanea el código de barras con la cámara de tu teléfono.",
         "paste-code": "Pegue el código",
         "paste-hint": "O pegue el código como texto",
+        "more-info": "Más información",
         "about-app-title" : "Sobre {{appName}}",
         "about-app-para-1": "La Plataforma Abierta para la Heurística de Viaje Ágil (NREL OpenPATH) del Laboratorio Nacional de Energía Renovable permite a las personas rastrear sus modos de viaje (automóvil, autobús, bicicleta, caminar, etc.) y medir su uso de energía asociado y su huella de carbono.",
         "about-app-para-2": "La aplicación permite a las comunidades comprender sus opciones y patrones de modo de viaje, experimentar con opciones para hacerlos más sostenibles y evaluar los resultados. Dichos resultados pueden informar una política y planificación de transporte efectivas y usarse para construir ciudades más sostenibles y accesibles.",
