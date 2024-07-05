@@ -23,7 +23,7 @@
         "force-sync": "ການເຊື່ອມຕໍ່",
         "share": "ແບ່ງປັນຂໍ້ມູນ",
         "download-json-dump": "ດາວໂຫຼດ json dump",
-        "email-log": "ເຂົ້າອີເມວ",
+        "share-log": "ບັນທຶກການແບ່ງປັນ",
         "upload-log": "ອັບໂຫລດຂໍ້ມູນ",
         "view-privacy": "ເບິ່ງນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
         "user-data": "ຂໍ້ມູນຜູ້ໃຊ້",
@@ -235,11 +235,9 @@
         "reading-unprocessed-data": "ກຳລັງອ່ານຂໍ້ມູນທີ່ຍັງບໍ່ໄດ້ປະມວນຜົນ..."
     },
 
-    "email-service": {
-        "email-account-not-configured": "ບັນຊີອີເມວບໍ່ໄດ້ຖືກຕັ້ງຄ່າ, ບໍ່ສາມາດສົ່ງອີເມວໄດ້",
-        "email-account-mail-app": "ທ່ານຕ້ອງມີແອັບ ໃນໂທລະສັບຂອງທ່ານທີ່ກຳນົດຄ່າດ້ວຍທີ່ຢູ່ອີເມວ. ຖ້າບໍ່ດັ່ງນັ້ນ, ແມ່ນບໍ່ສາມາດໃຊ້ງານໄດ້",
-        "going-to-email": "ໄປທີ່ຖານຂໍ້ມູນອີເມວຈາກ {{parentDir}}",
-        "email-log":{
+    "shareFile-service": {
+        "send-to": "ກະລຸນາສົ່ງໄຟລ໌ນີ້ໄປທີ່ openpath@nrel.gov, ຫຼືສະມາຊິກທີມ OpenPATH ອື່ນ.",
+        "send-log": {
             "subject-logs": "ບັນທຶກການປ່ອຍອາຍພິດ",
             "body-please-fill-in-what-is-wrong": "ກະລຸນາຕື່ມໃນສິ່ງທີ່ຜິດພາດ"
         },

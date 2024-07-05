@@ -58,7 +58,7 @@
         "share": "Condividi",
         "check-ui-updates": "Controlla aggiornamenti",
         "download-json-dump": "Scarica i dati in json",
-        "email-log": "Invia i log per email",
+        "share-log": "Condividere il registro",
         "user-data": "I miei dati",
         "erase-data": "Cancella i miei dati",
         "dev-zone": "Sviluppatori",
@@ -243,5 +243,18 @@
         "download-new-ui": "Scaricare l'aggiornamento?",
         "download-not-now": "Non adesso",
         "download-apply": "Scarica"
+    },
+
+    "shareFile-service": {
+        "send-to": "Invia questo file a openpath@nrel.gov o a un altro membro del team OpenPATH.",
+        "send-log": {
+          "subject-logs": "registri delle emissioni",
+          "body-please-fill-in-what-is-wrong": "per favore inserisci cosa c'è che non va"
+        },
+        "no-email-address-configured": "Nessun indirizzo email configurato.",
+        "send-data": {
+          "subject-data-dump-from-to": "Dump dei dati da {{start}} a {{end}}",
+          "body-data-consists-of-list-of-entries": "I dati sono costituiti da un elenco di voci.\nI formati delle voci si trovano su https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nI dati possono essere caricati localmente utilizzando le istruzioni su https ://github.com/e-mission/e-mission-server#loading-test-data \n e può essere manipolato utilizzando l'esempio su https://github.com/e-mission/e-mission-server/ blob/master/Timeseries_Sample.ipynb"
+        }
     }
 }

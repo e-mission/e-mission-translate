@@ -23,7 +23,7 @@
         "force-sync": "Forzar sincronización",
         "share": "Compartir",
         "download-json-dump": "Descargar volcado de json",
-        "email-log": "Registro de correo electrónico",
+        "share-log": "Compartir registros",
         "upload-log": "Subir Registros",
         "view-privacy": "Ver política de privacidad",
         "user-data": "Datos del usuario",
@@ -235,16 +235,14 @@
         "reading-unprocessed-data": "Leyendo datos no procesados..."
     },
 
-    "email-service":{
-        "email-account-not-configured": "No se configuró la cuenta de correo electrónico, no se puede enviar el correo electrónico",
-        "email-account-mail-app": "La aplicación de correo en su teléfono debe configurarse con una dirección de correo electrónico: De lo contrario, esto no funcionará",
-        "going-to-email": "Yendo a la base de datos de correo electrónico desde {{parentDir}}",
-        "email-log":{
+    "shareFile-service":{
+        "send-to": "Envíe este archivo a openpath@nrel.gov u otro miembro del equipo OpenPATH.",
+        "send-log": {
             "subject-logs": "registros de emisiones",
             "body-please-fill-in-what-is-wrong": "por favor ingrese lo que está mal"
         },
         "no-email-address-configured": "No se ha configurado ninguna dirección de correo electrónico.",
-        "email-data":{
+        "send-data":{
             "subject-data-dump-from-to": "Volcado de {{start}} a {{end}}",
             "body-data-consists-of-list-of-entries": "Los datos consisten en una lista de entradas.\nLos formatos de entrada se encuentran en https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nLos datos se pueden cargar localmente siguiendo las instrucciones en https://github.com/e-mission/e-mission-server#loading-test-data \n y se pueden manipular usando el ejemplo en https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
         }
