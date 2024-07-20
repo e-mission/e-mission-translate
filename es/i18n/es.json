@@ -8,7 +8,10 @@
     "trip-confirm": {
         "services-please-fill-in": "Por favor, complete el {{text}} que no aparece.",
         "services-cancel": "Cancelar",
-        "services-save": "Guardar"
+        "services-save": "Guardar",
+        "custom-mode": "Modo personalizado",
+        "custom-purpose": "Propósito personalizado",
+        "custom-labels": "Etiquetas personalizadas"
     },
 
     "control":{
@@ -47,7 +50,12 @@
         "reminders-time-of-day": "Hora del día de los recordatorios ({{time}})",
         "upcoming-notifications": "Recordatorios Próximos",
         "dummy-notification" : "Recordatorio Simulado en 5 Segundos",
-        "log-out": "Cerrar Sesión"
+        "log-out": "Cerrar Sesión",
+        "refresh-app-config": "Actualizar la configuración de la app",
+        "current-version": "Versión actual: {{version}}",
+        "refreshing-app-config": ""Actualizando la configuración de la app, espere...",",
+        "already-up-to-date": "Ya actualizado!",
+        "manage-custom-labels": "Administrar etiquetas personalizadas"
     },
 
     "general-settings":{
