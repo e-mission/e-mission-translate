@@ -53,7 +53,7 @@
         "log-out": "Cerrar Sesión",
         "refresh-app-config": "Actualizar la configuración de la app",
         "current-version": "Versión actual: {{version}}",
-        "refreshing-app-config": ""Actualizando la configuración de la app, espere...",",
+        "refreshing-app-config": "Actualizando la configuración de la app, espere...",
         "already-up-to-date": "Ya actualizado!",
         "manage-custom-labels": "Administrar etiquetas personalizadas"
     },
