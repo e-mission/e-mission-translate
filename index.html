@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Missing Translation Finder for the e-mission project</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 5px 20px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    input {
+      width: 180px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Comparing translations for:
+    <br><br>
+    <code><input id='phoneA' value='e-mission'> / e-mission-phone > <input id='phoneB' value='master'></code>
+    <br>vs.<br>
+    <code><input id='translateA' value='e-mission'> / e-mission-translate > <input id='translateB' value='master'></code>
+  </h2>
+  <div></div>
+
+  <script>
+    function recompute() {
+
+      const emPhoneAccount = document.querySelector('#phoneA').value;
+      const emPhoneBranch = document.querySelector('#phoneB').value;
+      const emTranslateAccount = document.querySelector('#translateA').value;
+      const emTranslateBranch = document.querySelector('#translateB').value;
+
+      console.log(emPhoneBranch);
+      console.log(emTranslateBranch);
+
+      const en = `https://raw.githubusercontent.com/${emPhoneAccount}/e-mission-phone/${emPhoneBranch}/www/i18n/en.json`;
+      const es = `https://raw.githubusercontent.com/${emTranslateAccount}/e-mission-translate/${emTranslateBranch}/es/i18n/es.json`;
+      const lo = `https://raw.githubusercontent.com/${emTranslateAccount}/e-mission-translate/${emTranslateBranch}/lo/i18n/lo.json`;
+
+      printMissingKeys(en, es, lo);
+    }
+
+    recompute();
+    document.addEventListener("input", recompute);
+
+    const deepKeys = (obj, prefix = '') => {
+      let keys = [];
+      for (const key in obj) {
+        keys.push(prefix + key);
+        if (typeof obj[key] === 'object') {
+          keys = keys.concat(deepKeys(obj[key], prefix + key + '.'))
+        }
+      }
+      return keys;
+    };
+
+    async function printMissingKeys(modelUrl, ...rest) {
+      const contentDiv = document.querySelector('div');
+
+      contentDiv.innerHTML = '<h2>Loading...</h2>';
+
+      const modelJson = await fetch(modelUrl).then(res => res.json()).catch(e => ({}));
+      const otherJsons = await Promise.all(rest.map(url => fetch(url).then(res => res.json()).catch(e => ({}))));
+
+      contentDiv.innerHTML = '';
+
+      const modelKeys = deepKeys(modelJson);
+      const otherKeys = otherJsons.map(json => deepKeys(json));
+
+      if (!modelKeys.length) {
+        contentDiv.innerHTML += `<hr><h3>❌ en.json was not found</h3><br>`;
+        return;
+      }
+
+      otherKeys.forEach((keys, i) => {
+
+        if (!keys.length) {
+          contentDiv.innerHTML += `<hr><h3>❌ ${rest[i].match(/([^\/]+$)/)[0]} was not found</h3><br>`;
+          return;
+        }
+
+        const missingKeys = modelKeys.filter(key => !keys.includes(key));
+        if (missingKeys.length) {
+          contentDiv.innerHTML += `<hr><h3>⚠️ en.json has these but ${rest[i].match(/([^\/]+$)/)[0]} doesn't: </h3>`;
+          contentDiv.innerHTML += '<ul>'
+          missingKeys.forEach(key => {
+            contentDiv.innerHTML += `<li>${key}</li>`;
+          });
+          contentDiv.innerHTML += '</ul>'
+        }
+        const extraKeys = keys.filter(key => !modelKeys.includes(key));
+        if (extraKeys.length) {
+          contentDiv.innerHTML += `<hr><h3>ℹ️ ${rest[i].match(/([^\/]+$)/)[0]} has these but en.json doesn't: </h3>`;
+          contentDiv.innerHTML += '<ul>'
+          extraKeys.forEach(key => {
+            contentDiv.innerHTML += `<li>${key}</li>`;
+          });
+          contentDiv.innerHTML += '</ul>'
+        }
+        if (!missingKeys.length && !extraKeys.length) {
+          contentDiv.innerHTML += `<hr><h3>✅ en.json and ${rest[i].match(/([^\/]+$)/)[0]} match!</h3>`;
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
