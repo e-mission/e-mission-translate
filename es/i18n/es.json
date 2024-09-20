@@ -81,44 +81,76 @@
         "qrcode-share-title": "¡Puede guardar su OPcode para iniciar sesión fácilmente en el futuro!"
     },
 
-    "metrics":{
+    "metrics": {
         "dashboard-tab": "Tablero",
-        "cancel": "Cancelar",
-        "confirm": "Confirmar",
-        "get": "Obtener",
-        "range": "Rango",
-        "filter": "Filtro",
-        "from": "De:",
-        "to": "A:",
-        "last-week": "semana pasada",
-        "frequency": "Frecuencia:",
-        "pandafreqoptions-daily": "DIARIO",
-        "pandafreqoptions-weekly": "SEMANAL",
-        "pandafreqoptions-biweekly": "QUINCENAL",
-        "pandafreqoptions-monthly": "MENSUAL",
-        "pandafreqoptions-yearly": "ANUAL",
-        "freqoptions-daily": "DIARIO",
-        "freqoptions-monthly": "MENSUAL",
-        "freqoptions-yearly": "ANUAL",
-        "select-pandafrequency": "Seleccionar frecuencia del resumen",
-        "select-frequency": "Seleccionar frecuencia del resumen",
-        "chart-xaxis-date": "Fecha",
-        "chart-no-data": "Datos no disponibles",
-        "trips-yaxis-number": "Número",
-        "calorie-data-change": " cambiar",
-        "calorie-data-unknown": "Desconocido...",
-        "greater-than": " mas grande que ",
-        "greater": " mayor ",
-        "or": "o",
-        "less-than": " menos que ",
-        "less": " menos ",
-        "week-before": "vs. semana antes",
-        "this-week": "esta semana",
-        "pick-a-date": "Elija una fecha",
-        "trips": "viajes",
-        "hours": "horas",
-        "minutes": "minutos",
-        "custom": "Personalizado"
+        "no-data": "Sin datos",
+        "no-data-available": "Datos no disponibles",
+        "footprint": {
+            "footprint": "Huella",
+            "estimated-footprint": "Huella estimada",
+            "ghg-emissions": "Emisiones de GEI",
+            "energy-usage": "Uso de energía",
+            "us-2030-goal": "Directriz 2030",
+            "us-2050-goal": "Directriz 2050",
+            "us-goals-footnote": "Directrices basadas en los objetivos de descarbonización de EE. UU., escaladas a la huella per cápita relacionada con los viajes.",
+            "labeled": "Etiquetados",
+            "unlabeled": "No etiquetados",
+            "range-uncertain-footnote": "Debido a la incertidumbre de los viajes sin etiqueta, las estimaciones pueden estar dentro del rango mostrado. Etiquete más viajes para obtener estimaciones más completas.",
+            "daily-emissions-by-week": "Emisiones diarias por semana",
+            "kg-co2e-per-day": "Promedio kg CO₂e / día",
+            "daily-energy-by-week": "Uso diario de energía por semana",
+            "kwh-per-day": "Promedio kWh / día",
+            "daily-emissions-comparison": "Emisiones diarias vs. Grupo",
+            "daily-energy-comparison": "Uso diario de energía vs. Grupo",
+            "you": "Tú",
+            "group-average": "Promedio del grupo"
+        },
+        "movement": {
+            "movement": "Movimiento",
+            "active-minutes": "Minutos activos",
+            "daily-active-minutes": "Minutos diarios de viaje activo",
+            "weekly-active-minutes": "Minutos semanales de viaje activo",
+            "active-minutes-table": "Tabla de minutos activos",
+            "weekly-goal": "Meta semanal",
+            "weekly-goal-footnote": "Meta semanal basada en la recomendación de los CDC de 150 minutos de actividad moderada por semana.",
+            "minutes": "minutos"
+        },
+        "travel": {
+            "travel": "Viaje",
+            "count": "Recuento de viajes",
+            "distance": "Distancia",
+            "duration": "Duración",
+            "trips": "viajes",
+            "hours": "horas",
+            "user-totals": "Mis totales",
+            "group-totals": "Totales del grupo"
+        },
+        "surveys": {
+            "surveys": "Encuestas",
+            "survey-response-rate": "Tasa de respuesta a la encuesta (%)",
+            "survey-leaderboard-desc": "Estos datos se han acumulado desde ",
+            "trip-categories": "Categorías de viaje",
+            "response": "Respuesta",
+            "no-response": "Sin respuesta",
+            "responses": "respuestas",
+            "comparison": "Comparación",
+            "you": "Tú",
+            "others": "Otros en el grupo"
+        },
+        "leaderboard": {
+            "leaderboard": "Tabla de clasificación",
+            "you-are-in-x-place": "Estás en el lugar #{{x}}",
+            "data-accumulated-since-date": "Estos datos se han acumulado desde {{date}}"
+        },
+        "stack-bars": "Barras apiladas:",
+        "split-by": "Dividir por {{field}}:",
+        "grouping-fields": {
+            "mode_confirm": "Modo",
+            "purpose_confirm": "Propósito",
+            "replaced_mode_confirm": "Modo reemplazado",
+            "primary_ble_sensed_mode": "Modo detectado",
+            "survey": "Encuesta"
+        }
     },
 
     "diary": {
@@ -152,7 +184,8 @@
         "show-more-travel": "Mostrar más viajes",
         "show-older-travel": "Mostrar viajes anteriores",
         "no-travel": "No viajes para mostrar",
-        "no-travel-hint": "Para ver más, cambia los filtros de arriba o registra algunos viajes!"
+        "no-travel-hint": "Para ver más, cambia los filtros de arriba o registra algunos viajes!",
+        "jump-to-last-processed-week": "Ir a la última semana procesada"
     },
 
     "multilabel":{
@@ -191,43 +224,6 @@
         "other": "Otros"
     },
 
-    "main-metrics":{
-        "summary": "Mi Resumen",
-        "chart": "Gráfico",
-        "change-data": "Cambiar datos:",
-        "distance": "Distancia",
-        "trips": "Viajes",
-        "duration": "Duración",
-        "fav-mode": "Modo favorito",
-        "speed": "My Velocidad",
-        "footprint": "Mi Huella",
-        "estimated-emissions": "Emisiones estimadas de CO₂",
-        "how-it-compares": "como se compara",
-        "optimal": "Óptimo (elección de modo perfecto para mis viajes):",
-        "average": "Grupo Media:",
-        "worst-case": "Caso Peor",
-        "label-to-squish": "Etiquete los viajes para colapsar el rango",
-        "range-uncertain-footnote": "²Debido a la incertidumbre de los viajes sin etiqueta, las estimaciones pueden estar dentro del rango mostrado. Etiquete más viajes para obtener estimaciones más completas.",
-        "lastweek": "Mi valor de la última semana:",
-        "us-2030-goal": "directriz 2030¹",
-        "us-2050-goal": "directriz 2050¹",
-        "us-goals-footnote": "¹Directrices basadas en los objetivos de descarbonización de EE. UU., escaladas a las emisiones per cápita relacionadas con los viajes.",
-        "past-week" : "Semana Pasada",
-        "prev-week" : "Semana Prev.",
-        "no-summary-data": "Sin datos de resumen",
-        "mean-speed": "Mi Velocidad media",
-        "user-totals": "Mis Totales",
-        "group-totals": "Totales del grupo",
-        "active-minutes": "Minutos Activos",
-        "weekly-active-minutes": "Minutos semanales de viaje activo",
-        "daily-active-minutes": "Minutos diarios de viaje activo",
-        "active-minutes-table": "Tabla de métricas de minutos activos",
-        "weekly-goal": "Meta Semanal³",
-        "weekly-goal-footnote": "³Meta semanal basada en la recomendación de los CDC de 150 minutos de actividad moderada por semana.",
-        "labeled": "Etiquetados",
-        "unlabeled": "No Etiquetados",
-        "footprint-label": "Huella (kg CO₂)"
-    },
 
     "details":{
         "speed": "Velocidad",
@@ -442,7 +438,7 @@
         "opcode":{
             "header":"Cómo asociamos la información contigo",
             "not-autogen":"Los administradores del programa le proporcionarán un 'opcode' que utilizará para iniciar sesión en el sistema. Esta larga cadena aleatoria se utilizará para todas las comunicaciones posteriores con el servidor. Si olvida o pierde su opcode, puede solicitarlo proporcionando su nombre y/o dirección de correo electrónico al administrador del programa. No se comunique con el personal de NREL con solicitudes de recuperación de opcode, ya que no tenemos acceso a la conexión entre su nombre/correo electrónico y su código de operación. Los datos que NREL recopila automáticamente (datos del sensor del teléfono, datos semidemográficos, etc.) solo se asociarán con su 'opcode'",
-            "autogen":""
+            "autogen": "Estás iniciando sesión con un 'código de operación' generado aleatoriamente por la plataforma. Esta larga cadena aleatoria se utilizará para todas las comunicaciones posteriores con el servidor. Solo tú conoces el código de operación asociado a ti. No existe la opción \"Olvidé mi contraseña\" y el personal de NREL no puede recuperar tu código de operación, incluso si proporcionas tu nombre o dirección de correo electrónico. Esto significa que, a menos que guardes tu código de operación en un lugar seguro, no tendrás acceso a tus datos anteriores si cambias de teléfono o desinstalas y reinstalas la aplicación"
         },
         "who-sees":{
             "header":"Quién puede ver la información",
