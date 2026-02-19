@@ -13,5 +13,5 @@ As OpenPATH expands, we have other internationalizable components as well:
 | Component | Location | Edit notes |
 |------|------|-------|
 | The join page | https://github.com/e-mission/nrel-openpath-join-page/tree/main/frontend/i18n/  | `*.json` |
-| The dynamic config | https://github.com/e-mission/nrel-openpath-deploy-configs/tree/main/configs | `*.nrel-op.json`, select the one for your study or program |
+| The deployment config | https://github.com/e-mission/op-deployment-configs/tree/main/configs | `*.nrel-op.json`, select the one for your study or program |
 | The onboarding survey | https://github.com/e-mission/e-mission-phone/tree/master/survey-resources/data-xls | `*.xls`, load in Enketo Toolbox or edit the Excel file directly per the [XLSForms standard](https://xlsform.org/en/) | 
