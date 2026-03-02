@@ -5,6 +5,13 @@
     "weekdays-all": "Todos",
     "weekdays-select": "Seleccionar el día de la semana",
 
+    "general": {
+        "ok": "OK",
+        "cancel": "Cancelar",
+        "yes": "Sí",
+        "no": "No"
+    },
+
     "trip-confirm": {
         "services-please-fill-in": "Por favor, complete el {{text}} que no aparece.",
         "services-cancel": "Cancelar",
@@ -32,6 +39,7 @@
         "user-data": "Datos del usuario",
         "erase-data": "Borrar datos",
         "dev-zone": "Zona de desarrollador",
+        "bluetooth-scan": "Escanear Bluetooth",
         "refresh": "Actualizar",
         "end-trip-sync": "Finalizar viaje + sincronización",
         "check-consent": "Verificar consentimiento",
@@ -42,20 +50,34 @@
         "log-title": "registro",
         "check-sensed-data": "Verificar los datos detectados",
         "sensed-title": "Datos Detectados: Transiciones",
-        "collection": "Colección",
-        "sync": "Sincronizar",
-        "button-accept": "Accepto",
+        "edit-tracking-config": "Editar configuración de rastreo",
+        "edit-sync-config": "Editar configuración de sincronización",
+        "button-accept": "Aceptar",
         "view-qrc": "Mi OPcode",
-        "app-version": "Version de Aplicacion",
-        "reminders-time-of-day": "Hora del día de los recordatorios ({{time}})",
-        "upcoming-notifications": "Recordatorios Próximos",
+        "app-version": "Versión de la aplicación",
+        "reminders-time-of-day": "Hora del día de los recordatorios",
+        "upcoming-notifications": "Recordatorios próximos",
         "dummy-notification" : "Recordatorio Simulado en 5 Segundos",
         "log-out": "Cerrar Sesión",
         "refresh-app-config": "Actualizar la configuración de la app",
         "current-version": "Versión actual: {{version}}",
         "refreshing-app-config": "Actualizando la configuración de la app, espere...",
         "already-up-to-date": "Ya actualizado!",
-        "manage-custom-labels": "Administrar etiquetas personalizadas"
+        "manage-custom-labels": "Administrar etiquetas personalizadas",
+        "give-feedback": "Enviar comentarios",
+        "feedback-modal": {
+            "experience-question": "¿Cómo ha sido tu experiencia con OpenPATH hasta ahora?",
+            "leave-review-ios": "¿Te gustaría dejar una reseña en la App Store? ¡Esto nos ayuda a apoyar más proyectos como \"{{deploymentPartnerName}}\" y mejorar la aplicación!",
+            "leave-review-android": "¿Te gustaría dejar una reseña en la Play Store? ¡Esto nos ayuda a apoyar más proyectos como \"{{deploymentPartnerName}}\" y mejorar la aplicación!",
+            "leave-feedback": "Nos encantaría saber cómo podemos mejorar. ¿Le gustaría enviarnos sus comentarios o informar un problema por correo electrónico?",
+            "feedback-for-devs": "Tengo comentarios sobre la aplicación para los desarrolladores de NLR OpenPATH",
+            "feedback-for-admin": "Tengo comentarios para los administradores de \"{{deploymentName}}\"",
+            "sure": "¡Claro!",
+            "compose-email": "Nuevo correo",
+            "no-thanks": "No, gracias",
+            "feedback-email-subject": "Comentarios sobre OpenPATH [{{deploymentId}}]",
+            "feedback-email-body": "Equipo de OpenPATH,\n\n[Describa sus comentarios o problemas aquí. ¡Gracias por ayudarnos a mejorar OpenPATH!]\n\nInformación de diagnóstico:\n{{diagnosticInfo}}\n"
+        }
     },
 
     "general-settings":{
@@ -72,7 +94,7 @@
         "confirm": "Confirmar",
         "user-data-erased": "Datos de usuario borrados.",
         "consent-not-found": "No se encontró el consentimiento para recopilar los datos, ¿desea otorgarlo ahora?",
-        "no-consent-logout": "No se encontró el consentimiento para recopilar los datos, guarde su opcode, cierre sesión y vuelva a iniciar sesión con el mismo opcode. ¡Tenga en cuenta que no obtendrá estadísticas personalizadas hasta que lo otorgue!",
+        "no-consent-logout": "No se encontró el consentimiento para recopilar los datos, guarde su OPcode, cierre sesión y vuelva a iniciar sesión con el mismo OPcode. ¡Tenga en cuenta que no obtendrá estadísticas personalizadas hasta que lo otorgue!",
         "no-consent-message": "¡OK! ¡Tenga en cuenta que no obtendrá estadísticas personalizadas hasta que lo otorgue!",
         "consent-found": "¡Se encontró el consentimiento!",
         "consented-to": "Se aceptó el protocolo {{protocol_id}}, {{approval_date}}",
@@ -95,7 +117,7 @@
             "us-goals-footnote": "Directrices basadas en los objetivos de descarbonización de EE. UU., escaladas a la huella per cápita relacionada con los viajes.",
             "labeled": "Etiquetados",
             "unlabeled": "No etiquetados",
-            "range-uncertain-footnote": "Debido a la incertidumbre de los viajes sin etiqueta, las estimaciones pueden estar dentro del rango mostrado. Etiquete más viajes para obtener estimaciones más completas.",
+            "uncertainty-footnote": "Debido a la incertidumbre de los viajes sin etiqueta, las estimaciones pueden estar dentro del rango mostrado. Etiquete más viajes para obtener estimaciones más completas.",
             "daily-emissions-by-week": "Emisiones diarias por semana",
             "kg-co2e-per-day": "Promedio kg CO₂e / día",
             "daily-energy-by-week": "Uso diario de energía por semana",
@@ -171,7 +193,6 @@
         "choose-mode": "Modo",
         "choose-replaced-mode": "Reemplaza a",
         "choose-purpose": "Propósito",
-        "choose-survey": "Agregar detalles del viaje",
         "select-mode-scroll": "Modo (desplázate para más)",
         "select-replaced-mode-scroll": "Reemplaza a (desplázate para más)",
         "select-purpose-scroll": "Propósito (desplázate para más)",
@@ -234,6 +255,27 @@
     "list-datepicker-close": "Cerrar",
     "list-datepicker-set": "Establecer",
 
+    "bluetooth": {
+        "title": {
+            "ble": "Escáner de balizas BLE",
+            "classic": "Escáner Bluetooth Clásico"
+        },
+        "scan": {
+            "for-ble": "Escanear balizas BLE",
+            "for-bluetooth": "Escanear dispositivos clásicos",
+            "stop": "Detener escaneo"
+        },
+        "is-scanning": "Escaneando...",
+        "device-info": {
+            "id": "ID",
+            "name": "Nombre"
+        },
+        "switch-to": {
+            "classic": "Cambiar a Clásico",
+            "ble": "Cambiar a BLE"
+        }
+    },
+
     "service":{
         "reading-server": "Leyendo del servidor...",
         "reading-unprocessed-data": "Leyendo datos no procesados..."
@@ -286,8 +328,9 @@
                     "android-10": "Seleccione 'Permitir todo el tiempo'",
                     "android-11": "En la página de configuración de la app, elija el permiso 'Ubicación' y configúrelo en 'Permitir todo el tiempo'",
                     "android-gte-12": "En la página de configuración de la app, elija el permiso 'Ubicación' y configúrelo en 'Permitir todo el tiempo' y 'Precisa'",
-                    "ios-lt-13": "Seleccione 'Permitir siempre'",
-                    "ios-gte-13": "En la página de configuración de la app, seleccione 'Siempre' y 'Preciso' y regrese aquí para continuar"
+                    "ios-lt-13": "Selecciona 'Permitir siempre' para habilitar el seguimiento de ubicación",
+                    "ios-13-13.3": "Selecciona 'Permitir siempre' los permisos de ubicación en la siguiente pantalla para habilitar el seguimiento de ubicación y regresa aquí para continuar",
+                    "ios-gte-13.4": "Selecciona 'Preciso' y 'Permitir al usar la aplicación' en la siguiente pantalla y luego 'Cambiar a 'Permitir siempre' para habilitar el seguimiento de ubicación"
                 }
             },
             "overall-fitness-name-android": "Actividad física",
@@ -382,7 +425,9 @@
         "all-green-status": "Asegúrese de que todas las comprobaciones de estado estén en verde.",
         "dont-force-kill": "No fuerces el cierre de la aplicación",
         "background-restrictions": "En los teléfonos Samsung y Huawei, asegúrese de que las restricciones de fondo estén desactivadas",
-        "close": "Cerrar"
+        "close": "Cerrar",
+        "proceeding-with-token": "Procediendo con el OPcode: {{token}}",
+        "already-logged-in": "Ya ha iniciado sesión con el OPcode {{token}}. Si desea usar un OPcode diferente, cierre sesión primero."
     },
     "config": {
         "unable-read-saved-config": "No se puede leer la configuración guardada",
@@ -393,7 +438,7 @@
         "invalid-subgroup": "OPcode no válido {{token}}, subgrupo {{subgroup}} no encontrado en la lista {{config_subgroups}}",
         "invalid-subgroup-no-default": "OPcode {{token}} no válido, sin subgrupos, se esperaba un subgrupo 'default'",
         "unable-download-config": "No se puede descargar la configuración del estudio",
-        "invalid-opcode-format": "Formato de código OP no válido",
+        "invalid-opcode-format": "Formato de OPcode no válido",
         "error-loading-config-app-start": "Error al cargar la configuración al iniciar la aplicación",
         "survey-missing-formpath": "Error al obtener recursos en la configuración: Survey_info.surveys tiene una encuesta sin formPath"
     },
@@ -410,8 +455,9 @@
         "while-repopulating-entry":"Mientras se vuelve a llenar la entrada de la línea de tiempo: ",
         "while-loading-metrics": "Mientras carga métricas: ",
         "while-log-messages": "Mientras recibo mensajes del registro ",
-        "while-max-index" : "Mientras obtengo el índice máximo "
-      },
+        "while-max-index" : "Mientras obtengo el índice máximo ",
+        "while-scanning-bluetooth": "Mientras escanea dispositivos Bluetooth: "
+    },
     "consent-text": {
         "title":"POLÍTICA DE PRIVACIDAD/TÉRMINOS DE USO DE NLR OPENPATH",
         "introduction":{
@@ -435,8 +481,8 @@
         },
         "opcode":{
             "header":"Cómo asociamos la información contigo",
-            "not-autogen":"Los administradores del programa le proporcionarán un 'opcode' que utilizará para iniciar sesión en el sistema. Esta larga cadena aleatoria se utilizará para todas las comunicaciones posteriores con el servidor. Si olvida o pierde su opcode, puede solicitarlo proporcionando su nombre y/o dirección de correo electrónico al administrador del programa. No se comunique con el personal de NLR con solicitudes de recuperación de opcode, ya que no tenemos acceso a la conexión entre su nombre/correo electrónico y su código de operación. Los datos que NLR recopila automáticamente (datos del sensor del teléfono, datos semidemográficos, etc.) solo se asociarán con su 'opcode'",
-            "autogen": "Estás iniciando sesión con un 'código de operación' generado aleatoriamente por la plataforma. Esta larga cadena aleatoria se utilizará para todas las comunicaciones posteriores con el servidor. Solo tú conoces el código de operación asociado a ti. No existe la opción \"Olvidé mi contraseña\" y el personal de NLR no puede recuperar tu código de operación, incluso si proporcionas tu nombre o dirección de correo electrónico. Esto significa que, a menos que guardes tu código de operación en un lugar seguro, no tendrás acceso a tus datos anteriores si cambias de teléfono o desinstalas y reinstalas la aplicación"
+            "not-autogen":"Los administradores del programa le proporcionarán un 'OPcode' que utilizará para iniciar sesión en el sistema. Esta larga cadena aleatoria se utilizará para todas las comunicaciones posteriores con el servidor. Si olvida o pierde su OPcode, puede solicitarlo proporcionando su nombre y/o dirección de correo electrónico al administrador del programa. No se comunique con el personal de NLR con solicitudes de recuperación de OPcode, ya que no tenemos acceso a la conexión entre su nombre/correo electrónico y su OPcode. Los datos que NLR recopila automáticamente (datos del sensor del teléfono, datos semidemográficos, etc.) solo se asociarán con su 'OPcode'",
+            "autogen": "Estás iniciando sesión con un 'OPcode' generado aleatoriamente por la plataforma. Esta larga cadena aleatoria se utilizará para todas las comunicaciones posteriores con el servidor. Solo tú conoces el OPcode asociado a ti. No existe la opción \"Olvidé mi contraseña\" y el personal de NLR no puede recuperar tu OPcode, incluso si proporcionas tu nombre o dirección de correo electrónico. Esto significa que, a menos que guardes tu OPcode en un lugar seguro, no tendrás acceso a tus datos anteriores si cambias de teléfono o desinstalas y reinstalas la aplicación"
         },
         "who-sees":{
             "header":"Quién puede ver la información",
