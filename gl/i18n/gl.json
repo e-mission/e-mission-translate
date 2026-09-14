@@ -1,0 +1,516 @@
+{
+    "loading" : "Cargando...",
+    "pull-to-refresh": "Arrastre para actualizar",
+
+    "weekdays-all": "Todos",
+    "weekdays-select": "Seleccionar o día da semana",
+
+    "general": {
+        "ok": "OK",
+        "cancel": "Cancelar",
+        "yes": "Si",
+        "no": "Non"
+    },
+
+    "trip-confirm": {
+        "services-please-fill-in": "Por favor, complete o {{text}} que non aparece.",
+        "services-cancel": "Cancelar",
+        "services-save": "Gardar",
+        "custom-mode": "Modo persoalizado",
+        "custom-purpose": "Propósito persoalizado",
+        "custom-labels": "Etiquetas persoalizadas"
+    },
+
+    "control":{
+        "profile-tab": "Perfil",
+        "edit-demographics": "Editar datos demográficos",
+        "tracking": "Rastreo",
+        "app-status": "Estado da aplicación",
+        "incorrect-app-status": "Por favor actualice os permisos",
+        "fix-app-status": "Faga clic para ver e corrixir o estado da aplicación",
+        "fix": "Arranxar",
+        "medium-accuracy": "Precisión media",
+        "force-sync": "Forzar sincronización",
+        "share": "Compartir",
+        "download-json-dump": "Descargar vertido de json",
+        "share-log": "Compartir rexistros",
+        "upload-log": "Subir Rexistros",
+        "view-privacy": "Ver política de privacidade",
+        "user-data": "Datos do/a usuario/a",
+        "erase-data": "Borrar datos",
+        "dev-zone": "Zona de developer",
+        "bluetooth-scan": "Escanear Bluetooth",
+        "refresh": "Actualizar",
+        "end-trip-sync": "Finalizar viaxe + sincronización",
+        "check-consent": "Verificar consentimento",
+        "invalidate-cached-docs": "Invalidar documentos en caché",
+        "nuke-all": "Eliminar todos os búferes e caché",
+        "test-notification": "Probar notificación local",
+        "check-log": "Verificar rexistro",
+        "log-title": "rexistro",
+        "check-sensed-data": "Verificar os datos detectados",
+        "sensed-title": "Datos Detectados: Transicións",
+        "edit-tracking-config": "Editar configuración de rastreo",
+        "edit-sync-config": "Editar configuración de sincronización",
+        "button-accept": "Aceptar",
+        "view-qrc": "Mi OPcode",
+        "app-version": "Versión da aplicación",
+        "reminders-time-of-day": "Hora do día dos recordatorios",
+        "upcoming-notifications": "Recordatorios próximos",
+        "dummy-notification" : "Recordatorio Simulado en 5 Segundos",
+        "log-out": "Cerrar Sesión",
+        "refresh-app-config": "Actualizar a configuración da aplicación",
+        "current-version": "Versión actual: {{version}}",
+        "refreshing-app-config": "Actualizando a configuración da aplicación, agarde...",
+        "already-up-to-date": "Actualizado!",
+        "manage-custom-labels": "Administrar etiquetas persoalizadas",
+        "give-feedback": "Enviar comentarios",
+        "feedback-modal": {
+            "experience-question": "Como foi a súa experiencia con OpenPATH ata o de agora?",
+            "leave-review-ios": "Gustaríalle deixar unha valoración na App Store? Iso axudaríanos a apoiar máis proxectos como \"{{deploymentPartnerName}}\" e mellorar a aplicación!",
+            "leave-review-android": "Gustaríalle deixar unha valoración na Play Store? Iso axudaríanos a apoiar máis proxectos como \"{{deploymentPartnerName}}\" e mellorar a aplicación!",
+            "leave-feedback": "Encantaríanos saber como podemos mellorar. Gustaríalle enviarnos os seus comentarios ou informar dun problema por correo electrónico?",
+            "feedback-for-devs": "Teño comentarios sobre a aplicación para os developers de NLR OpenPATH",
+            "feedback-for-admin": "Teño comentarios para os administradores de \"{{deploymentName}}\"",
+            "sure": "Claro!",
+            "compose-email": "Novo correo",
+            "no-thanks": "Non, grazas",
+            "feedback-email-subject": "Comentarios sobre OpenPATH [{{deploymentId}}]",
+            "feedback-email-body": "Equipo de OpenPATH,\n\n[Describa os seus comentarios ou problemas aquí. Grazas por axudarnos a mellorar OpenPATH!]\n\nInformación de diagnóstico:\n{{diagnosticInfo}}\n"
+        }
+    },
+
+    "general-settings":{
+        "choose-date" : "Escolla a data para descargar os datos",
+        "choose-dataset" : "Escolla un conxunto de datos para os cálculos da pegada de carbono",
+        "carbon-dataset" : "Conxunto de datos da pegada de carbono",
+        "nuke-ui-state-only" : "Só estado de IU",
+        "nuke-native-cache-only" : "Só caché nativo",
+        "nuke-everything" : "Todo",
+        "clear-data": "Limpar datos",
+        "are-you-sure": "Está seguro/a?",
+        "log-out-warning": "Pecharase a sesión e as súas credenciais non se gardarán. Pode que se perdan os datos non sincronizados.",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar",
+        "user-data-erased": "Datos de usuario/a eliminados.",
+        "consent-not-found": "Non se atopou o consentimento para recompilar os datos, ¿desexa outorgalo agora?",
+        "no-consent-logout": "Non se atopou o consentimento para recompilar os datos, garde o seu OPcode, peche sesión e volva a iniciar sesión co mesmo OPcode. Teña en conta que non obterá estatísticas persoalizadas ata que o conceda!",
+        "no-consent-message": "Vale! Teña en conta que non obterá estatísticas persoalizadas ata que o conceda!",
+        "consent-found": "Atopouse o consentimento!",
+        "consented-to": "Aceptouse o protocolo {{protocol_id}}, {{approval_date}}",
+        "consented-ok": "OK",
+        "qrcode": "O meu OPcode",
+        "qrcode-share-title": "Pode gardar o seu OPcode para iniciar sesión facilmente no futuro!"
+    },
+
+    "metrics": {
+        "dashboard-tab": "Taboleiro",
+        "no-data": "Sen datos",
+        "no-data-available": "Datos non dispoñibles",
+        "footprint": {
+            "footprint": "Pegada",
+            "estimated-footprint": "Pegada estimada",
+            "ghg-emissions": "Emisións de GEI",
+            "energy-usage": "Uso de enerxía",
+            "us-2030-goal": "Directriz 2030",
+            "us-2050-goal": "Directriz 2050",
+            "us-goals-footnote": "Directrices baseada nos obxectivos de descarbonización de EE. UU., escaladas á pegada per cápita relacionada coas viaxes.",
+            "labeled": "Etiquetados",
+            "unlabeled": "Non etiquetados",
+            "uncertainty-footnote": "Debido á incerteza das viaxes sen etiqueta, as estimacións poden estar dentro do rango mostrado. Etiquete máis viaxes para obter estimacións máis completas.",
+            "daily-emissions-by-week": "Emisións diarias por semana",
+            "kg-co2e-per-day": "Medio kg CO₂e / día",
+            "daily-energy-by-week": "Uso diario de enerxía por semana",
+            "kwh-per-day": "Medio kWh / día",
+            "daily-emissions-comparison": "Emisións diarias vs. Grupo",
+            "daily-energy-comparison": "Uso diario de enerxía vs. Grupo",
+            "you": "Vostede",
+            "group-average": "Medio do grupo"
+        },
+        "movement": {
+            "movement": "Movemento",
+            "active-minutes": "Minutos activos",
+            "daily-active-minutes": "Minutos diarios de viaxe activa",
+            "weekly-active-minutes": "Minutos semanais de viaxe activa",
+            "active-minutes-table": "Táboa de minutos activos",
+            "weekly-goal": "Meta semanal",
+            "weekly-goal-footnote": "Meta semanal baseada na recomendación dos CDC de 150 minutos de actividade moderada por semana.",
+            "minutes": "minutos"
+        },
+        "travel": {
+            "travel": "Viaxe",
+            "count": "Reconto de viaxes",
+            "distance": "Distancia",
+            "duration": "Duración",
+            "trips": "viaxes",
+            "hours": "horas",
+            "user-totals": "Os meus totais",
+            "group-totals": "Totais do grupo"
+        },
+        "surveys": {
+            "surveys": "Enquisas",
+            "survey-response-rate": "Taxa de resposta á enquisa (%)",
+            "survey-leaderboard-desc": "Estes datos acumuláronse dende ",
+            "trip-categories": "Categorías de viaxe",
+            "response": "Resposta",
+            "no-response": "Sen resposta",
+            "responses": "resposta",
+            "comparison": "Comparación",
+            "you": "Vostede",
+            "others": "Outros/as no grupo"
+        },
+        "leaderboard": {
+            "leaderboard": "Táboa de clasificación",
+            "you-are-in-x-place": "Estás no lugar #{{x}}",
+            "data-accumulated-since-date": "Estes datos acumuláronse dende {{date}}"
+        },
+        "stack-bars": "Barras amoreadas:",
+        "split-by": "Dividir por {{field}}:",
+        "grouping-fields": {
+            "mode_confirm": "Modo",
+            "purpose_confirm": "Propósito",
+            "replaced_mode_confirm": "Modo substituído",
+            "primary_ble_sensed_mode": "Modo detectado",
+            "survey": "Enquisa"
+        }
+    },
+
+    "diary": {
+        "label-tab" : "Etiqueta",
+        "distance-in-time": "{{distance}} {{distsuffix}} en {{time}}",
+        "distance": "Distancia",
+        "time": "Hora",
+        "mode": "Modo",
+        "replaces": "Substitúe a",
+        "purpose": "Propósito",
+        "survey": "Detalles",
+        "untracked-time-range": "Non rastrexado: {{start}} - {{end}}",
+        "unlabeled": "Sen etiqueta",
+        "invalid-ebike": "Non válida",
+        "to-label": "Etiquetar",
+        "show-all": "Todos",
+        "no-trips-found": "Non se atoparon viaxes",
+        "choose-mode": "Modo",
+        "choose-replaced-mode": "Substitúe a",
+        "choose-purpose": "Propósito",
+        "select-mode-scroll": "Modo (desprázate para máis)",
+        "select-replaced-mode-scroll": "Substitúe a (desprázate para máis)",
+        "select-purpose-scroll": "Propósito (desprázate para máis)",
+        "delete-entry-confirm": "Está seguro/a de que desexa eliminar esta entrada?",
+        "detected": "Detectado:",
+        "labeled-mode": "Modo etiquetado",
+        "detected-modes": "Modos detectados",
+        "today": "Hoxe",
+        "no-more-travel": "Non máis viaxes para mostrar",
+        "show-more-travel": "Mostrar máis viaxes",
+        "show-older-travel": "Mostrar viaxes anteriores",
+        "no-travel": "Non hai viaxes para mostrar",
+        "no-travel-hint": "Para ver máis, modifica os filtros de arriba ou rexistra algunhas viaxes!",
+        "jump-to-last-processed-week": "Ir á última semana procesada"
+    },
+
+    "multilabel":{
+        "walk": "Camiñando",
+        "e-bike": "Bicicleta eléctrica",
+        "bike": "Bicicleta",
+        "bikeshare": "Bicicleta compartida",
+        "scootershare": "Moto compartida",
+        "drove_alone": "Coche de gasolina ou diésel, uso individual",
+        "shared_ride": "Coche de gasolina ou diésel, uso compartido",
+        "hybrid_drove_alone": "Coche híbrido, uso individual",
+        "hybrid_shared_ride": "Coche híbrido, uso compartido",
+        "e_car_drove_alone": "Coche eléctrico, uso individual",
+        "e_car_shared_ride": "Coche eléctrico, uso compartido",
+        "taxi": "Taxi / VTC",
+        "bus": "Autobús",
+        "train": "Tren",
+        "free_shuttle": "Lanzadeira/tránsfer gratuíto",
+        "air": "Avión",
+        "not_a_trip": "Non é unha viaxe",
+        "no_travel": "Sen viaxar",
+        "home": "Casa",
+        "work": "Traballo",
+        "at_work": "No traballo",
+        "school": "Escola / Instituto / Universidade",
+        "transit_transfer": "Transbordo",
+        "shopping": "Compras",
+        "meal": "Comida",
+        "pick_drop_person": "Recoller / Levar a alguén",
+        "pick_drop_item": "Recoller / Levar algo",
+        "persoal_med": "Persoal / Médico",
+        "access_recreation": "Acceso a ocio",
+        "exercise": "Exercicio",
+        "entertainment": "Divertimento",
+        "religious": "Relixión",
+        "other": "Outros"
+    },
+
+
+    "details":{
+        "speed": "Velocidade",
+        "time": "Tempo"
+    },
+
+    "list-datepicker-today": "Hoxe",
+    "list-datepicker-close": "Pechar",
+    "list-datepicker-set": "Establecer",
+
+    "bluetooth": {
+        "title": {
+            "ble": "Escáner de balizas BLE",
+            "classic": "Escáner Bluetooth Clásico"
+        },
+        "scan": {
+            "for-ble": "Escanear balizas BLE",
+            "for-bluetooth": "Escanear dispositivos clásicos",
+            "stop": "Deter escaneo"
+        },
+        "is-scanning": "Escaneando...",
+        "device-info": {
+            "id": "ID",
+            "name": "Nome"
+        },
+        "switch-to": {
+            "classic": "Cambiar a Clásico",
+            "ble": "Cambiar a BLE"
+        }
+    },
+
+    "service":{
+        "reading-server": "Lendo do servidor...",
+        "reading-unprocessed-data": "Lendo datos non procesados..."
+    },
+    "shareFile-service": {
+        "send-to": "Envíe este arquivo a openpath@nlr.gov ou outro membro do equipo OpenPATH.",
+        "send-log": {
+            "subject-logs": "rexistros de emisións",
+            "body-please-fill-in-what-is-wrong": "por favor ingrese o que está mal"
+        },
+        "no-email-address-configured": "Non se configurou ningunha dirección de correo electrónico.",
+        "send-data":{
+            "subject-data-dump-from-to": "Vertido de {{start}} a {{end}}",
+            "body-data-consists-of-list-of-entries": "Os datos consisten nunha lista de entradas.\nOs formatos de entrada atópanse en https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nOs datos pódense cargar localmente seguindo as instrucións en https://github.com/e-mission/e-mission-server#loading-test-data \n e pódense manipular usando o exemplo que se atopa en https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
+        }
+    },
+
+    "upload-service":{
+        "upload-database": "Subir base de datos {{db}}",
+        "upload-from-dir": "dende {{parentDir}}",
+        "upload-to-server": "ao ordenador {{serverURL}}",
+        "please-fill-in-what-is-wrong": "por favor escriba o que está mal",
+        "upload-success": "Subir completo",
+        "upload-progress": "Enviando {{filesizemb | number}} MB de {{serverURL}}",
+        "upload-details": "Enviado {{filesizemb | number}} MB de {{serverURL}}"
+    },
+
+    "intro": {
+        "proceed" : "Proceder",
+        "appstatus": {
+            "fix": "arranxar",
+            "refresh": "Actualizar",
+            "overall-description": "Esta aplicación funciona en segundo plano creando automaticamente, para vostede, un diario de viaxes. Asegúrese de que todas as configuracións a continuación sexan verdes para que a aplicación poida funcionar correctamente! ",
+            "explanation-title": "Para que se utilizan?",
+            "overall-loc-name": "Localización",
+            "overall-loc-description": "Usamos o permiso de localización en segundo plano 'sempre' para rastrexar a súa localización en segundo plano, incluso cando non está interactuando coa aplicación. A lectura de localizacións en segundo plano elimina a necesidade de iniciar e deter viaxes, o que fai que a aplicación sexa máis sinxela de utilizar e evita que se esgote a batería e esqueza deter a viaxe.",
+            "locsettings": {
+                "name": "Configuración de localización",
+                "description": {
+                    "android-lt-9": "Os servizos de localización deben estar habilitados e configurados en Alta precisión. Isto permítenos rexistrar con precisión a traxectoria da viaxe.",
+                    "android-gte-9": "Os servicios de localización deben estar habilitados. Isto permítenos acceder aos datos de localización e xerar o rexistro de viaxes.",
+                    "ios": "Os servizos de localización deben estar habilitados. Isto permítenos acceder aos datos de localización e xerar o rexistro de viaxes."
+                }
+            },
+            "locperms": {
+                "name": "Permisos de localización",
+                "description": {
+                    "android-lt-6": "Habilitado durante a instalación da aplicación.",
+                    "android-6-9": "Seleccione 'permitir'",
+                    "android-10": "Seleccione 'Permitir sempre'",
+                    "android-11": "Na páxina de configuración da aplicación, escolla o permiso 'Localización' e configúreo en 'Permitir sempre'",
+                    "android-gte-12": "Na páxina de configuración da aplicación, escolla o permiso 'Localización' e configúreo en 'Permitir sempre' e 'Precisa'",
+                    "ios-lt-13": "Selecciona 'Permitir sempre' para habilitar o seguimento de localización",
+                    "ios-13-13.3": "Selecciona 'Permitir sempre' os permisos de localización na seguinte pantalla para habilitar o seguimento de localización e volve aquí para continuar",
+                    "ios-gte-13.4": "Selecciona 'Preciso' e 'Permitir ao usar a aplicación' na seguinte pantalla e despois cambia a 'Permitir sempre' para habilitar o seguimento de localización"
+                }
+            },
+            "overall-fitness-name-android": "Actividade física",
+            "overall-fitness-name-ios": "Movemento e condición física",
+            "overall-fitness-description": "Os sensores de fitness distinguen entre camiñar, andar en bicicleta e os modos motorizados. Utilizamos estes datos para separar as partes das viaxes multimodais, como o tránsito. Tamén o usamos para cotexar viaxes potencialmente falsos: se o sensor de localización salta ao outro lado da cidade pero o sensor de estado físico está estático, podemos supoñer que a viaxe non foi valida.",
+            "fitnessperms": {
+                "name": "Permiso de aptitude",
+                "description": {
+                    "android": "Por favor permita.",
+                    "ios": "Por favor permita."
+                }
+            },
+            "overall-notification-name": "Notificacións",
+            "overall-notification-description": "Necesitamos usar notificacións para informar se a configuración é incorrecta. Tamén usamos notificacións automáticas invisibles cada hora para activar a aplicación e permitirlle cargar datos e verificar o estado da aplicación. Tamén usamos notificacións para recordarlle que debe etiquetar as súas viaxes.",
+            "notificationperms": {
+                "app-enabled-name": "Notificacións da aplicación",
+                "description": {
+                    "android-enable": "Na páxina de configuración da aplicación, asegúrese de que todas as notificacións e canais están habilitadas.",
+                    "ios-enable": "De permisos, na xanela emerxente ou na páxina de configuración da aplicación se é preciso."
+                }
+            },
+            "overall-background-restrictions-name": "Restricións de segundo plano",
+            "overall-background-restrictions-description": "A aplicación execútase en segundo plano a maior parte do tempo para facilitarlle a vida. Só precisa abrila de forma periódica para etiquetar as viaxes. Android as veces restrinxe o funcionamento das aplicacións en segundo plano. Isto impídenos xerar un diario de viaxes preciso. Elimine as restricións desta aplicación.",
+            "unusedapprestrict": {
+                "name": "Aplicacións non utilizadas deshabilitadas",
+                "description": {
+                    "android-disable-lt-12": "Na páxina de configuración da aplicación, vaia a 'Permisos' e asegúrese de que os permisos da aplicación non se restablezan automaticamente.",
+                    "android-disable-12": "Na páxina de configuración da aplicación, apagar 'Quitar permisos e liberar espazo'",
+                    "android-disable-gte-13": "Na páxina de configuración da aplicación, apagar 'Pausa a actividade da aplicación se non está sendo utilizada.'",
+                    "ios": "Por favor, permita."
+                }
+            },
+            "ignorebatteryopt": {
+                "name": "Ignorar optimización de batería",
+                "description": "Por favor, permita."
+            }
+        },
+        "permissions": {
+            "locationPermExplanation-ios-lt-13": "por favor seleccione \"Permitir sempre\". Isto permítenos comprender a súa viaxe incluso cando non está utilizando a aplicación de forma activa.",
+            "locationPermExplanation-ios-gte-13": "seleccione 'sempre' e 'preciso' na páxina de configuración da aplicación e volva aquí para continuar."
+        }
+    },
+    "allow_background": {
+        "samsung": "Desactivar o 'Modo de aforro de enerxía medio'"
+    },
+    "consent":{
+        "permissions" : "Permisos",
+        "button-accept": "Acepto",
+        "button-decline": "Rexeitamento"
+    },
+    "login":{
+        "make-sure-save-your-opcode":"Asegúrese de gardar o seu OPCode!",
+        "cannot-retrieve":"¡NLR non pode recuperalo máis tarde!",
+        "save":"Gardar",
+        "continue": "Seguir",
+        "enter-existing-token": "Ingrese o token existente co que conta",
+        "button-accept": "OK",
+        "button-decline": "Cancelar"
+    },
+    "survey": {
+        "loading-prior-survey": "Cargando respostas de enquisas anteriores...",
+        "prev-survey-found": "Resposta de enquisa anteriormente cuberta atopada",
+        "use-prior-response": "Usar resposta anterior",
+        "edit-response": "Editar resposta",
+        "move-on": "Siga adiante",
+        "survey": "Enquisa",
+        "save": "Gardar",
+        "back": "Atrás",
+        "next": "Seguinte",
+        "powered-by": "Desenvolvido por",
+        "dismiss": "Saír",
+        "return-to-beginning": "Volver ao inicio",
+        "go-to-end": "Ir ao final",
+        "enketo-form-errors": "O formulario contén erros. Por favor, revise os campos sinalados en vermello.",
+        "enketo-timestamps-invalid": "Os tempos que ingresou non son válidos. Asegúrese de que a hora de inicio sexa anterior á hora de finalización."
+    },
+    "join": {
+        "welcome-to-app": "Benvido a <b>{{appName}}!</b>",
+        "app-name": "NLR OpenPATH",
+        "to-proceed-further": "Para continuar, escanee ou pegue o código de acceso que lle foi proporcionado polo/a administrador/a do programa a través dun sitio web, correo electrónico, mensaxe de texto ou copia impresa.",
+        "code-hint": "O código comeza con 'nrelop' e pode estar en formato de código de barras ou de texto.",
+        "scan-code": "Escanee o código",
+        "scan-hint": "Escanee o código de barras coa cámara do seu teléfono.",
+        "paste-code": "Pegue o código",
+        "paste-hint": "Ou pegue o código como texto",
+        "more-info": "Máis información",
+        "about-app-title" : "Sobre {{appName}}",
+        "about-app-para-1": "A Plataforma NLR OpenPATH do National Laboratory of the Rockies permite ás persoas rastrexar os seus modos de viaxe (automóbil, autobús, bicicleta, a pé, etc.) e medir o uso de enerxía asociado e a súa pegada de carbono.",
+        "about-app-para-2": "A aplicación permite ás comunidades comprender as súas opcións e patróns de modo de viaxe, experimentar con opcións para facelos máis sostibles e avaliar os resultados. Estes resultados poden axudar a levar a cabo unha planificación de transporte máis efectiva e usarse para construír cidades máis sostibles e accesibles.",
+        "about-app-para-3": "Faino mediante a creación dun diario automático de todas as súas viaxes, en todos os modos de transporte. Le múltiples sensores, incluída la localización, en segundo plano, e activa e desactiva automaticamente o rastreo por GPS para un consumo mínimo de enerxía. A elección da información do patrón de viaxe e o estilo de visualización da pegada de carbono son específicos do estudio.",
+        "tips-title": "Consello(s) para un correcto funcionamento",
+        "all-green-status": "Asegúrese de que todas as comprobacións de estado estean en verde.",
+        "dont-force-kill": "Non force o peche da aplicación",
+        "background-restrictions": "Nos dispositivos Samsung e Huawei, asegúrese de que as restriciones de fondo estean desactivadas",
+        "close": "Pechar",
+        "proceeding-with-token": "Procedendo co OPcode: {{token}}",
+        "already-logged-in": "Xa iniciou sesión co OPcode {{token}}. Si desexa usar un OPcode diferente, peche sesión primeiro."
+    },
+    "config": {
+        "unable-read-saved-config": "Non se pode ler a configuración gardada",
+        "unable-to-store-config": "Non se pode almacenar a configuración descargada",
+        "not-enough-parts-old-style": "OPcode {{token}} non ten o mínimo de dous caracteres '_'",
+        "no-nrelop-start": "OPcode {{token}} non comeza con 'nrelop'",
+        "not-enough-parts": "OPcode {{token}} non ten, polo menos, tres caracteres '_'",
+        "invalid-subgroup": "OPcode non válido {{token}}, subgrupo {{subgroup}} non atopado na lista {{config_subgroups}}",
+        "invalid-subgroup-no-default": "OPcode {{token}} non válido, sen subgrupos, esperábase un subgrupo 'default'",
+        "unable-download-config": "Non se puido descargar a configuración do estudo",
+        "invalid-opcode-format": "Formato de OPcode non válido",
+        "error-loading-config-app-start": "Error ao cargar a configuración ao iniciar a aplicación",
+        "survey-missing-formpath": "Error ao obter recursos na configuración: Survey_info.surveys ten unha enquisa sen formPath"
+    },
+    "errors": {
+        "registration-check-token": "Error de rexistro de usuario. Por favor verifique o seu token e probe de novo.",
+        "not-registered-cant-contact": "O/A usuario/a non está rexistrado/a, polo que non se pode contactar co servidor.",
+        "while-initializing-label": "Ao cargar a lapela Etiqueta: ",
+        "while-loading-pipeline-range": "Error ao cargar o rango de tubaxe",
+        "while-populating-composite": "Error ao completar viaxes compostos",
+        "while-loading-another-week": "Error ao cargar viaxes de {{when}} semana",
+        "while-loading-specific-week": "Error ao cargar viaxes para a semana de {{day}}",
+        "while-updating-timeline": "Mentres actualiza a liña de tempo: ",
+        "while-refreshing-label": "Mentres actualiza a lapela Etiqueta: ",
+        "while-repopulating-entry":"Mentres se volve encher a entrada da liña de tempo: ",
+        "while-loading-metrics": "Mentres carga as métricas: ",
+        "while-log-messages": "Mentres se reciben mensaxes do rexistro ",
+        "while-max-index" : "Mentres se obtén o índice máximo ",
+        "while-scanning-bluetooth": "Mentres se escanean dispositivos Bluetooth: "
+    },
+    "consent-text": {
+        "title":"POLÍTICA DE PRIVACIDADE/TERMOS DE USO DE NLR OPENPATH",
+        "introduction":{
+            "header":"Introdución e Propósito",
+            "what-is-openpath":"Estes datos recompílanse a través de OpenPATH, unha plataforma de código aberto de NLR. A aplicación para teléfonos intelixentes, NLR OpenPATH ('Aplicación'), combina datos de sensores de teléfonos intelixentes, etiquetas semánticas de usuario e unha breve enquisa demográfica.",
+            "what-is-lab":"NLR é un laboratorio nacional do Departamento de Enerxía de EE. UU., Oficina de Minerais Críticos e Innovación Enerxética, operado por Alliance for Energy Innovation, LLC baixo o contrato principal No. DE-AC36-08GO28308. Esta política de privacidade aplicase á aplicación proporcionada por Alliance for Energy Innovation, LLC. Esta aplicación proporcionase unicamente coa fin de recompilar datos de comportamento de viaxes para o {{program_or_study}} e para a investigación e información de política pública. Ningún dos datos recollidos pola aplicación será vendido ni se utilizará con fins comerciais, incluídos publicidade.",
+            "if-disagree":"SE NON ESTÁ DE ACORDO COS TERMOS DESTA POLÍTICA DE PRIVACIDADE, ELIMINE A APLICACIÓN"
+        },
+        "why":{
+            "header":"Por que recompilamos esta información"
+        },
+        "what":{
+            "header":"Que información recompilamos",
+            "no-pii":"A aplicación nunca solicitará información de identificación persoal (PII) como nome, enderezo electrónico, dirección, ou número de teléfono.",
+            "phone-sensor":"Recompila datos do sensor do teléfono relacionados coa súa localización (incluídos datos en segundo plano), acelerómetro, actividade xerada polo dispositivo e recoñecemento do modo de transporte utilizado, así como o tempo de uso e o uso da batería. A aplicación creará un 'diario de viaxe' baseado nos seus datos de localización para determinar os seus patróns de ruta e historial de localización.",
+            "labeling":"Tamén lle pedirá que etiquete periodicamente estas viaxes con etiquetas como o modo de viaxe, o propósito ou o modo que substituiría dito desprazamento.",
+            "demographics":"Tamén lle solicitará información sociodemográfica como a súa idade aproximada e o seu xénero, entre outros. Os factores sociodemográficos pódense utilizar para comprender a influencia do estilo de vida no estilo de desprazamento, así como xeneralizar os resultados a unha poboación máis ampla.",
+            "open-source-data":"Para maior transparencia, a aplicación basease nunha plataforma de código aberto, OpenPATH de NLR. Pode inspeccionar os datos que recompila OpenPATH en segundo plano en",
+            "open-source-analysis":"o seguimento da análise en",
+            "open-source-dashboard":"e as métricas do taboleiro en"
+        },
+        "opcode":{
+            "header":"Como asociamos a información con vostede",
+            "not-autogen":"Os/As administradores/as do programa proporcionaranlle un 'OPcode' que utilizará para iniciar sesión no sistema. Esta larga cadea aleatoria utilizarase para todas as comunicacións posteriores co servidor. Se esquece ou perde o seu OPcode, pode solicitalo proporcionando o seu nome e/ou enderezo electrónico ao/á administrador/a do programa. Non se comunique co persoal de NLR con solicitudes de recuperación de OPcode, xa que non temos acceso á conexión entre o seu nome/enderezo electrónico e o seu OPcode. Os datos que NLR recompila automaticamente (datos do sensor do teléfono, datos semidemográficos, etc.) só se asociarán co seu 'OPcode'",
+            "autogen": "Está a iniciar sesión cun 'OPcode' xerado de forma aleatoria pola plataforma. Esta larga cadea aleatoria utilizarase para todas as comunicacións posteriores co servidor. Soamente vostede coñece o seu OPcode. Non existe a opción \"Esquecín o contrasinal\" e o persoal de NLR non pode recuperar o teu OPcode, aínda que proporciones o teu nome e enderezo electrónico. Isto significa que, a non ser que garde o seu OPcode nun lugar seguro, non terá acceso aos seus datos anteriores no caso de trocar de dispositivo telefónico ou se desinstala e reinstala a aplicación"
+        },
+        "who-sees":{
+            "header":"Quen pode ver a información",
+            "public-dash":"As métricas agregadas derivadas dos patróns de viaxe estarán dispoñibles nun taboleiro público para proporcionar transparencia sobre o impacto do programa. Estas métricas centraranse en resumes de información, como recontos, distancias e duracións, e non amosarán localizacións ou horas de viaxe individuais.",
+            "individual-info":"As tarifas de etiquetado individual e a información do nivel de viaxe só estarán dispoñibles para:",
+            "program-admins":"Administradores/as do {{deployment_partner_name}} para {{raw_data_use}}, e",
+            "developers":"Developers de OpenPATH para a depuración",
+            "TSDC-info":"Os datos tamén se arquivarán de forma periódica en Transportation Secure de NLR. Data Center (TSDC) despois dunha marxe de 3 a 6 meses. Entón estarán dispoñibles para investigación lexítima a través do TSDC existente que preserva a privacidade dos procedementos de operacións. Existe máis información sobre os procedementos dispoñible",
+            "on-website":"no sitio web",
+            "and-in":" e en ",
+            "this-pub":"esta publicación",
+            "and":" e ",
+            "fact-sheet":"folla informativa"
+        },
+        "rights":{
+            "header":"Os seus dereitos",
+            "app-required":"Debe realizar un seguimento dos seus patróns de viaxe utilizando a aplicación como condición de participación no Programa. Se desexa retirarse do Programa, debe comunicarse co/a administrador/a do programa, {{program_admin_contact}} para analizar as opcións de finalización. Se vostede desexa permanecer no programa pero non usar a aplicación, comuníquese co/a seu/súa administrador/a do programa para negociar un procedemento de recompilación de datos alternativo antes de desinstalar a aplicación. Se desinstala a aplicación sen a aprobación do administrador do programa, é posible que non teña acceso aos beneficios ou incentivos proporcionados polo programa.",
+            "app-not-required":"A participación no Estudo é completamente voluntaria. Ten dereito a negarse a participar ou retirarse en calquera momento do estudo sen proporcionar notificación a NLR ou ao punto de contacto. Se non desexa participar no Estudo ou desexa interromper a súa participación no Estudo, por favor, elimine a aplicación.",
+            "destroy-data-pt1":"Se desexa que os seus datos sexan eliminados, comuníquese co equipo de OpenPATH (openpath@nlr.gov)",
+            "destroy-data-pt2":" solicitando a eliminación. Debe incluír o seu token na solicitude de eliminación. Non podemos eliminar a súa información sen contar co seu toke, debido a que descoñecemos a súa identidade, co que é preciso que se inclúa o seu token como parte da solicitude de eliminación. Dese xeito poderemos eliminar todos os datos asociados coa súa solicitude, tanto en liña no conxunto de datos arquivados. "
+        },
+        "questions":{
+            "header":"Preguntas",
+            "for-questions":"Se ten algunha pregunta sobre os obxectivos e resultados da recompilación de datos, por favor comuníquese co contacto principal do estudo, {{program_admin_contact}}. Se ten algunha pregunta técnica sobre o funcionamento da aplicación, comuníquese co equipo de OpenPATH (openpath@nlr.gov)"
+        },
+        "consent":{
+            "header":"Consentimento",
+            "press-button-to-consent":"Seleccione o botón a continuación para indicar que leu e está de acordo coa Política de privacidade, acepta a recompilación da súa información e desexa participar no {{program_or_study}}."
+        }
+    }
+}
