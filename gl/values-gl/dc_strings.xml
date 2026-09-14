@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GeofenceActions -->
+    <string name="unable_detect_current_location">Non se pode detectar a localización actual incluso despois de forzar, volverase intentar na próxima sincronización</string>
+    <!-- ActivityRecognitionChangeIntentService.java (debug mode only) -->
+    <string name="detected_new_activity">Nova actividade detectada: %1$s</string>
+    <string name="activity_transport">transporte público</string>
+    <string name="activity_cycling">ciclismo</string>
+    <string name="activity_walking">a pé</string>
+    <string name="activity_still">inmóvil</string>
+    <string name="activity_unknown">descoñecida</string>
+    <string name="activity_tilting">inclinación</string>
+    <!-- TripDiaryStateMachineReceiver -->
+    <string name="new_data_collection_terms">Novos termos de recompilación de datos: recompilación en pausa</string>
+    <!-- debug mode only -->
+    <string name="battery_level">Interactúa comigo! O nivel da batería é  %1$d</string>
+    <!-- TripDiaryStateMachineService and Ongoing-->
+    <string name="success_moving_new_state">Éxito ao se mudar a %1$s</string>
+    <string name="failed_moving_new_state">Non se puido mover a %1$s</string>
+    <string name="location_permission_off">Permisos de localización insuficientes</string>
+    <string name="location_permission_off_app_open">Permisos de localización insuficientes, corríxaos na configuración da aplicación</string>
+    <string name="location_permission_off_enable">Permiso de localización desactivado, faga clic para habilitar</string>
+    <string name="location_permission_intermediary_title">Precísanse permisos!</string>
+    <string name="location_permission_intermediary_message">Precísanse máis permiso de localización. Para utilizar esta aplicación, debe facer clic en \"Permitir sempre\" na páxina seguinte.</string>
+    <string name="location_feedback_both_off">Asegúrese de que \"Permitir sempre\" e \"Localización precisa\" estean activados na configuración.</string>
+    <string name="location_feedback_fine_off">Asegúrese de que \"Localización precisa\" estea activado na configuración.</string>
+    <string name="location_feedback_background_off">Asegúrese de que \"Permitir sempre\" estea activado na configuración.</string>
+    <string name="location_feedback_denied_popup">Precísanse permisos de localización para utilizar esta aplicación.</string>
+    <string name="location_permission_settings_message">Precísanse permisos de localización para utilizar esta aplicación. Habilite \"Permitir sempre\" e \"Localización precisa\" para usar esta aplicación.</string>
+    <string name="location_permission_denied_fine">Precísase unha boa localización para utilizar esta aplicación. Faga clic en \"Reparar\" e actíveo na configuración.</string>
+    <string name="background_loc_permission_off_enable">Permiso de localización de fondo desactivado, faga clic para habilitar</string>
+    <string name="activity_permission_off">Permiso de actividade desactivado, corríxao</string>
+    <string name="activity_permission_off_app_open">Permiso de actividade desactivado, corríxao na configuración da aplicación</string>
+    <string name="activity_permission_off_enable">Permiso de actividade desactivado, faga clic para habilitar</string>
+    <string name="notifications_blocked">Notificacións bloqueadas, habilítalas</string>
+    <string name="notifications_paused">Notificacións en pausa. Isto só o pode solucionar o developer da aplicación. Informe ao seu administrador.</string>
+    <string name="unused_apps_restricted">Permita que esta aplicación lea os datos do sensor incluso se a inicia con pouca frecuencia.</string>
+    <string name="fix_app_status_title">Por favor actualice os permisos</string>
+    <string name="fix_app_status_text">Faga clic para ver e corrixir o estado da aplicación</string>
+    <string name="error_location_settings">Erro na configuración da localización, faga clic para resolver</string>
+    <string name="unknown_error_location_settings">Erro descoñecido ao ler a localización, verifique a súa configuración</string>
+    <string name="notify_curr_state">En estado %1$s</string>
+    <!-- TripDiaryStateMachineForegroundService -->
+    <string name="foreground_killed_email_log">Aviso de aniquilación de proceso, Perfil -> Rexistro remitido correo electrónico</string>
+    <!-- ConfigManager -->
+    <string name="error_reading_stored_config">Erro ao ler a configuración de seguimento almacenada, restablecer os valores predeterminados</string>
+    <!-- DataCollectionPlugin -->
+    <string name="user_rejected_setting">Semella que cancelaches a modificación seleccionada. Por favor, acéptaa no seu lugar.</string>
+    <string name="unable_resolve_issue">Erro irrecuperable no seguimento, informe en Perfil -> Cargar rexistro</string>
+    <!-- State notification displays-->
+    <string name="local.state.waiting_for_trip_start">Lista para a túa próxima viaxe</string>
+    <string name="local.state.ongoing_trip">Hurra! Estás de viaxe, segue adiante!</string>
+    <string name="local.state.start">Non se pode iniciar a aplicación, vexa a seguinte xanela emerxente</string>
+    <string name="local.state.tracking_stopped">Detido o seguimento; recorda volver a habilitar</string>
+</resources>
